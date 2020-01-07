@@ -1,0 +1,137 @@
+# region General Information
+'##': Cosi # Since '#' is comment, it's need to be quoted
+version: '1.0' # Floats or ints need to be quoted
+# version: '1' #  Quotes needed
+# version: 1.0.5 Not number == good
+description: Cosi
+homepage: https://ash258.com
+license:
+  identifier: MIT
+  url: https://ash258.com/license.md # Whenever it's possible attach program specific URL, otherwise don't use
+notes: Some notes printed after installation
+# or
+# notes:
+# - COSI
+# - COSI 2
+# endregion General Information
+
+# region Requirements
+# depends: STRING
+# or Array of strings
+depends:
+  - bucket/cosi
+  - COSI # bucket will be evaluated automatically as normal installation
+suggest:
+  SOME NAME: dependingmanifest
+  # COSI:
+  # - bucket/COSI
+  # - NEXT
+# endregion Requirements
+
+# region Downloading
+cookie:
+  Name Of Cookie: Value to be set
+architecture: # Or platform specific below (URL Hash extracts)
+  64bit:
+    url: https://ash258.com
+    hash: 899346f9f283a4fd5aa03015a3f58cde5b9c0b6a5c4d64c2cc74e9b22c1348d7
+    extract_dir: COSI
+  32bit:
+    url:
+      - https://ash258.com#/newFileName.zip
+      - https://ash2582.com
+    hash:
+      - 899346f9f283a4fd5aa03015a3f58cde5b9c0b6a5c4d64c2cc74e9b22c1348d7
+      - md5:899346f9f283a4fd5aa03015a3f58cde
+    extract_dir:
+      - DirectoryInFirstArchive
+      - DirectoryInSecondArchive
+# endregion Downloading
+
+# region Extracting
+innosetup: true
+extract_dir: COSI
+extract_to: COSI
+# endregion Extracting
+
+# region Installing
+pre_install: |
+  CreateSomeFile $newFile
+  $file = 'someFile.ini'
+  if (-not (Test-Path "$persist_dir\$file")) {
+    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow
+    $CONT = @('Some content to be added to file.')
+    Set-Content "$dir\$file" ($CONT -join "`r`n") -Encoding Ascii
+  }
+  Write-Host $DONE
+installer:
+  file: somefile.exe # No need to specify if it's downloaded file
+  args: COSI
+# installer with file above or using script
+# installer:
+#   script: |
+#     RemoveSomething $newFile
+#     Write-Host $DONE
+post_install: |
+  RemoveSomething $newFile
+  Write-Host $DONE
+# region UnInstalling
+uninstaller:
+  file: file.exe
+  args:
+    - COSI
+    - COSI2
+# endregion UnInstalling
+# endregion Installing
+
+# region Links
+bin:
+  - SINGLE.exe
+  - NEXTSingle.ps1
+  - - FILE.exe # Array with overrided properties
+    - NEW NAME
+    - ARGUMENTS
+# or
+# bin: SINGLE
+shortcuts:
+  - - FILE
+    - NAME
+    - ARGS
+    - ICON
+  - - FILE2
+    - NAME
+    - ARGS
+    - ICON
+psmodule:
+  name: AdequateName
+env_add_path: SINGLE
+# or
+# env_add_path:
+#   - MULTIPLE
+#   - MULTIPLE
+env_set:
+  SomeENVKey: Value
+persist: FOLDER
+# OR array of Strings
+# persist:
+#  - FOLDER
+#  - FILE.file
+# endregion Links
+
+# region Updating
+checkver:
+  url: https://url.com # Do not include when checkver url is equal to homepage
+  jsonpath: $.whatever # or xmlpath: /element/child
+  regex: ([\d.]+)(?<NamedGrou>.*)\|(?<otherNamedGroup>.+)$
+  replace: ${NamedGroup}-${otherNamedGroup}
+# or
+# checkver: regex to be mached on homepage URL
+# or
+# checkver: github # if homepage is set to github repository
+autoupdate:
+  url: https://ash258.com
+  hash: # Some vendors does not ship hashes
+    url: https://ash258.com
+    regex: do not write regexes for hash algorithms, use variables ($md5, $sha1, $sha256, $sha512, $checksum) # or jsonpath
+  note: Some note after autoupdate
+# endregion Updating
