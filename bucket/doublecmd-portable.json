@@ -1,0 +1,63 @@
+{
+    "description": "Cross platform open source file manager with two panels side by side inspired by Total Commander.",
+    "homepage": "https://doublecmd.sourceforge.io/",
+    "license": "GPL-2.0-only",
+    "version": "0.9.7",
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/doublecmd/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.7%20beta/doublecmd-0.9.7.x86_64-win64.zip",
+            "hash": "6a2a496590536832ba42986ca142dcf015ad42992287aa29fe6fcec05e0b16fe"
+        },
+        "32bit": {
+            "url": "https://downloads.sourceforge.net/project/doublecmd/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.7%20beta/doublecmd-0.9.7.i386-win32.zip",
+            "hash": "c70fb00864cd233aad446ee09584e6f4f7ddcd34f037c67e62996e5af22115e9"
+        }
+    },
+    "pre_install": [
+        "if(!(Test-Path \"$dir/doublecmd.xml\")) { Add-Content \"$dir/doublecmd.xml\" $null }",
+        "if(!(Test-Path \"$dir/extassoc.xml\")) { Add-Content \"$dir/extassoc.xml\" $null }",
+        "if(!(Test-Path \"$dir/highlighters.xml\")) { Add-Content \"$dir/highlighters.xml\" $null }",
+        "if(!(Test-Path \"$dir/history.xml\")) { Add-Content \"$dir/history.xml\" $null }",
+        "if(!(Test-Path \"$dir/session.ini\")) { Add-Content \"$dir/session.ini\" $null }",
+        "if(!(Test-Path \"$dir/shortcuts.scf\")) { Add-Content \"$dir/shortcuts.scf\" $null }"
+    ],
+    "extract_dir": "doublecmd",
+    "bin": "doublecmd.exe",
+    "shortcuts": [
+        [
+            "doublecmd.exe",
+            "Double Commander"
+        ]
+    ],
+    "persist": [
+        "theme",
+        "doublecmd.xml",
+        "extassoc.xml",
+        "highlighters.xml",
+        "session.ini",
+        "shortcuts.scf",
+        "history.xml"
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/p/doublecmd/wiki/Download/",
+        "regex": "doublecmd-([\\d\\.]+)\\.i386-win32\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/doublecmd/DC%20for%20Windows%2064%20bit/Double%20Commander%20$version%20beta/doublecmd-$version.x86_64-win64.zip",
+                "hash": {
+                    "url": "https://downloads.sourceforge.net/project/doublecmd/DC%20for%20Windows%2064%20bit/Double%20Commander%20$version%20beta/doublecmd-$version.x86_64-win64.zip",
+                    "regex": "<dd>$sha256</dd>"
+                }
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/doublecmd/DC%20for%20Windows%2032%20bit/Double%20Commander%20$version%20beta/doublecmd-$version.i386-win32.zip",
+                "hash": {
+                    "url": "https://downloads.sourceforge.net/project/doublecmd/DC%20for%20Windows%2032%20bit/Double%20Commander%20$version%20beta/doublecmd-$version.i386-win32.zip",
+                    "regex": "<dd>$sha256</dd>"
+                }
+            }
+        }
+    }
+}
