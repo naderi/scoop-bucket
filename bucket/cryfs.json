@@ -1,0 +1,22 @@
+{
+    "version": "0.10.2",
+    "description": "CryFS encrypts your files, so you can safely store them anywhere.",
+    "homepage": "https://www.cryfs.org/",
+    "url": "https://github.com/cryfs/cryfs/releases/download/0.10.2/cryfs-0.10.2-win64.msi",
+    "hash": "a905b4b74a4317451fc61c83d7017d9f7e54d5ee163164ce947b869c229efcf3",
+    "extract_dir": "CryFS\\0.10.2\\bin",
+    "bin": [
+        "cryfs.exe",
+        "cryfs-unmount.exe"
+    ],
+    "checkver": {
+        "github": "https://github.com/cryfs/cryfs/"
+    },
+    "autoupdate": {
+        "url": "https://github.com/cryfs/cryfs/releases/download/$version/cryfs-$version-win64.msi",
+        "hash": {
+            "url": "$baseurl/latest.yml",
+            "regex": "sha512: $base64"
+        }
+    }
+}

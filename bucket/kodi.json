@@ -26,7 +26,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/xbmc/xbmc/releases/",
+        "github": "https://github.com/xbmc/xbmc/",
         "regex": "tag/(([\\d\\.]+)-([\\w]+))"
     },
     "autoupdate": {

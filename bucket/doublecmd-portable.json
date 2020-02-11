@@ -2,15 +2,15 @@
     "description": "Cross platform open source file manager with two panels side by side inspired by Total Commander.",
     "homepage": "https://doublecmd.sourceforge.io/",
     "license": "GPL-2.0-only",
-    "version": "0.9.7",
+    "version": "0.9.8",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/doublecmd/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.7%20beta/doublecmd-0.9.7.x86_64-win64.zip",
-            "hash": "6a2a496590536832ba42986ca142dcf015ad42992287aa29fe6fcec05e0b16fe"
+            "url": "https://downloads.sourceforge.net/project/doublecmd/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.8%20beta/doublecmd-0.9.8.x86_64-win64.zip",
+            "hash": "6deb3575dafcbe936d80f11cbd66abf0668cae5dab0c02ac1710ca67fe1064c0"
         },
         "32bit": {
-            "url": "https://downloads.sourceforge.net/project/doublecmd/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.7%20beta/doublecmd-0.9.7.i386-win32.zip",
-            "hash": "c70fb00864cd233aad446ee09584e6f4f7ddcd34f037c67e62996e5af22115e9"
+            "url": "https://downloads.sourceforge.net/project/doublecmd/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.8%20beta/doublecmd-0.9.8.i386-win32.zip",
+            "hash": "77a851ad23c116a52ad315ed57110c197c33515fa60f363d6a67e25864fbcba3"
         }
     },
     "pre_install": [
