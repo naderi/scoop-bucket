@@ -1,6 +1,6 @@
 {
     "homepage": "https://code.visualstudio.com/",
-    "version": "1.43.0-insider",
+    "version": "1.44.0-insider",
     "description": "Visual Studio Code is a lightweight but powerful source code editor (Portable Edition).",
     "license": {
         "identifier": "Freeware",
@@ -52,24 +52,24 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://vscode-update.azurewebsites.net/1.43.0-insider/win32-x64-archive/insider#/dl.7z",
+                "https://vscode-update.azurewebsites.net/1.44.0-insider/win32-x64-archive/insider#/dl.7z",
                 "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/vscode-install-context.reg",
                 "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/vscode-uninstall-context.reg"
             ],
             "hash": [
-                "79bcb99d36e0ddcaf543f29976ec70e77d86468c93ea84c2e7b2d362aa7ebd34",
+                "de7dfa8cc2601252751238585f60f7109aa3c6f53b7877d4e9e9d3974cfaae4a",
                 "b65d66860d9ccc18bfb05237b03e06db0d6c574be3d4b946c2a5e6865c08cb28",
                 "df2a5162e72e2518e2b75b4337c8e7b46c136554872af90fa0de1cf6ebef376f"
             ]
         },
         "32bit": {
             "url": [
-                "https://vscode-update.azurewebsites.net/1.43.0-insider/win32-archive/insider#/dl.7z",
+                "https://vscode-update.azurewebsites.net/1.44.0-insider/win32-archive/insider#/dl.7z",
                 "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/vscode-install-context.reg",
                 "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/vscode-uninstall-context.reg"
             ],
             "hash": [
-                "9240f5406fe8a31a12dbfb9af87b0a3f788390b866a06394a482f6f347c42876",
+                "e2c2a503ef3d3e0e80cb4014408e12ec248f0ee41f85ed374ab573ec55ca5f0b",
                 "b65d66860d9ccc18bfb05237b03e06db0d6c574be3d4b946c2a5e6865c08cb28",
                 "df2a5162e72e2518e2b75b4337c8e7b46c136554872af90fa0de1cf6ebef376f"
             ]
