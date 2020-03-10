@@ -1,5 +1,5 @@
 {
-    "version": "68.0.3616.0",
+    "version": "69.0.3623.0",
     "description": "Fast, secure, easy-to-use browser.",
     "homepage": "https://www.opera.com/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download1.operacdn.com/pub/opera-developer/68.0.3616.0/win/Opera_Developer_68.0.3616.0_Setup_x64.exe#/dl.7z",
-            "hash": "a04a85e2a5e6f30a25412f841fbc3cd65b56b376d90058c3f5231b8c264c633b"
+            "url": "https://download1.operacdn.com/pub/opera-developer/69.0.3623.0/win/Opera_Developer_69.0.3623.0_Setup_x64.exe#/dl.7z",
+            "hash": "843e080c68badf63d1f0db4d485b28d60c59da8a8f0f3d56924a5d44d60327eb"
         },
         "32bit": {
-            "url": "https://download1.operacdn.com/pub/opera-developer/68.0.3616.0/win/Opera_Developer_68.0.3616.0_Setup.exe#/dl.7z",
-            "hash": "f0ae4864f9ea7813cc071647963e404626ade8d4cd9eedbaa45dc936db282883"
+            "url": "https://download1.operacdn.com/pub/opera-developer/69.0.3623.0/win/Opera_Developer_69.0.3623.0_Setup.exe#/dl.7z",
+            "hash": "3b28b3e1a3f9d0050c428cfcbde89e316477bc8f9317218b51d791944dcbd8d8"
         }
     },
     "installer": {
