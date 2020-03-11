@@ -57,7 +57,7 @@
                 "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/vscode-uninstall-context.reg"
             ],
             "hash": [
-                "3642cf95a1bb1b704de9f4c993b7632b4d240cef52978f035655289ba3c1298e",
+                "b429b4ea3d719c66607bc41d7d944f1c19107efc415a7de24391fc042ee8f6a7",
                 "b65d66860d9ccc18bfb05237b03e06db0d6c574be3d4b946c2a5e6865c08cb28",
                 "df2a5162e72e2518e2b75b4337c8e7b46c136554872af90fa0de1cf6ebef376f"
             ]
@@ -69,7 +69,7 @@
                 "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/vscode-uninstall-context.reg"
             ],
             "hash": [
-                "f9aa97f89eba3e20d7e76f95e6fd84ea17b65d667c96ef9bff12dec9550dc06c",
+                "3d7538afcb82dbf3245f6502a4af2b2668634ab914fc319058573feee24c4d61",
                 "b65d66860d9ccc18bfb05237b03e06db0d6c574be3d4b946c2a5e6865c08cb28",
                 "df2a5162e72e2518e2b75b4337c8e7b46c136554872af90fa0de1cf6ebef376f"
             ]
@@ -78,18 +78,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://vscode-update.azurewebsites.net/$version/win32-x64-archive/insider#/dl.7z",
-                "hash": {
-                    "url": "https://code.visualstudio.com/sha?build=insider",
-                    "jp": "$.products[?(@.platform.os == 'win32-x64-archive')].sha256hash"
-                }
+                "url": "https://vscode-update.azurewebsites.net/$version/win32-x64-archive/insider#/dl.7z"
             },
             "32bit": {
-                "url": "https://vscode-update.azurewebsites.net/$version/win32-archive/insider#/dl.7z",
-                "hash": {
-                    "url": "https://code.visualstudio.com/sha?build=insider",
-                    "jp": "$.products[?(@.platform.os == 'win32-archive')].sha256hash"
-                }
+                "url": "https://vscode-update.azurewebsites.net/$version/win32-archive/insider#/dl.7z"
             }
         }
     }
