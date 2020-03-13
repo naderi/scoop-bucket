@@ -1,10 +1,10 @@
 {
-    "version": "13.0.0.1",
+    "version": "13.0.0.2",
     "description": "Unicode text editor",
     "homepage": "http://www.babelstone.co.uk/Software/BabelPad.html",
     "license": "Freeware",
     "url": "http://www.babelstone.co.uk/Software/Download/BabelPad.zip",
-    "hash": "c03c87f4466b56611ef420d3489d038f708cea956d761611a8cfc39139d32777",
+    "hash": "0420a6a3f9a68458447b1e7b326a8047ffab95f6e102b658f8bc47607f17a0a4",
     "bin": "BabelPad.exe",
     "shortcuts": [
         [
