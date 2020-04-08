@@ -1,19 +1,16 @@
 {
-    "version": "4.1.7.182",
+    "version": "4.2.9.152",
     "description": "The Most Feature Rich Chromium",
     "license": "GPL",
-    "homepage": "https://www.centbrowser.com/",
-    "url": "http://static.centbrowser.com/installer_64/centbrowser_4.1.7.182_x64_portable.exe#/dl.7z",
-    "hash": "sha1:0a89b4a312a65d41908f13f2d6a7e42233e04848",
-    "notes": [
-        "Based on the prominent web browser project - Chromium, Cent Browser inherits all its advantages."
-    ],
+    "url": "http://static.centbrowser.com/installer_64/centbrowser_4.2.9.152_x64_portable.exe#/dl.7z",
+    "hash": "5b537d0be7984d832653325cdd88ec86ec79bae607147549dd503038fabd21a7",
+    "notes": "Based on the prominent web browser project - Chromium, Cent Browser inherits all its advantages.",
     "bin": [
         [
             "chrome.exe",
             "centbrowser"
         ]
-    ],    
+    ],
     "shortcuts": [
         [
             "chrome.exe",
