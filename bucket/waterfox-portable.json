@@ -1,10 +1,10 @@
 {
-    "version": "2020.03.1",
+    "version": "2020.04",
     "description": "The 100% fresh, free-range, ethical browser (portable classic branch).",
     "homepage": "https://www.waterfox.net",
     "license": "MPL-2.0",
-    "url": "https://storage-waterfox.netdna-ssl.com/releases/win64/portable/WaterfoxPortable_2020.03.1_English.paf.exe#/dl.7z",
-    "hash": "85c4c97a4de7226edcb6f9859e4ec876cfcada8c85f6a888e3b4ffb39868e9b9",
+    "url": "https://storage-waterfox.netdna-ssl.com/releases/win64/portable/WaterfoxPortable_2020.04_English.paf.exe#/dl.7z",
+    "hash": "5a755e7a8e8e209495c315c4dc6c220794d20ab5520bc5a8cfbb78aa87d0c5fb",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\WaterfoxPortable.ini\")) {",
         "    @(",
