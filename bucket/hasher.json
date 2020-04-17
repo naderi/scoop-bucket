@@ -1,0 +1,25 @@
+{
+    "homepage": "https://ericzimmerman.github.io",
+    "description": "Hash all the things",
+    "version": "1.9.3.0",
+    "license": "MIT",
+    "url": "https://f001.backblazeb2.com/file/EricZimmermanTools/hasher.zip",
+    "hash": "43eadfb9c09c7a8b9553dd82e15949f1450f244dfd384288b29f60c35f064e4f",
+    "extract_dir": "Hasher",
+    "pre_install": "if(!(Test-Path \"$dir/Hasher.ini\")) { Add-Content \"$dir/Hasher.ini\" $null }",
+    "bin": "Hasher.exe",
+    "shortcuts": [
+        [
+            "Hasher.exe",
+            "Hasher"
+        ]
+    ],
+    "persist": "Hasher.ini",
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/master/index.md",
+        "regex": "Hasher \\| \\[([\\d.]+)\\]"
+    },
+    "autoupdate": {
+        "url": "https://f001.backblazeb2.com/file/EricZimmermanTools/hasher.zip"
+    }
+}
