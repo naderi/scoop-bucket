@@ -11,6 +11,7 @@
             "TeXstudio"
         ]
     ],
+    "persist": "config",
     "checkver": {
         "url": "https://github.com/texstudio-org/texstudio/releases/latest",
         "regex": "texstudio-.+texstudio-?(.+)?\\.zip"
