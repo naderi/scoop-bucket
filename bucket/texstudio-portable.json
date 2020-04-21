@@ -1,5 +1,5 @@
 {
-    "version": "2.12.22-win-portable-qt5",
+    "version": "2.12.22",
     "description": "TeXstudio is an integrated writing environment for creating LaTeX documents.",
     "homepage": "https://www.texstudio.org/",
     "url": "https://github.com/texstudio-org/texstudio/releases/download/2.12.22/texstudio-2.12.22-win-portable-qt5.zip",
@@ -14,9 +14,9 @@
     "persist": "config",
     "checkver": {
         "url": "https://github.com/texstudio-org/texstudio/releases/latest",
-        "regex": "texstudio-.+texstudio-?(.+)?\\.zip"
+        "regex": "texstudio-.+texstudio-?(?<version>[\\d.]+)-(?<build>.+)?\\.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/texstudio-org/texstudio/releases/download/$matchHead/texstudio-$version.zip"
+        "url": "https://github.com/texstudio-org/texstudio/releases/download/$matchHead/texstudio-$version-$matchBuild.zip"
     }
 }
