@@ -1,9 +1,9 @@
 {
-    "version": "4.2.9.152",
+    "version": "4.2.10.171",
     "description": "The Most Feature Rich Chromium",
     "license": "GPL",
-    "url": "http://static.centbrowser.com/installer_64/centbrowser_4.2.9.152_x64_portable.exe#/dl.7z",
-    "hash": "5b537d0be7984d832653325cdd88ec86ec79bae607147549dd503038fabd21a7",
+    "url": "http://static.centbrowser.com/installer_64/centbrowser_4.2.10.171_x64_portable.exe#/dl.7z",
+    "hash": "514e7a0e4bf654b558f0b34bba11094119d225e052fac545027dd6cfc06dbe45",
     "notes": "Based on the prominent web browser project - Chromium, Cent Browser inherits all its advantages.",
     "bin": [
         [
@@ -24,9 +24,6 @@
         "regex": "Version: ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "http://static.centbrowser.com/installer_64/centbrowser_$version_x64_portable.exe#/dl.7z",
-        "hash": {
-            "url": "$url.sha256"
-        }
+        "url": "http://static.centbrowser.com/installer_64/centbrowser_$version_x64_portable.exe#/dl.7z"
     }
 }
