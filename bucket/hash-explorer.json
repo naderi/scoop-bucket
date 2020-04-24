@@ -1,10 +1,12 @@
 {
-    "bin": "Toms Hash Explorer.exe",
+    "version": "1.2",
     "description": "Calculate cryptographic hash values (GUI)",
-    "hash": "f9b205b73e3891dfd6d3aa455f2c922da0803af2f84fd73ea9bcef520d48d006",
-    "homepage": "https://www.mannerud.org/tom-andreas/software/toms-hash-explorer/",
     "license": "Freeware",
+    "homepage": "https://www.mannerud.org/tom-andreas/software/toms-hash-explorer/",
+    "url": "http://www.mannerud.org/tom-andreas/downloads/Toms_Hash_Explorer_v1.2.zip",
+    "hash": "md5:c952228c0e07b9fb4753e25bed06ff4b",
     "pre_install": "& \"$dir/setup.exe\" /SP- /SILENT /NOCANCEL /NOCLOSEAPPLICATIONS /NORESTART /DIR=\"$dir\"",
+    "bin": "Toms Hash Explorer.exe",
     "shortcuts": [
         [
             "Toms Hash Explorer.exe",
@@ -14,6 +16,15 @@
     "uninstaller": {
         "file": "unins000.exe"
     },
-    "url": "http://www.mannerud.org/tom-andreas/downloads/Toms_Hash_Explorer_v1.2.zip",
-    "version": "1.2"
+    "checkver": {
+        "url": "https://www.mannerud.org/tom-andreas/software/toms-hash-explorer/",
+        "re": "downloads/Toms_Hash_Explorer.+?([\\d.]+)?\\.zip"
+    },
+    "autoupdate": {
+        "url": "http://www.mannerud.org/tom-andreas/downloads/Toms_Hash_Explorer_v$version.zip",
+        "hash": {
+            "url": "https://www.mannerud.org/tom-andreas/software/toms-hash-explorer/",
+            "find": "md5:.+?([A-Fa-f\\d]{32})"
+        }
+    }
 }

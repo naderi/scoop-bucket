@@ -10,7 +10,8 @@
         "cryfs-unmount.exe"
     ],
     "checkver": {
-        "github": "https://github.com/cryfs/cryfs/"
+        "url": "https://github.com/cryfs/cryfs/releases",
+        "re": "/tree/?([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/cryfs/cryfs/releases/download/$version/cryfs-$version-win64.msi",
