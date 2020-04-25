@@ -7,10 +7,10 @@
     "hash": "sha1:c127fafc5ea860c88648a6e93119bcc789c0ac68",
     "extract_dir": "ungoogled-chromium-81.0.4044.122-1_windows",
     "bin": [
-        "chrome.exe",
         [
             "chrome.exe",
-            "chromium"
+            "chromium",
+            "--user-data-dir=\"$dir\\Data\""
         ]
     ],
     "shortcuts": [
