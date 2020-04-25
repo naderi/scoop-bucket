@@ -14,7 +14,13 @@
         }
     },
     "extract_dir": "core",
-    "bin": "firefox.exe",
+    "bin": [
+        [
+            "firefox.exe",
+            "firefox",
+            "-Profile \"$dir\\Profile\""
+        ]
+    ],
     "shortcuts": [
         [
             "firefox.exe",
