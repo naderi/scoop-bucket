@@ -16,6 +16,7 @@
     "extract_dir": "Capture2Text",
     "bin": [
         [
+            "Capture2Text_CLI.exe",
             "Capture2Text.exe"
         ]
     ],
@@ -25,6 +26,7 @@
             "Capture2Text"
         ]
     ],
+    "persist": "settings.ini",
     "checkver": {
         "url": "https://sourceforge.net/projects/capture2text/files/Capture2Text/",
         "regex": "Capture2Text_v([\\d.]+)"
@@ -32,10 +34,16 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://sourceforge.net/projects/capture2text/files/Capture2Text/Capture2Text_v$version/Capture2Text_v$version_64bit.zip/download#/dl.zip"
+                "url": "https://sourceforge.net/projects/capture2text/files/Capture2Text/Capture2Text_v$version/Capture2Text_v$version_64bit.zip/download#/dl.zip",
+                "hash": {
+                    "mode": "sourceforge"
+                }
             },
             "32bit": {
-                "url": "https://sourceforge.net/projects/capture2text/files/Capture2Text/Capture2Text_v$version/Capture2Text_v$version_32bit.zip/download#/dl.zip"
+                "url": "https://sourceforge.net/projects/capture2text/files/Capture2Text/Capture2Text_v$version/Capture2Text_v$version_32bit.zip/download#/dl.zip",
+                "hash": {
+                    "mode": "sourceforge"
+                }
             }
         }
     }
