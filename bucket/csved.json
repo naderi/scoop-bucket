@@ -1,0 +1,22 @@
+{
+    "homepage": "https://csved.sjfrancke.nl/",
+    "license": "cardware",
+    "version": "2.5.4",
+    "url": "http://home.hccnet.nl/s.j.francke/csved/CSVed.zip",
+    "hash": "8d6562a0aa482f5d37a0ceb117dadbc02492a4ef6287ba32861d8d8a81255e21",
+    "bin": "CSVed.exe",
+    "shortcuts": [
+        [
+            "CSVed.exe",
+            "CSVed"
+        ]
+    ],
+    "persist": [
+        "CSVed.ini",
+        "csved.tbx"
+    ],
+    "checkver": "<h2>CSVed ([\\d.]+)</h2>",
+    "autoupdate": {
+        "url": "http://home.hccnet.nl/s.j.francke/csved/CSVed.zip"
+    }
+}
