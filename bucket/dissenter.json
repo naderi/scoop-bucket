@@ -12,7 +12,7 @@
                 "script": [
                     "Move-Item \"$dir\\64bit\\*\" \"$dir\"",
                     "Remove-Item \"$dir\\64bit\", \"$dir\\32bit\" -Force -Recurse"
-				]
+                                ]
             },
             "bin": "ch64.exe",
             "shortcuts": [
