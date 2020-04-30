@@ -1,0 +1,26 @@
+{
+    "version": "1.1.4",
+    "homepage": "https://www.teamlink.co/",
+    "description": "Video and Web meeting for Free",
+    "license": "GPL-3.0-only",
+    "url": "https://download.teamlink.co/TeamLink+Setup.exe#/dl.7z",
+    "hash": "sha512:3ba33ec6d31af5439e314040a9a571ad0cb407e80f5f53938fa21f3975f332fadff4fc580d25477b6cb8d3dcec8712ab03b407e5912d26b9ea4a5e787333e724",
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall Signal.exe\" -Recurse -Force"
+    ],
+    "bin": "TeamLink.exe",
+    "shortcuts": [
+        [
+            "TeamLink.exe",
+            "TeamLink"
+        ]
+    ],
+    "checkver": {
+        "url": "https://download.cnet.com/TeamLink/3000-2348_4-78400577.html",
+        "regex": "softwareVersion\".+?([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://download.teamlink.co/TeamLink+Setup.exe#/dl.7z",
+    }
+}
