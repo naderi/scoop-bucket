@@ -7,7 +7,7 @@
     "hash": "133b0920cc6aa430bdcc83e79937182e5b14bd1282fb90f86df9226cbb3e668c",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall Signal.exe\" -Recurse -Force"
+        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall TeamLink.exe\" -Recurse -Force"
     ],
     "bin": "TeamLink.exe",
     "shortcuts": [
