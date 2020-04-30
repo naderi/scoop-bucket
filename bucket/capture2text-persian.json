@@ -1,6 +1,6 @@
 {
     "homepage": "http://capture2text.sourceforge.net/",
-    "version": "4.6.1",
+    "version": "4.6.2",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
