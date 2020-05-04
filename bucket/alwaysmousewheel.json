@@ -13,7 +13,8 @@
                     "AlwaysMouseWheel_x64_p.exe",
                     "Always Mouse Wheel"
                 ]
-            ]
+            ],
+            "persist": "AlwaysMouseWheel_x64.ini"
         },
         "32bit": {
             "url": "https://www.softwareok.com/Download/AlwaysMouseWheel_Portable.zip",
@@ -24,7 +25,8 @@
                     "AlwaysMouseWheel_p.exe",
                     "Always Mouse Wheel"
                 ]
-            ]
+            ],
+            "persist": "AlwaysMouseWheel.ini"
         }
     },
     "checkver": {
