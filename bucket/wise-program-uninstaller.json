@@ -1,0 +1,27 @@
+{
+    "version": "10.3.1.690",
+    "description": "No need to install it. You can use this small and clean tool to remove software from your PC.",
+    "homepage": "https://www.wisecleaner.com/wise-program-uninstaller.html",
+    "license": "Freeware",
+    "url": "http://downloads.wisecleaner.com/soft/WRCFree_10.3.1.690.zip",
+    "hash": "ef25c063f90b56a11499c81c663e5fe7e046bb14ec8269f7b11c71c669455ce6",
+    "extract_dir": "Wise Program Uninstaller",
+    "bin": "WiseProgramUninstaller.exe",
+    "shortcuts": [
+        [
+            "WiseProgramUninstaller.exe",
+            "Wise Program Uninstaller"
+        ]
+    ],
+    "persist": [
+        "config.ini",
+        "ExConfig.ini"
+    ],
+    "checkver": {
+        "url": "https://www.wisecleaner.com/download.html",
+        "regex": "WPU.+?([\\d.]+)?\\.zip"
+    },
+    "autoupdate": {
+        "url": "http://downloads.wisecleaner.com/soft/WPU_$version.zip"
+    }
+}
