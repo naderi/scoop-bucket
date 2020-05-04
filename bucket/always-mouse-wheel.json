@@ -1,20 +1,12 @@
 {
-    "version": "1.7.0.3",
+    "version": "4.44",
     "description": "Scroll via mouse wheel even if the window is not in the foreground ergo focused.",
     "homepage": "https://www.softwareok.com/?seite=Microsoft/AlwaysMouseWheel",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://download.kde.org/stable/falkon/3.1/Falkon.Installer.3.1.0.x64.exe#/dl.7z",
-            "hash": "57859102da4ebe871f63f9e286a6066aea6d634c480a193f56a7dcb39239c0ad"
-        },
-        "32bit": {
-            "url": "https://download.kde.org/stable/falkon/3.1/Falkon.Installer.3.1.0.exe#/dl.7z",
-            "hash": "806dc30fd68edee4587e2f480054000f82d5d56df5047ee299547cb2247a3a88"
-        }
-    },
-    "architecture": {
-        "64bit": {
+            "url": "https://www.softwareok.com/Download/AlwaysMouseWheel_Portable_x64.zip",
+            "hash": "b4565566cabc8cdcbecc2de5b46d702ef51dcc003015c7ffdf266c0bf234b054",
             "bin": "AlwaysMouseWheel_x64_p.exe",
             "shortcuts": [
                 [
@@ -24,6 +16,8 @@
             ]
         },
         "32bit": {
+            "url": "https://www.softwareok.com/Download/AlwaysMouseWheel_Portable.zip",
+            "hash": "b8a18df7a4f722041e413dcbe9e07b770b38cbae7d11ed344acc5d5893705b8e",
             "bin": "AlwaysMouseWheel_p.exe",
             "shortcuts": [
                 [
@@ -34,8 +28,8 @@
         }
     },
     "checkver": {
-        "url": "https://www.softwareok.com/?seite=Microsoft/AlwaysMouseWheel",
-        "regex": "AlwaysMouseWheel.+?([\\d.]+)"
+        "url": "https://www.softwareok.com/?seite=Microsoft",
+        "regex": "AlwaysMouseWheel\\s([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
