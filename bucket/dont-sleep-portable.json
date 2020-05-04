@@ -32,7 +32,7 @@
     "persist": "DontSleep.ini",
     "checkver": {
         "url": "https://www.softwareok.com/?seite=Microsoft",
-        "re": "DontSleep\\s([\\d.]+)"
+        "re": "Don\\'t Sleep\\s([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
