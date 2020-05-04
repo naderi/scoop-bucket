@@ -9,7 +9,7 @@
             "hash": "3a01b6fa2588eeec80a6038af57feb20b8525bfc6090cbc1885d40c49310e139"
         }
     },
-    "extract_dir": "Handbrake",
+    //"extract_dir": "Handbrake",
     "post_install": "Move-Item \"$dir\\portable.ini.template\" \"$dir\\portable.ini\"",
     "shortcuts": [
         [
