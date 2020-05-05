@@ -5,6 +5,10 @@
     "url": "http://home.hccnet.nl/s.j.francke/csved/CSVed.zip",
     "hash": "16cfd3aa32988262ea51242d0cba50917d93c0e66841600d72a7d85ddb0fb74c",
     "bin": "CSVed.exe",
+    "pre_install": [
+        "if(!(Test-Path \"$dir/CSVed.ini\")) { Add-Content \"$dir/CSVed.ini\" $null }",
+        "if(!(Test-Path \"$dir/CSVed.tbx\")) { Add-Content \"$dir/CSVed.tbx\" $null }"
+    ],
     "shortcuts": [
         [
             "CSVed.exe",
@@ -13,7 +17,7 @@
     ],
     "persist": [
         "CSVed.ini",
-        "csved.tbx"
+        "CSVed.tbx"
     ],
     "checkver": "#csved.+?>CSVed (.+?)<",
     "autoupdate": {
