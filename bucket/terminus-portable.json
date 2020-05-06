@@ -1,12 +1,12 @@
 {
     "homepage": "https://eugeny.github.io/terminus/",
     "description": "A terminal for a more modern age.",
-    "version": "1.0.109",
+    "version": "1.0.110",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Eugeny/terminus/releases/download/v1.0.109/terminus-1.0.109-portable.zip",
-            "hash": "12d51625689c5f9162d62fbfa915eccf99ce85c8b22f1317fe5d7dc06b10ddf4"
+            "url": "https://github.com/Eugeny/terminus/releases/download/v1.0.110/terminus-1.0.110-portable.zip",
+            "hash": "5f03b8711d21d957c4eae92bc3ec8b3518e83b167b8ae28b8dbb8384d71ae29b"
         }
     },
     "bin": "Terminus.exe",
