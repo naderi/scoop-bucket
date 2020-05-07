@@ -4,7 +4,7 @@
     "license": "BSD-3-Clause",
     "homepage": "https://www.chromium.org",
     "url": "https://github.com/macchrome/winchrome/releases/download/v81.0.4044.138-r737173-Win64/ungoogled-chromium-81.0.4044.138-1_windows.7z",
-    "hash": "sha1:3c735e6f65e1421aece3d474beef24668bc23c23",
+    "hash": "sha1:0c78fbd417dff1f5147469308d65de1906d6d159",
     "extract_dir": "ungoogled-chromium-81.0.4044.138-1_windows",
     "bin": [
         [
