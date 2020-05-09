@@ -1,0 +1,12 @@
+{
+    "version": "2.2.1",
+    "homepage": "https://lame.buanzo.org",
+    "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
+    "license": "GPL-3.0-or-later",
+    "url": "https://lame.buanzo.org/ffmpeg-win-2.2.2.zip",
+    "hash": "5aedf268952b7d9f6541dbfcb47cd86a7e7881a3b7ba482fd3bc4ca33bda7bf5",
+    "checkver": "ffmpeg-win-([\\d.]+)?\\.zip",
+    "autoupdate": {
+        "url": "https://lame.buanzo.org/ffmpeg-win-$version.zip",
+    }
+}
