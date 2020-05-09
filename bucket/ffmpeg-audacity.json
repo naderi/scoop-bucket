@@ -1,12 +1,12 @@
 {
-    "version": "2.2.1",
+    "version": "2.2.2",
     "homepage": "https://lame.buanzo.org",
     "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
     "license": "GPL-3.0-or-later",
     "url": "https://lame.buanzo.org/ffmpeg-win-2.2.2.zip",
-    "hash": "5aedf268952b7d9f6541dbfcb47cd86a7e7881a3b7ba482fd3bc4ca33bda7bf5",
+    "hash": "84b0669f71cfb44e557e54ae2c863b89cfa544d1ecf751d7114e2b5955eb0cb2",
     "checkver": "ffmpeg-win-([\\d.]+)?\\.zip",
     "autoupdate": {
-        "url": "https://lame.buanzo.org/ffmpeg-win-$version.zip",
+        "url": "https://lame.buanzo.org/ffmpeg-win-$version.zip"
     }
 }
