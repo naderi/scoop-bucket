@@ -14,10 +14,7 @@
         }
     },
     "bin": "lf.exe",
-    "checkver": {
-        "url": "https://github.com/gokcehan/lf/releases/latest",
-        "regex": "<title>Release (r\\d+) · gokcehan/lf"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
