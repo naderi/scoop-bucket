@@ -14,7 +14,9 @@
         }
     },
     "bin": "lf.exe",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/gokcehan/lf"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
