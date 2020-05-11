@@ -2,7 +2,7 @@
     "homepage": "https://godoc.org/github.com/gokcehan/lf",
     "description": "A terminal file manager.",
     "license": "MIT",
-    "version": "r14",
+    "version": "r13",
     "architecture": {
         "64bit": {
             "url": "https://github.com/gokcehan/lf/releases/download/r14/lf-windows-amd64.zip",
