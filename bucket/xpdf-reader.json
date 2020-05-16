@@ -22,7 +22,7 @@
     ],
     "checkver": {
         "url": "https://www.xpdfreader.com/download.html",
-        "regex": "https://xpdfreader-dl.s3.amazonaws.com/XpdfReader-win64-([\\d.]+).exe"
+        "regex": "/XpdfReader-win64-([\\d.]+).exe"
     },
     "autoupdate": {
         "architecture": {
@@ -35,4 +35,3 @@
         }
     }
 }
-
