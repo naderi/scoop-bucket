@@ -1,9 +1,9 @@
 {
-    "version": "2.3.8.142",
+    "version": "2.3.8.141",
     "description": "No need to install it. You can use this small and clean tool to remove software from your PC.",
-    "homepage": "https://www.wisecleaner.com/wise-program-uninstaller.html",
+    "homepage": "https://www.wisecleaner.eu/wise-program-uninstaller.html",
     "license": "Freeware",
-    "url": "http://downloads.wisecleaner.com/soft/WPU_2.3.8.142.zip",
+    "url": "http://downloads.wisecleaner.eu/soft/WPU_2.3.8.142.zip",
     "hash": "55087cb84eceb79931f8b70409ba4024e64ef6f4ddef9566013f74644b03bd3e",
     "extract_dir": "Wise Program Uninstaller",
     "bin": "WiseProgramUninstaller.exe",
@@ -18,10 +18,10 @@
         "ExConfig.ini"
     ],
     "checkver": {
-        "url": "https://www.wisecleaner.com/download.html",
+        "url": "https://www.wisecleaner.eu/download.html",
         "regex": "WPU.+?([\\d.]+)?\\.zip"
     },
     "autoupdate": {
-        "url": "http://downloads.wisecleaner.com/soft/WPU_$version.zip"
+        "url": "http://downloads.wisecleaner.eu/soft/WPU_$version.zip"
     }
 }
