@@ -1,10 +1,10 @@
 {
-    "version": "1.16.1.0",
+    "version": "1.17.2",
     "homepage": "https://www.teamlink.co/",
     "description": "Video and Web meeting for Free",
     "license": "GPL-3.0-only",
     "url": "https://download.teamlink.co/TeamLink+Setup.exe#/dl.7z",
-    "hash": "133b0920cc6aa430bdcc83e79937182e5b14bd1282fb90f86df9226cbb3e668c",
+    "hash": "cf7b37d2e3219396855c4012501df937fe9e9e3c064c3705a55b1e58e5e79753",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall TeamLink.exe\" -Recurse -Force"
@@ -17,8 +17,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://download.cnet.com/TeamLink/3000-2348_4-78400577.html",
-        "regex": "softwareVersion\".+?([\\d.]+)"
+        "url": "https://macupdater.net/app_updates/appinfo/me.teamlink.meet/index.html",
+        "regex": "class=\"vnr\".+?([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://download.teamlink.co/TeamLink+Setup.exe#/dl.7z"
