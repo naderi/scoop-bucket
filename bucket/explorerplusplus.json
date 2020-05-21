@@ -120,7 +120,10 @@
             "Explorer++"
         ]
     ],
-    "checkver": "Get version <strong>([\\d.]+)",
+    "checkver": {
+        "url": "https://github.com/derceg/explorerplusplus/releases/latest",
+        "regex": "version-([\\d.]+)?\\.atom"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
@@ -132,4 +135,3 @@
         }
     }
 }
-
