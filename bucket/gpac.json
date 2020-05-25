@@ -1,14 +1,14 @@
 {
     "homepage": "http://gpac.io",
-    "version": "0.7",
+    "version": "0.8.0",
     "license": "LGPL-2.1",
     "architecture": {
         "64bit": {
-            "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win64/gpac-0.8.0-rev1-gc1990d5c-master-x64.exe#/dl.7z",
+            "url": "https://download.tsi.telecom-paristech.fr/gpac/release/0.8.0/gpac-0.8.0-rev1-gc1990d5c-master-x64.exe#/dl.7z",
             "hash": "905d119a3d261d2dad1f3cf716449f7b96fba3dc7485e4350f293d3a8720957b"
         },
         "32bit": {
-            "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win32/gpac-0.8.0-rev1-gc1990d5c-master-win32.exe#/dl.7z",
+            "url": "https://download.tsi.telecom-paristech.fr/gpac/release/0.8.0/gpac-0.8.0-rev1-gc1990d5c-master-win32.exe#/dl.7z",
             "hash": "22cacee82c1aa2cf8b12eccde2001e4852956668f2ec511adad603f7d79a78c6"
         }
     },
@@ -36,12 +36,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.tsi.telecom-paristech.fr/gpac/release/gpac-$version-$matchRev-master-x64.exe#/dl.7z"
+                "url": "https://download.tsi.telecom-paristech.fr/gpac/release/$matchHead/gpac-$version-$matchRev-master-x64.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://download.tsi.telecom-paristech.fr/gpac/release/gpac-$version-$matchRev-master-win32.exe#/dl.7z"
+                "url": "https://download.tsi.telecom-paristech.fr/gpac/release/$matchHead/gpac-$version-$matchRev-master-win32.exe#/dl.7z"
             }
         }
     }
 }
-
