@@ -1,6 +1,6 @@
 {
     "homepage": "http://www.hoverdesk.net/",
-    "version": "4.0",
+    "version": "4.7",
     "license": "free for personal use",
     "url": "http://www.hoverdesk.net/download/RegSeeker47.zip",
     "hash": "835669088eb425053af1529dbf2e7cf5f7a8acb1f7b846cc7a4965caf1eac7de",
@@ -27,4 +27,3 @@
         "url": "http://www.hoverdesk.net/download/RegSeeker$cleanVersion.zip"
     }
 }
-
