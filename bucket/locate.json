@@ -1,6 +1,6 @@
 {
     "homepage": "http://locate32.cogit.net/",
-    "version": "3.1.11.700",
+    "version": "3.1.11.7100",
     "license": "freeware",
     "architecture": {
         "64bit": {
@@ -49,4 +49,3 @@
         }
     }
 }
-
