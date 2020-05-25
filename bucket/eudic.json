@@ -3,7 +3,7 @@
     "version": "2020-03-01",
     "license": "freeware",
     "url": "http://static.frdic.com/pkg/eudic_win.zip",
-    "hash": "dfede74112fbc719f7e1b32bee2ff11c6a97dc6a4abed899ffb6e0279b6818a7",
+    "hash": "c1262b34ccb900a55fb43a09c7be81f281268d10c86c03ee02717911c3e13c20",
     "installer": {
         "script": [
             "Expand-7ZipArchive \"$dir\\eudic_win.exe\" \"$dir\\\" -Removal",
@@ -26,4 +26,3 @@
         "url": "http://static.frdic.com/pkg/eudic_win.zip"
     }
 }
-
