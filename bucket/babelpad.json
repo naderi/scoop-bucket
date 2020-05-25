@@ -4,7 +4,7 @@
     "homepage": "http://www.babelstone.co.uk/Software/BabelPad.html",
     "license": "Freeware",
     "url": "http://www.babelstone.co.uk/Software/Download/BabelPad.zip",
-    "hash": "2c94b24324cbb86704b9ac51b644d653bf3599e10b5fe5b19c828c48c8c3f0af",
+    "hash": "292024c388a660938b089078808b8396548fb697d8ef77c88dd5c37eec22b68b",
     "bin": "BabelPad.exe",
     "shortcuts": [
         [
@@ -17,4 +17,3 @@
         "url": "http://www.babelstone.co.uk/Software/Download/BabelPad.zip"
     }
 }
-
