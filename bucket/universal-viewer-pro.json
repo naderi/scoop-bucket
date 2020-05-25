@@ -1,9 +1,9 @@
 {
     "homepage": "http://www.uvviewsoft.com/uviewer/",
-    "version": "6.7.0",
+    "version": "6.7.3",
     "license": "freeware for non-commercial use",
     "url": "http://www.uvviewsoft.com/uviewer/files/UniversalViewerPro.zip",
-    "hash": "6cbe2c37165fb040c2850eec7ecb88e4f1f6d648be35ffb0131a502476e75649",
+    "hash": "2c08aaf93f5e9549844b8432dd77d1b17e68f7978396e548aa4082d21877733f",
     "bin": "Viewer.exe",
     "persist": [
         "Viewer.ini",
@@ -24,4 +24,3 @@
         "url": "http://www.uvviewsoft.com/uviewer/files/UniversalViewerPro.zip"
     }
 }
-
