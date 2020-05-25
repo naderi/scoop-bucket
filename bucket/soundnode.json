@@ -2,7 +2,7 @@
     "homepage": "http://www.soundnodeapp.com/",
     "description": "An opensource SoundCloud app for desktop",
     "license": "GPL-3.0-only",
-    "version": "6.0.0",
+    "version": "7.0.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Soundnode/soundnode-app/releases/download/7.0.0/Soundnode-win32-x64.zip",
