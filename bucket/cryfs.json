@@ -15,10 +15,6 @@
     },
     "autoupdate": {
         "url": "https://github.com/cryfs/cryfs/releases/download/$version/cryfs-$version-win64.msi",
-        "hash": {
-            "url": "$baseurl/latest.yml",
-            "regex": "sha512: $base64"
-        },
         "extract_dir": "CryFS\\$version\\bin"
     }
 }
