@@ -2,7 +2,7 @@
     "homepage": "https://github.com/MichaelMure/mdr",
     "description": "MarkDown Renderer for the terminal",
     "license": "MIT",
-    "version": "0.2.0",
+    "version": "0.2.5",
     "architecture": {
         "64bit": {
             "url": "https://github.com/MichaelMure/mdr/releases/download/v0.2.5/mdr_windows_amd64.exe#/mdr.exe",
@@ -26,4 +26,3 @@
         }
     }
 }
-
