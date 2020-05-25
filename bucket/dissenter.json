@@ -1,7 +1,7 @@
 {
     "homepage": "https://dissenter.com/",
     "license": "MPL-2.0",
-    "version": "1.5.110",
+    "version": "1.5.114",
     "architecture": {
         "64bit": {
             "url": "https://github.com/gab-ai-inc/defiant-browser/releases/download/v1.5.114/dissenter-1.5.114-installer.exe#/dl.7z",
