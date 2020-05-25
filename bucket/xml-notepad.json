@@ -4,7 +4,7 @@
     "license": "MIT",
     "extract_dir": "XmlNotepad 2.7.1.5",
     "url": "https://github.com/Microsoft/XmlNotepad/releases/download/v2.7/XmlNotepad.2.7.1.5.zip",
-    "hash": "E2658BCEB589F2B17353E38D4ACCEF6969276ECAACD089428338F9F5490367B4",
+    "hash": "e2658bceb589f2b17353e38d4accef6969276ecaacd089428338f9f5490367b4",
     "installer": {
         "script": [
             "Expand-7ZipArchive \"$dir\\cab1.cab\" \"$dir\" -Removal",
@@ -32,4 +32,3 @@
         "extract_dir": "XmlNotepad $version"
     }
 }
-
