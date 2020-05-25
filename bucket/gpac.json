@@ -36,10 +36,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win64/gpac-$version-$matchRev-master-x64.exe#/dl.7z"
+                "url": "https://download.tsi.telecom-paristech.fr/gpac/release/gpac-$version-$matchRev-master-x64.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win32/gpac-$version-$matchRev-master-win32.exe#/dl.7z"
+                "url": "https://download.tsi.telecom-paristech.fr/gpac/release/gpac-$version-$matchRev-master-win32.exe#/dl.7z"
             }
         }
     }
