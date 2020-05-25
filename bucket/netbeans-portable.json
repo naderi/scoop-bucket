@@ -1,5 +1,5 @@
 {
-    "version": "11.0",
+    "version": "11.3",
     "homepage": "https://netbeans.org",
     "description": "Quickly and easily develop desktop, mobile, and web applications with Java, JavaScript, HTML5, PHP, C/C++ and more.",
     "license": "Apache-2.0",
@@ -35,4 +35,3 @@
         }
     }
 }
-
