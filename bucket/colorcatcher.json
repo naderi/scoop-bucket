@@ -1,9 +1,9 @@
 {
     "homepage": "https://colorcatcher.francke.org/",
     "license": "cardware",
-    "version": "1.1",
+    "version": "1.5",
     "url": "http://colorcatcher.francke.org/colorcatcher15.zip",
-    "hash": "5e9590ee61f232c7757d945213131cd7a0349e0e2db7b1decd46ead7d2fa7185",
+    "hash": "87f91fcb1c5b07f794e5acd863e136cf6cec56568ce311c00557b190b458a78d",
     "bin": "uniCSVed.exe",
     "shortcuts": [
         [
