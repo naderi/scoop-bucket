@@ -1,0 +1,18 @@
+{
+    "homepage": "https://colorcatcher.francke.org/",
+    "license": "cardware",
+    "version": "1.1",
+    "url": "http://colorcatcher.francke.org/colorcatcher15.zip",
+    "hash": "5e9590ee61f232c7757d945213131cd7a0349e0e2db7b1decd46ead7d2fa7185",
+    "bin": "uniCSVed.exe",
+    "shortcuts": [
+        [
+            "ColorCatcher.exe",
+            "ColorCatcher"
+        ]
+    ],
+    "checkver": "colorcatchersetup.exe\">ColorCatcher ([\\d.]+) ",
+    "autoupdate": {
+        "url": "http://colorcatcher.francke.org/colorcatcher$cleanVersion.zip"
+    }
+}
