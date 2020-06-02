@@ -3,11 +3,10 @@
     "version": "1.3.5.0",
     "license": "MIT",
     "url": "https://github.com/UndertakerBen/PorEdgeUpd/releases/download/v1.3.5.0/Portable.Edge.Chromium.Updater.v1.3.5.0.7z",
-    "extract_dir": "PasteEx",
     "hash": "d54e80c13aab6dd6114d2889c1e8ae2e9db32527d32082a877f607ec3276f822",
     "pre_install": [
         "if (!(Test-Path \"$dir\\Edge Launcher.exe\")) {",
-        "   Copy-Item \"$dir\\bin\\Edge Launcher.exe\" \"$dir\"",
+        "   Copy-Item \"$dir\\Bin\\Launcher\\Edge Launcher.exe\" \"$dir\"",
         "}"
     ],
     "bin": [
