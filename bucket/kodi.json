@@ -26,8 +26,8 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/xbmc/xbmc/",
-        "regex": "tag/(([\\d\\.]+)-([\\w]+))"
+        "url": "https://mirrors.kodi.tv/releases/windows/win64/",
+        "regex": "kodi-([\\d\\.]+)"
     },
     "autoupdate": {
         "architecture": {
