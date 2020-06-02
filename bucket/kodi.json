@@ -26,8 +26,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://mirrors.kodi.tv/releases/windows/win64/",
-        "regex": "kodi-([\\d\\.]+)"
+        "url": "https://mirrors.kodi.tv/releases/windows/win32/",
+        "regex": "kodi-(([\\d\\.]+)-([\\w]+))"
     },
     "autoupdate": {
         "architecture": {
