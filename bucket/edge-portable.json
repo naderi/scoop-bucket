@@ -12,9 +12,7 @@
     ],
     "bin": [
         "Edge Launcher.exe",
-        "dashcast.exe",
-        "mp42ts.exe",
-        "mp4client.exe"
+        "Portable Edge (Chromium) Updater.exe"
     ],
     "shortcuts": [
         [
@@ -26,7 +24,7 @@
             "Microsoft Edge (Chromium) Updater"
         ]
     ],
-    "persist": "User",
+    "persist": "profile",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/UndertakerBen/PorEdgeUpd/releases/download/v$version/Portable.Edge.Chromium.Updater.v$version.7z"
