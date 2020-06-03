@@ -1,10 +1,10 @@
 {
-    "version": "4.0.0",
+    "version": "4.3.0",
     "homepage": "https://birdfont.org",
     "description": "Birdfont is a free font editor which lets you create vector graphics and export TTF, OTF, EOT and SVG fonts. The editor has good support for both monochrome and color font formats.",
     "license": "GNU GPL",
-    "url": "https://birdfont.org/download/birdfont-4.0.0-free.exe#/dl.7z",
-    "hash": "329c37c196894df9b6329e791b0800d6ac5cb82b3ce2800af5efe19bb5d24f82",
+    "url": "https://birdfont.org/download/birdfont-4.3.0-free.exe#/dl.7z",
+    "hash": "93eafb390aafefcc0bb4b5e5fc3bcb7c793e675c03d12bbfd100756f0f3bb1ff",
     "pre_install": "Remove-Item \"$dir\\uninstall*\" -Force",
     "bin": "birdfont.exe",
     "shortcuts": [
