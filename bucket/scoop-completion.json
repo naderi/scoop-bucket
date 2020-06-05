@@ -15,7 +15,7 @@
             "if ($PROFILE -and (Test-Path $PROFILE)) {",
             "    Add-Content $PROFILE \"Import-Module '$scoopdir\\modules\\scoop-completion' -ErrorAction SilentlyContinue\" -Encoding Ascii",
             "}",
-            "Remove-Item \"$dir\\bucket\", \"$dir\\*.md\", \"$dir\\LICENSE\" -Force -Recurse"
+            "Remove-Item \"$dir\\bucket\", \"$dir\\src\", \"$dir\\*.md\", \"$dir\\LICENSE\" -Force -Recurse"
         ]
     },
     "uninstaller": {
