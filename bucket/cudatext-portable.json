@@ -22,7 +22,7 @@
     ],
     "persist": "settings",
     "checkver": {
-        "url": "https://www.fosshub.com/CudaText.html",
+        "url": "https://fossies.org/windows/misc/",
         "regex": "cudatext-win-x64-([\\d.]+)\\.zip"
     },
     "autoupdate": {
