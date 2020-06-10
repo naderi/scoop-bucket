@@ -12,18 +12,17 @@
             "$jdk = Get-Item 'D:\\apps\\scoop\\apps\\zulu\\current*'",
             "Set-Content \"$dir\\etc\\netbeans.conf\" (",
             "  $conf -replace '#netbeans_jdkhome=.*',\"netbeans_jdkhome=`\"$jdk`\"\")",
-            "if (-not $?) { exit 1 }",
-            "if (!(Test-Path \"$dir\\bin\\NetBeansPortable.exe\")) {",
-            "    Copy-Item \"D:\\Cloud\\Dropbox\\Apps\\_Portables\\NetBeans\\NetBeansPortable.exe\" \"$dir\\bin\" -Force",
-            "}"
+            "if (-not $?) { exit 1 }"
         ]
     },
     "shortcuts": [
         [
-            "bin/NetBeansPortable.exe",
-            "NetBeans"
+            "bin/netbeans64.exe",
+            "NetBeans",
+            "--userdir \"$dir\\data\\config\" --cachedir \"$dir\\data\\cache\" --console suppress"
         ]
     ],
+    "persist": "data",
     "checkver": {
         "url": "https://netbeans.apache.org/download/index.html",
         "regex": "\\(NB ([\\d.]+)\\)</h2>"
