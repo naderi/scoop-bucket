@@ -19,7 +19,8 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/gab-ai-inc/defiant-browser"
+        "url": "https://dissenter.com/#download",
+        "regex": "browser-download-item__name.+?Windows.+?([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
