@@ -30,6 +30,6 @@
         "regex": "WaterfoxPortable_([\\d.]+)_English.paf.exe"
     },
     "autoupdate": {
-        "url": "https://storage-waterfox.netdna-ssl.com/releases/win64/portable/WaterfoxPortable_$version_English.paf.exe#/dl.7z"
+        "url": "https://cdn.waterfox.net/releases/win64/portable/WaterfoxPortable_$version_English.paf.exe#/dl.7z"
     }
 }
