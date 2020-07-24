@@ -19,7 +19,7 @@
         "CSVed.ini",
         "CSVed.tbx"
     ],
-    "checkver": "#csved.+?([\\d.]+)",
+    "checkver": "CCSVed version ([\\d.]+)",
     "autoupdate": {
         "url": "http://home.hccnet.nl/s.j.francke/csved/CSVed.zip"
     }
