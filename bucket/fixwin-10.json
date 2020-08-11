@@ -15,7 +15,7 @@
             "FixWin 10"
         ]
     ],
-    "checkver": "\"description\":\"FixWin .+?([\\d.]+)",
+    "checkver": "\"description\":\"FixWin ([\\d.]+)",
     "autoupdate": {
         "url": "https://www.thewindowsclub.com/downloads/FixWin10.zip",
         "extract_dir": "FixWin $version"
