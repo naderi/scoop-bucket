@@ -5,7 +5,7 @@
     "homepage": "https://www.chromium.org",
     "url": "https://github.com/macchrome/winchrome/releases/download/v84.0.4147.125-r768962-Win64/ungoogled-chromium-84.0.4147.125-1_windows.7z",
     "hash": "sha1:dfc197d7d05192e44e9ad93f12a2116655e13b85",
-    "extract_dir": "ungoogled-chromium-84.0.4147.125-1_windows",
+    "extract_dir": "ungoogled-chromium-84.0.4147.125_windows",
     "bin": [
         [
             "chrome.exe",
@@ -27,7 +27,7 @@
     },
     "autoupdate": {
         "url": "https://github.com/macchrome/winchrome/releases/download/v$version-r$matchBuild-Win64/ungoogled-chromium-$version-1_windows.7z",
-        "extract_dir": "ungoogled-chromium-$version-1_windows",
+        "extract_dir": "ungoogled-chromium-$version_windows",
         "hash": {
             "url": "https://github.com/macchrome/winchrome/releases/v$version-r$matchBuild-Win64",
             "regex": "(?s)$basename.*?$sha1"
