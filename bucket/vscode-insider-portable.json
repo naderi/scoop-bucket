@@ -47,7 +47,7 @@
     ],
     "checkver": {
         "url": "https://code.visualstudio.com/sha?build=insider",
-        "jp": "$.products[?(@.platform.os == 'win32-x64-archive')].name"
+        "jp": "$.products[?(@.platform.os == 'win32-x64-archive')].version"
     },
     "architecture": {
         "64bit": {
