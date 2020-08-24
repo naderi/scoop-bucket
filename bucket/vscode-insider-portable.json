@@ -48,7 +48,7 @@
     "checkver": {
         "url": "https://code.visualstudio.com/sha?build=insider",
         "jp": "$.products[?(@.platform.os == 'win32-x64-archive')]",
-        "re": "url.+?insider/(?<version>.+?)/VSCode-win32-x64-(?<path>.+?)\\.zip"
+        "re": "\"timestamp\":([\\d]+)"
     },
     "architecture": {
         "64bit": {
