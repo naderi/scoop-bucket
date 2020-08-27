@@ -1,10 +1,10 @@
 {
-    "version": "2020.08",
+    "version": "2020.08.1",
     "description": "The 100% fresh, free-range, ethical browser (portable classic branch).",
     "homepage": "https://www.waterfox.net",
     "license": "MPL-2.0",
-    "url": "https://cdn.waterfox.net/releases/win64/portable/WaterfoxPortable_2020.08_English.paf.exe#/dl.7z",
-    "hash": "098197557479df75437a453cca9a7905dc67bacd56ff8328cfb2440ef4e989b9",
+    "url": "https://cdn.waterfox.net/releases/win64/portable/WaterfoxPortable_2020.08.1_English.paf.exe#/dl.7z",
+    "hash": "5abb83733b731698b752c6dd2ac4a5efac954d098496e8c27242359c5d0ad4f5",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\WaterfoxPortable.ini\")) {",
         "    @(",
