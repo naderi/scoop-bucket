@@ -6,7 +6,6 @@
     "url": "http://www.mannerud.org/tom-andreas/downloads/Toms_Hash_Explorer_v1.2.zip",
     "hash": "md5:c952228c0e07b9fb4753e25bed06ff4b",
     "pre_install": "& \"$dir/setup.exe\" /SP- /SILENT /NOCANCEL /NOCLOSEAPPLICATIONS /NORESTART /DIR=\"$dir\"",
-    "bin": "Toms Hash Explorer.exe",
     "shortcuts": [
         [
             "Toms Hash Explorer.exe",
