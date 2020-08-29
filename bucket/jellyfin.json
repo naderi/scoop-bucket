@@ -1,7 +1,7 @@
 {
     "homepage": "https://jellyfin.org/",
     "license": "GNU",
-    "version": "10.6.2",
+    "version": "10.6.3",
     "url": "https://repo.jellyfin.org/releases/server/windows/versions/stable/combined/10.6.3/jellyfin_10.6.3.zip",
     "hash": "7e4107c5c214b54acd648267af73411ef0eae85f3e7acd0e14616d3aeabd2a67",
     "extract_dir": "jellyfin_10.6.3",
