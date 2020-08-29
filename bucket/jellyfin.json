@@ -9,7 +9,7 @@
     "env_set": {
         "JELLYFIN_DATA_DIR": "$dir\\data"
     },
-    "bin": "jellyfin.exe",
+    "bin": "jellyfin.exe-d $dir\\data",
     "checkver": {
         "github": "https://github.com/jellyfin/jellyfin/"
     },
