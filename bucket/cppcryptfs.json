@@ -4,7 +4,6 @@
     "homepage": "https://www.cryfs.org/",
     "url": "https://github.com/bailey27/cppcryptfs/releases/download/1.4.3.0/cppcryptfs.exe",
     "hash": "230850c8a1b3db5338520f4bca89c0d27d37f384bec9836885f91b253e531add",
-    "bin": "cppcryptfs.exe",
     "shortcuts": [
         [
             "cppcryptfs.exe",

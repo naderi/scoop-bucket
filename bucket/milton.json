@@ -10,7 +10,6 @@
             "extract_dir": "Standalone"
         }
     },
-    "bin": "Milton.exe",
     "shortcuts": [
         [
             "Milton.exe",

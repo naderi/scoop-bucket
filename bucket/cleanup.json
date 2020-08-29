@@ -5,7 +5,6 @@
     "version": "1.41",
     "url": "http://optimumx.com/download/CleanUp.zip",
     "hash": "528b2dd7c1e3387bd44d53dfd45bd4f14da510b912fa0c8821d94ee1bae17ba2",
-    "bin": "CleanUp.exe",
     "shortcuts": [
         [
             "CleanUp.exe",

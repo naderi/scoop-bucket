@@ -6,7 +6,6 @@
     "url": "https://birdfont.org/download/birdfont-4.6.2-free.exe#/dl.7z",
     "hash": "f09f869c301552ec0c38292747e2b5a254020428f15878bff29c0fff347376fd",
     "pre_install": "Remove-Item \"$dir\\uninstall*\" -Force",
-    "bin": "birdfont.exe",
     "shortcuts": [
         [
             "birdfont.exe",

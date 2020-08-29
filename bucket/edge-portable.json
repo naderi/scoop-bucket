@@ -9,10 +9,6 @@
         "   Copy-Item \"$dir\\Bin\\Launcher\\Edge Launcher.exe\" \"$dir\"",
         "}"
     ],
-    "bin": [
-        "Edge Launcher.exe",
-        "Portable Edge (Chromium) Updater.exe"
-    ],
     "shortcuts": [
         [
             "Edge Launcher.exe",

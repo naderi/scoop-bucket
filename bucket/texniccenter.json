@@ -13,7 +13,6 @@
         }
     },
     "innosetup": "true",
-    "bin": "TeXnicCenter.exe",
     "shortcuts": [
         [
             "TeXnicCenter.exe",

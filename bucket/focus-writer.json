@@ -9,7 +9,6 @@
         }
     },
     "persist": "Data",
-    "bin": "FocusWriter.exe",
     "shortcuts": [
         [
             "FocusWriter.exe",

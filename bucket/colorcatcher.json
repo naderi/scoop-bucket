@@ -4,7 +4,6 @@
     "version": "1.5",
     "url": "http://colorcatcher.francke.org/colorcatcher15.zip",
     "hash": "87f91fcb1c5b07f794e5acd863e136cf6cec56568ce311c00557b190b458a78d",
-    "bin": "uniCSVed.exe",
     "shortcuts": [
         [
             "ColorCatcher.exe",

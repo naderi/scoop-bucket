@@ -7,7 +7,6 @@
     "hash": "854fa76918b3ec931d4345ace69ea50d48223f4782b71de2823fc76c2187b532",
     "pre_install": "if(!(Test-Path \"$dir/balabolka.pcfg\")) { Add-Content \"$dir/balabolka.pcfg\" $null }",
     "extract_dir": "Balabolka",
-    "bin": "balabolka.exe",
     "persist": "balabolka.pcfg",
     "shortcuts": [
         [

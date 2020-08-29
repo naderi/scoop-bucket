@@ -9,12 +9,6 @@
         "This is the standalone version of the Code::Blocks IDE (does not include compilers/debuggers)",
         "Check 'codeblocks-mingw' for Code::Blocks with integrated compilers/debuggers"
     ],
-    "bin": [
-        [
-            "codeblocks.exe",
-            "codeblocks-portable"
-        ]
-    ],
     "shortcuts": [
         [
             "codeblocks.exe",

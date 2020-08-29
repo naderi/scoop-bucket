@@ -5,7 +5,6 @@
     "license": "Proprietary",
     "url": "https://www.mitec.cz/Downloads/WRR.zip",
     "hash": "439b6cd63d5a917f97ab35b4b742c5b0efadec5744c958d601bc692ae497ba22",
-    "bin": "WRR.exe",
     "shortcuts": [
         [
             "WRR.exe",

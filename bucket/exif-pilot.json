@@ -7,7 +7,6 @@
     "hash": "1f1486347b351ba01e8f3d2e29807782154de587d7cff7d9565c9227bc43ec87",
     "innosetup": true,
     "persist": "ExifPilot.tags",
-    "bin": "ExifPilot.exe",
     "shortcuts": [
         [
             "ExifPilot.exe",

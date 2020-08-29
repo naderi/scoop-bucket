@@ -11,7 +11,6 @@
     "installer": {
         "script": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal"
     },
-    "bin": "dissenter.exe",
     "shortcuts": [
         [
             "dissenter.exe",

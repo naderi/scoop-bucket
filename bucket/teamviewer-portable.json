@@ -8,7 +8,6 @@
     "version": "15.9.4",
     "url": "https://download.teamviewer.com/download/version_15x/TeamViewerPortable.zip",
     "hash": "5445b3047b43b630777bb7a6875521c53da5460aa777def1c6c12a81297d263e",
-    "bin": "teamviewer.exe",
     "shortcuts": [
         [
             "TeamViewer.exe",

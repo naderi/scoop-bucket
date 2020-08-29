@@ -4,7 +4,6 @@
     "version": "2.5.5",
     "url": "http://home.hccnet.nl/s.j.francke/csved/CSVed.zip",
     "hash": "036b7d1881e31715b181f1a8f20bf2ca00b13f860583d493404b853e7c08791b",
-    "bin": "CSVed.exe",
     "pre_install": [
         "if(!(Test-Path \"$dir/CSVed.ini\")) { Add-Content \"$dir/CSVed.ini\" $null }",
         "if(!(Test-Path \"$dir/CSVed.tbx\")) { Add-Content \"$dir/CSVed.tbx\" $null }"

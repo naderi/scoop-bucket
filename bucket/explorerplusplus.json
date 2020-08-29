@@ -112,7 +112,6 @@
             ]
         }
     },
-    "bin": "Explorer++.exe",
     "persist": "config.xml",
     "shortcuts": [
         [

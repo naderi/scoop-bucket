@@ -6,7 +6,6 @@
     "url": "http://downloads.wisecleaner.com/soft/WRCFree_10.3.1.690.zip",
     "hash": "ef25c063f90b56a11499c81c663e5fe7e046bb14ec8269f7b11c71c669455ce6",
     "extract_dir": "Wise Registry Cleaner",
-    "bin": "WiseRegCleaner.exe",
     "shortcuts": [
         [
             "WiseRegCleaner.exe",

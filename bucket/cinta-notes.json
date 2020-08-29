@@ -5,7 +5,6 @@
     "url": "http://cintanotes.com/files/CintaNotes_3_13.zip",
     "hash": "061988673bc8d3aa77273e64f591750ec38ad5adcd55dd55e148e7fe3ed5528a",
     "extract_dir": "CintaNotes_3_13",
-    "bin": "CintaNotes.exe",
     "shortcuts": [
         [
             "CintaNotes.exe",

@@ -13,12 +13,6 @@
             "hash": "a87f3ab97229416959fdcd77b9233cbdeb7e923ce86d350ecb15e142b936b68c"
         }
     },
-    "bin": [
-        [
-            "chrome.exe",
-            "centbrowser"
-        ]
-    ],
     "shortcuts": [
         [
             "chrome.exe",

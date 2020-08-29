@@ -15,7 +15,6 @@
             "extract_dir": "StrokesPlus_x86"
         }
     },
-    "bin": "StrokesPlus.exe",
     "persist": "StrokesPlus.xml",
     "checkver": {
         "url": "https://www.strokesplus.com/latestrelease.xml",

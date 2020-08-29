@@ -6,7 +6,6 @@
     "url": "http://downloads.wisecleaner.com/soft/WPU_2.3.8.142.zip",
     "hash": "55087cb84eceb79931f8b70409ba4024e64ef6f4ddef9566013f74644b03bd3e",
     "extract_dir": "Wise Program Uninstaller",
-    "bin": "WiseProgramUninstaller.exe",
     "shortcuts": [
         [
             "WiseProgramUninstaller.exe",

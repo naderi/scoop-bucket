@@ -1,5 +1,5 @@
 {
-    "homepage": "https://kurtzimmermann.com",
+    "homepage": "https://kurtzimmermann.com/regcoolext_en.html",
     "version": "1.001",
     "license": "freeware",
     "architecture": {
@@ -12,7 +12,6 @@
             "hash": "ba92e567a74ea64ff7db2bc3fecabaeeac6a08ad451db634a617e82f0d8db561"
         }
     },
-    "bin": "RegCool.exe",
     "persist": "Settings",
     "shortcuts": [
         [

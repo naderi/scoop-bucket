@@ -15,7 +15,6 @@
             "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstal*\" -Recurse"
         ]
     },
-    "bin": "W10Privacy.exe",
     "shortcuts": [
         [
             "W10Privacy.exe",

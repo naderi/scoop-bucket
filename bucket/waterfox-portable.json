@@ -14,7 +14,6 @@
         "}",
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse"
     ],
-    "bin": "WaterfoxPortable.exe",
     "shortcuts": [
         [
             "WaterfoxPortable.exe",

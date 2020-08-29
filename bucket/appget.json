@@ -6,8 +6,7 @@
     "hash": "9f9e587e268b0b4a500caaaabe386a35e1eb93da19e9f036c525f202d35ac6af",
     "innosetup": true,
     "bin": [
-        "appget.exe",
-        "appget.gui.exe"
+        "appget.exe"
     ],
     "shortcuts": [
         [

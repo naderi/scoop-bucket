@@ -10,7 +10,6 @@
             "extract_dir": "Soundnode-win32-x64"
         }
     },
-    "bin": "Soundnode.exe",
     "shortcuts": [
         [
             "Soundnode.exe",

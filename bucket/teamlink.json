@@ -9,7 +9,6 @@
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall TeamLink.exe\" -Recurse -Force"
     ],
-    "bin": "TeamLink.exe",
     "shortcuts": [
         [
             "TeamLink.exe",

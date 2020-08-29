@@ -13,7 +13,6 @@
         }
     },
     "extract_dir": "smplayer-portable-19.5.0.0",
-    "bin": "smplayer.exe",
     "persist": [
         "smplayer.ini",
         "playlist.ini",

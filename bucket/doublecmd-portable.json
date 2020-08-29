@@ -35,7 +35,6 @@
         "if(!(Test-Path \"$dir/shortcuts.scf\")) { Add-Content \"$dir/shortcuts.scf\" $null }"
     ],
     "extract_dir": "doublecmd",
-    "bin": "doublecmd.exe",
     "shortcuts": [
         [
             "doublecmd.exe",

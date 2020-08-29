@@ -5,7 +5,6 @@
     "url": "https://download.mediathekview.de/stabil/MediathekView-latest-win.zip",
     "hash": "5253c3075902c712e6136b944639d3e486070ded874ad65a0b9423e263c8af35",
     "extract_dir": "MediathekView",
-    "bin": "MediathekView_Portable.exe",
     "shortcuts": [
         [
             "MediathekView_Portable.exe",

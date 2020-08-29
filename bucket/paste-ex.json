@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/huiyadanli/PasteEx",
+    "description": "Paste the contents of the clipboard into files.",
     "version": "1.1.7.8",
     "license": "GPL-3.0-later",
     "url": "https://github.com/huiyadanli/PasteEx/releases/download/1.1.7.8/PasteEx.v1.1.7.8.zip",
     "extract_dir": "PasteEx",
     "hash": "8989da62bc6bc29ca00f40404d23bb3f618d78f637bdfd74c19e4c825ccf0d40",
-    "bin": "PasteEx.exe",
     "shortcuts": [
         [
             "PasteEx.exe",

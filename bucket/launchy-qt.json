@@ -14,7 +14,12 @@
             "extract_dir": "Launchy-3.1.1-win-x86"
         }
     },
-    "bin": "Launchy.exe",
+    "shortcuts": [
+        [
+            "Launchy.exe",
+            "Launchy"
+        ]
+    ],
     "persist": "config",
     "checkver": {
         "github": "https://github.com/samsonwang/LaunchyQt"

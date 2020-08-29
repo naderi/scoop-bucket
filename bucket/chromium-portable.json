@@ -6,13 +6,6 @@
     "url": "https://github.com/macchrome/winchrome/releases/download/v84.0.4147.125-r768962-Win64/ungoogled-chromium-84.0.4147.125-1_windows.7z",
     "hash": "sha1:dfc197d7d05192e44e9ad93f12a2116655e13b85",
     "extract_dir": "ungoogled-chromium-84.0.4147.125_windows",
-    "bin": [
-        [
-            "chrome.exe",
-            "chromium",
-            "--user-data-dir=\"$dir\\Data\""
-        ]
-    ],
     "shortcuts": [
         [
             "chrome.exe",

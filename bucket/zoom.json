@@ -12,7 +12,6 @@
         "Expand-7zipArchive \"$dir\\Zoom.msi\" -Removal",
         "Remove-Item \"$dir\\Install*\""
     ],
-    "bin": "Zoom.exe",
     "shortcuts": [
         [
             "Zoom.exe",

@@ -9,7 +9,6 @@
     "url": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.2.5.14/qbittorrent_4.2.5.14_x64_setup.exe#/dl.7z",
     "hash": "e4f6fe6caa39d189d4bab32f9438640cf631d7c6a2b1a78286da85920506b3af",
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
-    "bin": "qbittorrent.exe",
     "shortcuts": [
         [
             "qbittorrent.exe",

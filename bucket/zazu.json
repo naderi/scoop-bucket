@@ -11,7 +11,6 @@
             "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall Zazu.exe\"  -Force -Recurse"
         ]
     },
-    "bin": "Zazu.exe",
     "shortcuts": [
         [
             "Zazu.exe",

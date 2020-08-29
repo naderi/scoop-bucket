@@ -11,7 +11,6 @@
     "extract_dir": "EcMenu_v1.6",
     "architecture": {
         "64bit": {
-            "bin": "EcMenu_x64.exe",
             "shortcuts": [
                 [
                     "EcMenu_x64.exe",
@@ -20,7 +19,6 @@
             ]
         },
         "32bit": {
-            "bin": "EcMenu.exe",
             "shortcuts": [
                 [
                     "EcMenu.exe",

@@ -4,7 +4,6 @@
     "version": "1.1",
     "url": "http://home.hccnet.nl/s.j.francke/csved/uniCSVed.zip",
     "hash": "5e9590ee61f232c7757d945213131cd7a0349e0e2db7b1decd46ead7d2fa7185",
-    "bin": "uniCSVed.exe",
     "shortcuts": [
         [
             "uniCSVed.exe",

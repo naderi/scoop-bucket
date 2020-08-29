@@ -14,7 +14,6 @@
                     "Remove-Item \"$dir\\64bit\", \"$dir\\32bit\" -Force -Recurse"
                 ]
             },
-            "bin": "ch64.exe",
             "shortcuts": [
                 [
                     "ch64.exe",
@@ -29,7 +28,6 @@
                     "Remove-Item \"$dir\\64bit\", \"$dir\\32bit\" -Force -Recurse"
                 ]
             },
-            "bin": "ch.exe",
             "shortcuts": [
                 [
                     "ch.exe",

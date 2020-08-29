@@ -22,7 +22,6 @@
             ]
         }
     },
-    "bin": "Bulk Rename Utility.exe",
     "persist": "Bulk Rename Utility.ini",
     "shortcuts": [
         [

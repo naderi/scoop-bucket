@@ -12,7 +12,6 @@
             "hash": "25e8e1a21f75dcfcbd0f24789914afb0ae7ebeb92679bce2ef5531e7bf2d78df"
         }
     },
-    "bin": "javaeditor.exe",
     "persist": [
         "JEMachine.INI",
         "Data",
