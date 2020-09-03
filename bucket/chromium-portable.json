@@ -1,5 +1,5 @@
 {
-    "version": "84.0.4147.125",
+    "version": "84.0.4147.123",
     "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web.",
     "license": "BSD-3-Clause",
     "homepage": "https://www.chromium.org",
@@ -19,11 +19,23 @@
         "regex": "v([\\d.]+)-r(?<build>\\d+)-Win64"
     },
     "autoupdate": {
-        "url": "https://github.com/macchrome/winchrome/releases/download/v$version-r$matchBuild-Win64/ungoogled-chromium-$version-1_windows.7z",
-        "extract_dir": "ungoogled-chromium-$version_windows",
-        "hash": {
-            "url": "https://github.com/macchrome/winchrome/releases/v$version-r$matchBuild-Win64",
-            "regex": "(?s)$basename.*?$sha1"
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/macchrome/winchrome/releases/download/v$version-r$matchBuild-Win64/ungoogled-chromium-$version-2_Win64.7z",
+                "extract_dir": "ungoogled-chromium-$version_windows",
+                "hash": {
+                    "url": "https://github.com/macchrome/winchrome/releases/v$version-r$matchBuild-Win64",
+                    "regex": "(?s)$basename.*?$sha1"
+                }
+            },
+            "64bit": {
+                "url": "https://github.com/macchrome/winchrome/releases/download/v$version-r$matchBuild-Win64/ungoogled-chromium-$version-2_Win32.7z",
+                "extract_dir": "ungoogled-chromium-$version_windows",
+                "hash": {
+                    "url": "https://github.com/macchrome/winchrome/releases/v$version-r$matchBuild-Win64",
+                    "regex": "(?s)$basename.*?$sha1"
+                }
+            }
         }
     }
 }
