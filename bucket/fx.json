@@ -2,9 +2,9 @@
     "homepage": "https://fx.wtf/",
     "description": "Terminal JSON viewer",
     "license": "MIT",
-    "version": "19.0.1",
-    "url": "https://github.com/antonmedv/fx/releases/download/19.0.1/fx-win.exe.zip",
-    "hash": "a5d552376c56c75e2c5bc64a2b21106f7999ddf57262a23161da5690b1d477a4",
+    "version": "20.0.0",
+    "url": "https://github.com/antonmedv/fx/releases/download/20.0.0/fx-win.exe.zip",
+    "hash": "66f61d5645a2a979a4eb1dca878152107636968e56693e17fea84cc6f253fc85",
     "bin": [
         [
             "fx-win.exe",
