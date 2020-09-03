@@ -22,7 +22,7 @@
                 [
                     "bin/netbeans64.exe",
                     "NetBeans",
-                    "--userdir \"$dir\\data\\config\" --cachedir \"$dir\\data\\cache\" --console suppress"
+                    "--userdir \"\\apps\\.config\\NetBeans\\config\" --cachedir \"\\apps\\.config\\NetBeans\\cache\" --console suppress"
                 ]
             ]
         },
@@ -31,7 +31,7 @@
                 [
                     "bin/netbeans.exe",
                     "NetBeans",
-                    "--userdir \"$dir\\data\\config\" --cachedir \"$dir\\data\\cache\" --console suppress"
+                    "--userdir \"\\apps\\.config\\NetBeans\\config\" --cachedir \"\\apps\\.config\\NetBeans\\cache\" --console suppress"
                 ]
             ]
         }
