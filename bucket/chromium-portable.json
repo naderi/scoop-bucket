@@ -7,12 +7,12 @@
         "64bit": {
             "url": "https://github.com/macchrome/winchrome/releases/download/v85.0.4183.83-r782793-Win64/ungoogled-chromium-85.0.4183.83-2_Win64.7z",
             "hash": "sha1:e2a561650ca6f3622acc1d170a6e76ef87405152",
-            "extract_dir": "ungoogled-chromium-85.0.4183.83_Win64"
+            "extract_dir": "ungoogled-chromium-85.0.4183.83-2_Win64"
         },
         "32bit": {
             "url": "https://github.com/macchrome/winchrome/releases/download/v85.0.4183.83-r782793-Win64/ungoogled-chromium-85.0.4183.83-2_Win32.7z",
             "hash": "sha1:7be72395b89ce0cc5f6fdbcd3a90835baf4051e8",
-            "extract_dir": "ungoogled-chromium-85.0.4183.83_Win32"
+            "extract_dir": "ungoogled-chromium-85.0.4183.83-2_Win32"
         }
     },
     "shortcuts": [
@@ -31,7 +31,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/macchrome/winchrome/releases/download/v$version-r$matchBuild-Win64/ungoogled-chromium-$version-2_Win64.7z",
-                "extract_dir": "ungoogled-chromium-$version_Win64",
+                "extract_dir": "ungoogled-chromium-$version-2_Win64",
                 "hash": {
                     "url": "https://github.com/macchrome/winchrome/releases/v$version-r$matchBuild-Win64",
                     "regex": "(?s)$basename.*?$sha1"
@@ -39,7 +39,7 @@
             },
             "32bit": {
                 "url": "https://github.com/macchrome/winchrome/releases/download/v$version-r$matchBuild-Win64/ungoogled-chromium-$version-2_Win32.7z",
-                "extract_dir": "ungoogled-chromium-$version_Win32",
+                "extract_dir": "ungoogled-chromium-$version-2_Win32",
                 "hash": {
                     "url": "https://github.com/macchrome/winchrome/releases/v$version-r$matchBuild-Win64",
                     "regex": "(?s)$basename.*?$sha1"
