@@ -15,7 +15,6 @@
             "if (-not $?) { exit 1 }"
         ]
     },
-    "persist": "data",
     "architecture": {
         "64bit": {
             "shortcuts": [
