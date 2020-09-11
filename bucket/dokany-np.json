@@ -1,10 +1,10 @@
 {
-    "version": "1.7.20172",
+    "version": "1.4.0.1000",
     "description": "When you want to create a new file system on Windows, other than FAT or NTFS, you need to develop a file system driver.",
     "homepage": "https://github.com/dokan-dev/dokany/",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/billziss-gh/winfsp/releases/download/v1.7/winfsp-1.7.20172.msi#/setup.msi_",
-    "hash": "3c7a8bf41b0276cc1acabaee502e9ecd81f52d68a92be4119d45ae4c441dad10",
+    "url": "https://github.com/dokan-dev/dokany/releases/download/v1.4.0.1000/Dokan_x64.msi#/setup.msi_",
+    "hash": "d5eb126cfe2582edd79923aec53e879b78c1f2696d144fc3680ccc858cc05c97",
     "installer": {
         "script": "Invoke-ExternalCommand msiexec -ArgumentList @('/i', \"$dir\\setup.msi_\", '/qn') -RunAs | Out-Null"
     },
