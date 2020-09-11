@@ -1,10 +1,10 @@
 {
-    "version": "0.2.33",
+    "version": "0.11.1",
     "description": "securefs is a filesystem in userspace (FUSE) with transparent encryption (when writing) and decryption (when reading).",
     "homepage": "https://github.com/netheril96/securefs",
     "license": "MIT",
-    "url": "https://github.com/PeterDing/chord/releases/download/v0.2.33/chord-0.2.33-win.exe#/dl.7z",
-    "hash": "ff4a8e336669fa0c8f75708d2efb4de4fda632c3d649eeb12b78f018f9ceb3cf",
+    "url": "https://github.com/netheril96/securefs/releases/download/0.11.1/securefs-win64.zip",
+    "hash": "85360ecc01cd67ef95139f7a9bf31050634a41ecc885587c519875f584bd7209",
     "installer": {
         "script": [
             "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
