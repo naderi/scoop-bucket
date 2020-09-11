@@ -1,0 +1,17 @@
+{
+    "version": "0.10.2",
+    "description": "CryFS encrypts your files, so you can safely store them anywhere.",
+    "homepage": "https://www.cryfs.org/",
+    "url": "https://github.com/cryfs/cryfs/releases/download/0.10.2/cryfs-0.10.2-win64.msi",
+    "hash": "a905b4b74a4317451fc61c83d7017d9f7e54d5ee163164ce947b869c229efcf3",
+    "extract_dir": "Encfs\\bin",
+    "bin": [
+        "encfs.exe",
+        "encfsctl.exe",
+        "pkill.exe"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/mhogomchungu/encfs/releases/download/$version/Encfs.zip",
+    }
+}
