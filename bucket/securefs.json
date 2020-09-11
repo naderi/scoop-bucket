@@ -5,16 +5,10 @@
     "license": "MIT",
     "url": "https://github.com/netheril96/securefs/releases/download/0.11.1/securefs-win64.zip",
     "hash": "85360ecc01cd67ef95139f7a9bf31050634a41ecc885587c519875f584bd7209",
-    "installer": {
-        "script": [
-            "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
-            "Remove-Item \"$dir\\`$PLUGINSDIR\"  -Force -Recurse"
-        ]
-    },
-    "shortcuts": [
+    "bin": [
         [
-            "chord.exe",
-            "Chord"
+            "securefs.exe",
+            "securefs"
         ]
     ],
     "checkver": "github",
