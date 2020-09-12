@@ -31,21 +31,15 @@
     "persist": "Profile",
     "checkver": {
         "url": "https://www.mozilla.org/de/firefox/all/",
-        "regex": "<option value=\"desktop_nightly\">([\\db.]+)"
+        "regex": "<option value=\"desktop_nightly\">([\\da.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://archive.mozilla.org/pub/firefox/nightly/$matchYyyy/$matchMm/$matchYyyy-$matchMm-$matchDd-$matchHr-$matchMi-$matchSe-mozilla-central/firefox-$majorVersion.$minorVersion.en-US.win64.installer.exe#/dl.7z",
-                "hash": {
-                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.en-US.win64.checksums"
-                }
+                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central/firefox-$version.en-US.win64.zip"
             },
             "32bit": {
-                "url": "https://archive.mozilla.org/pub/firefox/nightly/$matchYyyy/$matchMm/$matchYyyy-$matchMm-$matchDd-$matchHr-$matchMi-$matchSe-mozilla-central/firefox-$majorVersion.$minorVersion.en-US.win32.installer.exe#/dl.7z",
-                "hash": {
-                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.en-US.win32.checksums"
-                }
+                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central/firefox-$version.en-US.win32.zip"
             }
         }
     }
