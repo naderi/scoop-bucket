@@ -13,7 +13,7 @@
             "hash": "e0810bd7d43dd03e590711c2649210e08223801d2e7281af61a7ecf12ed841cc"
         }
     },
-    "extract_dir": "core",
+    "extract_dir": "firefox",
     "bin": [
         [
             "firefox.exe",
