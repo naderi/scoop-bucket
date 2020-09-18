@@ -6,7 +6,7 @@
     "url": "http://update.kmpmedia.net/kmp64player/update#dl.7z",
     "hash": "ec26a8d7e1d21702ac5c6041e05014ef9e91046a7b23bbebadd3ba0857569ab1",
     "pre_install": "if(!(Test-Path \"$dir/KMPCfg.ini\")) { Add-Content \"$dir/KMPCfg.ini\" $null }",
-    "post_install": "Remove-Item \"$dir\\Additional files\" -Force -Recurse",
+    "post_install": "Remove-Item \"$dir\\$PLUGINSDIR\" -Force -Recurse",
     "shortcuts": [
         [
             "KMPlayer64.exe",
