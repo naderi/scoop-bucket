@@ -1,0 +1,22 @@
+{
+    "description": "KMPlayer is a versatile media player.",
+    "homepage": "https://www.mozilla.org/en-US/firefox/nightly/",
+    "version": "82.0a1",
+    "license": "MPL-2.0",
+    "url": "http://update.kmpmedia.net/kmp64player/update",
+    "hash": "9da1baec9ade09258a9229fa3d4c5e0e9529fb630bcf0f878e3396df88647517",
+    "shortcuts": [
+        [
+            "KMPlayer64.exe",
+            "KMPlayer",
+        ]
+    ],
+    "persist": "Profile",
+    "checkver": {
+        "url": "https://www.computerbild.de/download/KMPlayer-19338.html",
+        "regex": "<title>.+([\\da.]+)"
+    },
+    "autoupdate": {
+        "url": "http://update.kmpmedia.net/kmp64player/update"
+    }
+}
