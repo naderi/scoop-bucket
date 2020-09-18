@@ -3,7 +3,7 @@
     "homepage": "https://www.mozilla.org/en-US/firefox/nightly/",
     "version": "2020.06.09.40",
     "license": "MPL-2.0",
-    "url": "http://update.kmpmedia.net/kmp64player/update",
+    "url": "http://update.kmpmedia.net/kmp64player/update#dl.7z",
     "hash": "ec26a8d7e1d21702ac5c6041e05014ef9e91046a7b23bbebadd3ba0857569ab1",
     "shortcuts": [
         [
@@ -17,6 +17,6 @@
         "regex": "<title>.+?([\\d.]+)"
     },
     "autoupdate": {
-        "url": "http://update.kmpmedia.net/kmp64player/update"
+        "url": "http://update.kmpmedia.net/kmp64player/update#dl.7z"
     }
 }
