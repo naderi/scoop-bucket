@@ -5,7 +5,10 @@
     "license": "Freeware",
     "url": "http://update.kmpmedia.net/kmp64player/update#dl.7z",
     "hash": "ec26a8d7e1d21702ac5c6041e05014ef9e91046a7b23bbebadd3ba0857569ab1",
-    "pre_install": "if(!(Test-Path \"$dir/KMPlayer64.ini\")) { Add-Content \"$dir/KMPlayer64.ini\" $null }",
+    "pre_install": [
+        "if(!(Test-Path \"$dir/KMPlayer64.ini\")) { Add-Content \"$dir/KMPlayer64.ini\" $null }",
+        "if(!(Test-Path \"$dir/default.kpl\")) { Add-Content \"$dir/default.kpl\" $null }"
+    ],
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse",
     "shortcuts": [
         [
@@ -13,7 +16,11 @@
             "KMPlayer"
         ]
     ],
-    "persist": "KMPlayer64.ini",
+    "persist": [
+        "Capture",
+        "default.kpl",
+        "KMPlayer64.ini"
+    ],
     "checkver": {
         "url": "https://www.computerbild.de/download/KMPlayer-19338.html",
         "regex": "<title>.+?([\\d.]+)"
