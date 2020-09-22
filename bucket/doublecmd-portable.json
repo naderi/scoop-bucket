@@ -38,7 +38,8 @@
     "shortcuts": [
         [
             "doublecmd.exe",
-            "Double Commander"
+            "Double Commander",
+            "--no-splash"
         ]
     ],
     "persist": [
