@@ -14,7 +14,7 @@
         "uniCSVed.ini",
         "uniCSVed.dat"
     ],
-    "checkver": "/csved/uniCSVed.zip\">uniCSVed ([\\d.]+) ",
+    "checkver": "/csved/uniCSVed.zip\".+?([\\d.]+)",
     "autoupdate": {
         "url": "http://home.hccnet.nl/s.j.francke/csved/uniCSVed.zip"
     }
