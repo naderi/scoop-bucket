@@ -28,6 +28,7 @@
             "-Profile Profile"
         ]
     ],
+    "persist": "Profile",
     "checkver": {
         "url": "https://www.mozilla.org/de/firefox/all/",
         "regex": "<option value=\"desktop_beta\">([\\db.]+)"
