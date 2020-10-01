@@ -1,11 +1,11 @@
 {
-    "version": "1.4.6",
+    "version": "1.4.7",
     "description": "SiriKali is a Qt/C++ GUI application that manages ecryptfs, cryfs, encfs, gocryptfs, fscrypt and securefs based encrypted folders.",
     "homepage": "https://github.com/mhogomchungu/sirikali",
     "license": "MIT",
-    "url": "https://github.com/mhogomchungu/sirikali/releases/download/1.4.6/SiriKali-1.4.6.exe.zip",
-    "hash": "0b07c18f50a72d24f7a3a7d000145d6bebb48f2fd9ba9c993432b063174d239d",
-    "extract_dir": "SiriKali-1.4.6.exe",
+    "url": "https://github.com/mhogomchungu/sirikali/releases/download/1.4.7/SiriKali-1.4.7.exe.zip",
+    "hash": "f3495dad512aee7b952bc2a396aa2a439047feabfe8ae0ead72d533d3be582b8",
+    "extract_dir": "SiriKali-1.4.7.exe",
     "shortcuts": [
         [
             "sirikali.exe",
