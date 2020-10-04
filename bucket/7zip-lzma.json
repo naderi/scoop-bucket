@@ -1,0 +1,40 @@
+{
+    "homepage": "https://7-zip.de/sdk.html",
+    "description": "The LZMA SDK provides the documentation, samples, header files, libraries, and tools you need to develop applications that use LZMA compression.",
+    "license": {
+        "identifier": "Freeware,LGPL-2.0-only,BSD-3-Clause",
+        "url": "https://www.7-zip.org/license.txt"
+    },
+    "version": "18.00",
+    "url": "https://www.7-zip.org/a/7z1900-extra.7z",
+    "hash": "af6eca1c8578df776189ee7785ab5d21525e42590f788c4e82e961a36c3a5306",
+    "architecture": {
+        "64bit": {
+            "extract_dir": "bin/x64",
+            "installer": {
+                "script": [
+                    "Move-Item \"$dir\\bin\\x64\\7zr.exe\" \"$dir\\7zr.exe\" -Force",
+                    "Remove-Item \"$dir\\x64\", \"$dir\\installer\" -Force -Recurse"
+                ]
+            }
+        },
+        "32bit": {
+            "extract_dir": "bin",
+            "installer": {
+                "script": "Remove-Item \"$dir\\x64\", \"$dir\\installer\" -Force -Recurse"
+            }
+        }
+    },
+    "bin": [
+        "7zdec.exe",
+        "7zr.exe",
+        "lzma.exe"
+    ],
+    "checkver": {
+        "url": "https://www.7-zip.org/download.html",
+        "regex": "Download 7-Zip ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.7-zip.org/a/lzma$cleanVersion.7z"
+    }
+}
