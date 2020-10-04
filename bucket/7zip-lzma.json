@@ -5,9 +5,9 @@
         "identifier": "Freeware,LGPL-2.0-only,BSD-3-Clause",
         "url": "https://www.7-zip.org/license.txt"
     },
-    "version": "18.00",
-    "url": "https://www.7-zip.org/a/7z1900-extra.7z",
-    "hash": "af6eca1c8578df776189ee7785ab5d21525e42590f788c4e82e961a36c3a5306",
+    "version": "19.00",
+    "url": "https://www.7-zip.org/a/lzma1900.7z",
+    "hash": "00f569e624b3d9ed89cf8d40136662c4c5207eaceb92a70b1044c77f84234bad",
     "architecture": {
         "64bit": {
             "extract_dir": "bin/x64",
