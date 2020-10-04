@@ -13,7 +13,7 @@
             "extract_dir": "bin",
             "installer": {
                 "script": [
-                    "Move-Item \"$dir\\bin\\x64\\7zr.exe\" \"$dir\\7zr.exe\" -Force",
+                    "Move-Item \"$dir\\x64\\7zr.exe\" \"$dir\\7zr.exe\" -Force",
                     "Remove-Item \"$dir\\x64\", \"$dir\\installer\" -Force -Recurse"
                 ]
             }
