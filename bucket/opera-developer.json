@@ -1,5 +1,5 @@
 {
-    "version": "73.0.3827.0",
+    "version": "73.0.3834.0",
     "description": "Fast, secure, easy-to-use browser.",
     "homepage": "https://www.opera.com/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download1.operacdn.com/pub/opera-developer/73.0.3827.0/win/Opera_Developer_73.0.3827.0_Setup_x64.exe#/dl.7z",
-            "hash": "1681fa3350af39405bd049760dee9a03f7ce21a80e546a6e39ebaa76d45d05ae"
+            "url": "https://download1.operacdn.com/pub/opera-developer/73.0.3834.0/win/Opera_Developer_73.0.3834.0_Setup_x64.exe#/dl.7z",
+            "hash": "9d9a8e93cc0b580ebe630c9741c4a50c50229cd2a0c8d9d2760cbf13b5964447"
         },
         "32bit": {
-            "url": "https://download1.operacdn.com/pub/opera-developer/73.0.3827.0/win/Opera_Developer_73.0.3827.0_Setup.exe#/dl.7z",
-            "hash": "61d5cb6aea2902517e40b16db6f70ffe0309cdc128ef124939a6d3128d54c7ca"
+            "url": "https://download1.operacdn.com/pub/opera-developer/73.0.3834.0/win/Opera_Developer_73.0.3834.0_Setup.exe#/dl.7z",
+            "hash": "5e0b70d2914b2940db17dea8240967d0fe0ba758915800906069974e7a3183bc"
         }
     },
     "installer": {
