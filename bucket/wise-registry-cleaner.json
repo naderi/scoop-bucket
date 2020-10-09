@@ -17,7 +17,7 @@
         "config.ini"
     ],
     "checkver": {
-        "url": "https://www.wisecleaner.eu/download.html",
+        "url": "https://www.wisecleaner.com/download.html",
         "regex": "WRCFree.+?([\\d.]+)?\\.zip"
     },
     "autoupdate": {
