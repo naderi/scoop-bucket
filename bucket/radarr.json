@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/Radarr/Radarr",
-    "version": "0.1.5",
+    "version": "0.2.0.1504",
     "license": "MIT",
-    "url": "https://github.com/vladimir-kotikov/clink-completions/archive/0.3.5.zip",
-    "hash": "1bf9136238a03634c830e02ae60661627aa35ef04cd9a841a815244a337fc782",
+    "url": "https://github.com/Radarr/Radarr/releases/download/v0.2.0.1504/Radarr.develop.0.2.0.1504.windows.zip",
+    "hash": "8a0a1f84a4b9fd9e493550842a1b61484203a65847122006c31cb3da7a491409",
     "extract_dir": "Radarr",
     "shortcuts": [
         [
@@ -13,6 +13,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Radarr/Radarr/releases/download/v$version/Radarr.develop.$version.windows.zip",
+        "url": "https://github.com/Radarr/Radarr/releases/download/v$version/Radarr.develop.$version.windows.zip"
     }
 }
