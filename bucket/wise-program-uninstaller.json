@@ -17,7 +17,7 @@
         "ExConfig.ini"
     ],
     "checkver": {
-        "url": "https://www.wisecleaner.eu/download.html",
+        "url": "https://www.wisecleaner.com/download.html",
         "regex": "WPU.+?([\\d.]+)?\\.zip"
     },
     "autoupdate": {
