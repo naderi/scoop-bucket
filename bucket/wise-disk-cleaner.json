@@ -17,7 +17,7 @@
         "DefragOptions.ini"
     ],
     "checkver": {
-        "url": "https://www.wisecleaner.eu/download.html",
+        "url": "https://www.wisecleaner.com/download.html",
         "regex": "WDCFree.+?([\\d.]+)?\\.zip"
     },
     "autoupdate": {
