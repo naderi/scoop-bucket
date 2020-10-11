@@ -1,9 +1,9 @@
 {
     "homepage": "https://sonarr.tv",
-    "version": "3.0.3",
+    "version": "3.0.4",
     "license": "MIT",
     "url": "https://services.sonarr.tv/v1/download/phantom-develop/latest?version=3&os=windows",
-    "hash": "f92856350325512beece2d2a96abb457e8d014f513cf9bcfe79452188e88e806",
+    "hash": "128a3a36716fcf38652cb81caa131f896895d95609935ebc508600cd9b777dca",
     "extract_dir": "Sonarr",
     "shortcuts": [
         [
