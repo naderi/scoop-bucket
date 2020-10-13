@@ -13,7 +13,7 @@
         ]
     ],
     "checkver": {
-        "url": "http://birdfont.org/purchase.php",
+        "url": "https://birdfont.org/purchase.php",
         "regex": "download/birdfont-([\\d.]+)"
     },
     "autoupdate": {
