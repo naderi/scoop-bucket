@@ -1,10 +1,10 @@
 {
-    "version": "10.3.3.785",
+    "version": "10.3.6.788",
     "description": "Clean junks of Browsers, remove junk and useless files of Windows and Defragment your disk.",
     "homepage": "https://www.wisecleaner.com/wise-disk-cleaner.html",
     "license": "Freeware",
-    "url": "http://downloads.wisecleaner.com/soft/WDCFree_10.3.3.785.zip",
-    "hash": "571c778a71f169b20647c0486e3ce0aef727e6a7842cb21f993208d8bcb8c660",
+    "url": "http://downloads.wisecleaner.com/soft/WDCFree_10.3.6.788.zip",
+    "hash": "a6f558fdb47552e2f9397deeb570715e234ceb76abf03a099567ed345dd28f29",
     "extract_dir": "Wise Disk Cleaner",
     "shortcuts": [
         [
