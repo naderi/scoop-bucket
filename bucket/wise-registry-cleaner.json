@@ -1,10 +1,10 @@
 {
-    "version": "10.3.1.690",
+    "version": "10.3.2.691",
     "description": "Clean registry junks, repair Windows errors, and keep your PC at peak performance.",
     "homepage": "https://www.wisecleaner.com/wise-registry-cleaner.html",
     "license": "Freeware",
-    "url": "http://downloads.wisecleaner.com/soft/WRCFree_10.3.1.690.zip",
-    "hash": "ef25c063f90b56a11499c81c663e5fe7e046bb14ec8269f7b11c71c669455ce6",
+    "url": "http://downloads.wisecleaner.com/soft/WRCFree_10.3.2.691.zip",
+    "hash": "d624b3e70073b7d4fa6386e19caef3ce5e7d5b97978f5c67b76e5603812fb09b",
     "extract_dir": "Wise Registry Cleaner",
     "shortcuts": [
         [
