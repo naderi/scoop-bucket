@@ -42,7 +42,7 @@
     ],
     "checkver": {
         "url": "https://www.copyhandler.com/download",
-        "regex": "<li>Stable version: ([\\d.]+)</li>"
+        "regex": "Copy-Handler.html?dwl=chsetup-(.+)?\\."
     },
     "autoupdate": {
         "url": "https://www.fosshub.com/Copy-Handler.html?dwl=ch-portable-$version.zip",
