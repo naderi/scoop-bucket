@@ -1,16 +1,16 @@
 {
     "description": "Nightly builds of Firefox: the popular open source web browser.",
     "homepage": "https://www.mozilla.org/en-US/firefox/nightly/",
-    "version": "83.0a1",
+    "version": "84.0a1",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central/firefox-83.0a1.en-US.win64.zip",
-            "hash": "c9070ba6c0e0f3d1736fec7c93ce54129355ce048c2f8156dd1adec712450785"
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central/firefox-84.0a1.en-US.win64.zip",
+            "hash": "bc5b87e86f9bda60dec0ba41146e2dcffb7e01d9f0e6ba2ecaaa9e3dd74e234f"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central/firefox-83.0a1.en-US.win32.zip",
-            "hash": "2bf40cf8345544a018e823d7e17026ac8387ef61f7618d611a168cb634ac8f29"
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central/firefox-84.0a1.en-US.win32.zip",
+            "hash": "4f43e9fb5c449f00dea5ebc4fc70cf93eccc7b5a471a9cd61f70688e2edfe357"
         }
     },
     "extract_dir": "firefox",
