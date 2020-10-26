@@ -1,5 +1,5 @@
 {
-    "version": "2020.08.20",
+    "version": "2020.09.20",
     "description": "Download videos from YouTube.com (and a few more sites) using command line.",
     "homepage": "https://youtube-dl.org",
     "license": "Unlicense",
@@ -10,7 +10,7 @@
         ],
         "vcredist": "extras/vcredist2010"
     },
-    "url": "https://github.com/ytdl-org/youtube-dl/releases/download/2020.09.20/youtube-dl.exe",
+    "url": "https://youtube-dl.org/downloads/latest/youtube-dl.exe",
     "hash": "2b71484b309ae369873cb9a421ac03ba6b642704e112eb1ca5cde6820a12d8fb",
     "bin": "youtube-dl.exe",
     "checkver": {
@@ -18,9 +18,9 @@
         "regex": "youtube-dl-([\\d.]+).tar"
     },
     "autoupdate": {
-        "url": "https://github.com/ytdl-org/youtube-dl/releases/download/$version/youtube-dl.exe",
+        "url": "https://youtube-dl.org/downloads/latest/youtube-dl.exe",
         "hash": {
-            "url": "$baseurl/SHA2-256SUMS"
+            "url": "http://abf-downloads.openmandriva.org/ytdl/SHA2-256SUMS"
         }
     }
 }
