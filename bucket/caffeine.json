@@ -1,11 +1,30 @@
 {
-    "version": "2020.09.20",
-    "description": "Download videos from YouTube.com (and a few more sites) using command line.",
-    "homepage": "://www.zhornsoftware.co.uk/caffeine/",
+    "version": "1.90",
+    "description": "Prevent your PC from activating a screen saver or locking",
+    "homepage": "https://www.zhornsoftware.co.uk/caffeine/",
     "license": "Freeware",
     "url": "https://www.zhornsoftware.co.uk/caffeine/caffeine.zip",
-    "hash": "2b71484b309ae369873cb9a421ac03ba6b642704e112eb1ca5cde6820a12d8fb",
-    "bin": "youtube-dl.exe",
+    "hash": "fc0191ac02a90400c340317720c4446c19267cdc016c42451035154f8d33711b",
+    "architecture": {
+        "64bit": {
+            "bin": "caffeine64.exe",
+            "shortcuts": [
+                [
+                    "caffeine64.exe",
+                    "Caffeine"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": "caffeine32.exe",
+            "shortcuts": [
+                [
+                    "caffeine32.exe",
+                    "Caffeine"
+                ]
+            ]
+        }
+    },
     "checkver": {
         "url": "https://www.zhornsoftware.co.uk/caffeine",
         "regex": ">v([\\d.]+)"
