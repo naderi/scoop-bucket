@@ -1,0 +1,22 @@
+{
+    "version": "2020.09.20",
+    "description": "The Internet's premiere freeware note taking application.",
+    "homepage": "https://www.zhornsoftware.co.uk/stickies/",
+    "license": "Freeware",
+    "url": "https://www.zhornsoftware.co.uk/stickies/stickies_setup_10_0d.exe",
+    "hash": "2b71484b309ae369873cb9a421ac03ba6b642704e112eb1ca5cde6820a12d8fb",
+    "bin": "stickies.exe",
+    "shortcuts": [
+        [
+            "stickies.exe",
+            "Stickies"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.zhornsoftware.co.uk/stickies/versions.html",
+        "regex": ">v([\\d.a-z]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.zhornsoftware.co.uk/stickies/stickies_setup_$underscoreVersion.exe"
+    }
+}
