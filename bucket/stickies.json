@@ -1,10 +1,10 @@
 {
-    "version": "2020.09.20",
+    "version": "10.0d",
     "description": "The Internet's premiere freeware note taking application.",
     "homepage": "https://www.zhornsoftware.co.uk/stickies/",
     "license": "Freeware",
     "url": "https://www.zhornsoftware.co.uk/stickies/stickies_setup_10_0d.exe",
-    "hash": "2b71484b309ae369873cb9a421ac03ba6b642704e112eb1ca5cde6820a12d8fb",
+    "hash": "77300d6313f9f89e62ab2b5205c142811499b78eb1edd9ffbc6f4391a7d0bb87",
     "bin": "stickies.exe",
     "shortcuts": [
         [
