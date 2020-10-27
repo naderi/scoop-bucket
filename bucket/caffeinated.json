@@ -1,0 +1,22 @@
+{
+    "version": "10.0d",
+    "description": "Caffeinated is a simple utility to prevent your PC from going to sleep.",
+    "homepage": "http://desmondbrand.com/caffeinated/",
+    "license": "Freeware",
+    "url": "https://github.com/downloads/dmnd/Caffeinated/Caffeinated-1.0.zip",
+    "hash": "77300d6313f9f89e62ab2b5205c142811499b78eb1edd9ffbc6f4391a7d0bb87",
+    "bin": "Caffeinated.exe",
+    "shortcuts": [
+        [
+            "Caffeinated.exe",
+            "Caffeinated"
+        ]
+    ],
+    "checkver": {
+        "url": "http://desmondbrand.com/caffeinated/",
+        "regex": "Caffeinated/Caffeinated-([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/downloads/dmnd/Caffeinated/Caffeinated-1.0.zip"
+    }
+}
