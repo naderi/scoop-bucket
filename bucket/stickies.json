@@ -3,7 +3,7 @@
     "description": "The Internet's premiere freeware note taking application.",
     "homepage": "https://www.zhornsoftware.co.uk/stickies/",
     "license": "Freeware",
-    "url": "https://www.zhornsoftware.co.uk/stickies/stickies_setup_10_0d.exe",
+    "url": "https://www.zhornsoftware.co.uk/stickies/stickies_setup_10_0d.exe#/dl.7z",
     "hash": "77300d6313f9f89e62ab2b5205c142811499b78eb1edd9ffbc6f4391a7d0bb87",
     "bin": "stickies.exe",
     "shortcuts": [
@@ -17,6 +17,6 @@
         "regex": ">v([\\d.a-z]+)"
     },
     "autoupdate": {
-        "url": "https://www.zhornsoftware.co.uk/stickies/stickies_setup_$underscoreVersion.exe"
+        "url": "https://www.zhornsoftware.co.uk/stickies/stickies_setup_$underscoreVersion.exe#/dl.7z"
     }
 }
