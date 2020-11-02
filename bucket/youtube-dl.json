@@ -1,5 +1,5 @@
 {
-    "version": "2020.09.20",
+    "version": "2020.11.01.1",
     "description": "Download videos from YouTube.com (and a few more sites) using command line.",
     "homepage": "https://youtube-dl.org",
     "license": "Unlicense",
