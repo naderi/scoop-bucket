@@ -13,7 +13,7 @@
             "hash": "sha512:8b1f233023ad94eb4a502aa80c52a3a2ab4c6e08f6f05d585e6084cfd09381e2ce09ac18067601e8a894fcafb69d3196e59a1f87ed62cdf031e77f230fdf895a"
         }
     },
-    "extract_dir": "firefox",
+    "extract_dir": "core",
     "bin": [
         [
             "firefox.exe",
