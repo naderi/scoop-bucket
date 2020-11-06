@@ -1,16 +1,16 @@
 {
     "description": "Nightly builds of Firefox: the popular open source web browser.",
     "homepage": "https://www.mozilla.org/en-US/firefox/nightly/",
-    "version": "84.0a1",
+    "version": "84.0a1.20201106093443",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central/firefox-84.0a1.en-US.win64.zip",
-            "hash": "bc5b87e86f9bda60dec0ba41146e2dcffb7e01d9f0e6ba2ecaaa9e3dd74e234f"
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/2020/11/2020-11-06-09-34-43-mozilla-central/firefox-84.0a1.en-US.win64.installer.exe#/dl.7z",
+            "hash": "sha512:c304ff5c267f532ffabee7ded2c53e32443d5b79c2df9c8c27f75590fa5f41e9856d45f749d6dd269b6841c61432d354929094579d62fc63ca441b467897a0e9"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central/firefox-84.0a1.en-US.win32.zip",
-            "hash": "4f43e9fb5c449f00dea5ebc4fc70cf93eccc7b5a471a9cd61f70688e2edfe357"
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/2020/11/2020-11-06-09-34-43-mozilla-central/firefox-84.0a1.en-US.win32.installer.exe#/dl.7z",
+            "hash": "sha512:8b1f233023ad94eb4a502aa80c52a3a2ab4c6e08f6f05d585e6084cfd09381e2ce09ac18067601e8a894fcafb69d3196e59a1f87ed62cdf031e77f230fdf895a"
         }
     },
     "extract_dir": "firefox",
@@ -30,16 +30,23 @@
     ],
     "persist": "Profile",
     "checkver": {
-        "url": "https://www.mozilla.org/de/firefox/all/",
-        "regex": "<option value=\"desktop_nightly\">([\\da.]+)"
+        "url": "https://aus5.mozilla.org/update/6/Firefox/60.0/_/WINNT_x86_64-msvc-x64/en-US/nightly/_/_/_/_/update.xml",
+        "regex": "appVersion=\"([\\w.]+)\".*?buildID=\"((?<yyyy>\\d{4})(?<mm>\\d{2})(?<dd>\\d{2})(?<hr>\\d{2})(?<mi>\\d{2})(?<se>\\d{2}))",
+        "replace": "${1}.${2}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central/firefox-$version.en-US.win64.zip"
+                "url": "https://archive.mozilla.org/pub/firefox/nightly/$matchYyyy/$matchMm/$matchYyyy-$matchMm-$matchDd-$matchHr-$matchMi-$matchSe-mozilla-central/firefox-$majorVersion.$minorVersion.en-US.win64.installer.exe#/dl.7z",
+                "hash": {
+                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.en-US.win64.checksums"
+                }
             },
             "32bit": {
-                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central/firefox-$version.en-US.win32.zip"
+                "url": "https://archive.mozilla.org/pub/firefox/nightly/$matchYyyy/$matchMm/$matchYyyy-$matchMm-$matchDd-$matchHr-$matchMi-$matchSe-mozilla-central/firefox-$majorVersion.$minorVersion.en-US.win32.installer.exe#/dl.7z",
+                "hash": {
+                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.en-US.win32.checksums"
+                }
             }
         }
     }
