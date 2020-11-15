@@ -5,9 +5,7 @@
     "url": "https://github.com/appget/appget/releases/download/1.0.12/appget.1.0.12.exe",
     "hash": "9f9e587e268b0b4a500caaaabe386a35e1eb93da19e9f036c525f202d35ac6af",
     "innosetup": true,
-    "bin": [
-        "appget.exe"
-    ],
+    "bin": "appget.exe",
     "shortcuts": [
         [
             "appget.gui.exe",
