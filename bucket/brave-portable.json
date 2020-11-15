@@ -33,7 +33,10 @@
         ]
     ],
     "persist": "Data",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://brave.com/latest/",
+        "regex": "strong.+?([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
