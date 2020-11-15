@@ -12,8 +12,8 @@
             "hash": "a6bf1df2975552a4f1c8fa6cb106655d453c2b7f34f4d512cdbdedb3c70cfaad"
         },
         "32bit": {
-            "url": "https://github.com/brave/brave-browser/releases/download/v1.16.76/BraveBrowserSilentSetup32.exe#/dl.7z",
-            "hash": "173f0b20abbba896a804870e4279fa0ab814b0a6f4d3e0d32315427868e08271"
+            "url": "https://github.com/brave/brave-browser/releases/download/v1.16.76/BraveBrowserStandaloneSetup32.exe#/dl.7z",
+            "hash": "ca0be43d796abde8505e07aa50e762845cfe0bb467d721d5b02e07d3ebf0cfdc"
         }
     },
     "pre_install": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal",
@@ -42,7 +42,7 @@
                 "url": "https://github.com/brave/brave-browser/releases/download/v$version/BraveBrowserStandaloneSetup.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://github.com/brave/brave-browser/releases/download/v$version/BraveBrowserSilentSetup32.exe#/dl.7z"
+                "url": "https://github.com/brave/brave-browser/releases/download/v$version/BraveBrowserStandaloneSetup32.exe#/dl.7z"
             }
         }
     }
