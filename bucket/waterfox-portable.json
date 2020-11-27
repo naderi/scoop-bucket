@@ -1,10 +1,10 @@
 {
-    "version": "3.0.0.1",
+    "version": "3.0.1",
     "description": "The 100% fresh, free-range, ethical browser (portable classic branch).",
     "homepage": "https://www.waterfox.net",
     "license": "MPL-2.0",
-    "url": "https://cdn.waterfox.net/releases/win64/installer/Waterfox%20G3.0.0.1%20Setup.exe#/dl.7z",
-    "hash": "7807108e4f098664c7df4008c1121978f12ca7c605f38aea107726f9b881debe",
+    "url": "https://cdn.waterfox.net/releases/win64/installer/Waterfox%20G3.0.1%20Setup.exe#/dl.7z",
+    "hash": "b5c92c20048a9eeddec7b6c7732eb982fa74e2d9ee5c44f313764cc46bd59d50",
     "extract_dir": "core",
     "bin": [
         [
