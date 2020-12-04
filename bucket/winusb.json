@@ -1,0 +1,21 @@
+{
+    "homepage": "https://www.winusb.net/",
+    "description": "A simple application which helps you create multi-Windows bootable USB drive using any ISO or DVD with Windows 7,8,10 distribution and make it without formatting in most cases!",
+    "license": "GPL-2.0-or-later",
+    "version": "7.7.2.33862",
+    "url": "https://www.winusb.net/assets/WinUSB.exe",
+    "hash": "f4cabf9e7074372c1031d38cfe254bb40dfc6ce59f275345ce94f1dceb98324d",
+    "shortcuts": [
+        [
+            "WinUSB.exe",
+            "WinUSB"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.winusb.net/winusb-application-change-log/",
+        "re": "span.+?([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.winusb.net/assets/WinUSB.exe"
+    }
+}
