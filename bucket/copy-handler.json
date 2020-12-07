@@ -2,9 +2,9 @@
     "homepage": "https://www.copyhandler.com/",
     "description": "A tool that allows you to manage different copy/move operations for files and folders.",
     "license": "freeware",
-    "version": "1.45rc1",
-    "url": "https://www.fosshub.com/Copy-Handler.html?dwl=ch-portable-1.45rc1.zip",
-    "hash": "fa2ff459d72516896a35390c0e909ea29d9793cf3366dd2834aed7244098cdcf",
+    "version": "1.45",
+    "url": "https://www.fosshub.com/Copy-Handler.html?dwl=ch-portable-1.45.zip",
+    "hash": "aaaef51267ed955a6a026bdef748f76981e0033017cf1c5f9fca4aa0bdca010d",
     "pre_install": "Expand-7ZipArchive \"$dir\\Copy-Handler.html\" \"$dir\" -Removal",
     "architecture": {
         "64bit": {
