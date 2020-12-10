@@ -1,10 +1,10 @@
 {
-    "version": "1.21.4",
+    "version": "1.22.3",
     "homepage": "https://www.teamlink.co/",
     "description": "Video and Web meeting for Free",
     "license": "GPL-3.0-only",
     "url": "https://download.teamlink.co/TeamLink+Setup.exe#/dl.7z",
-    "hash": "03f61aad5fb3dfcaeee81301747bf41a14ba84e8829b13485c6c868be2994e6b",
+    "hash": "519c479ed8709d1cc85d7805a332e6766b593039d6deab55902f91839e8833e7",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall TeamLink.exe\" -Recurse -Force"
