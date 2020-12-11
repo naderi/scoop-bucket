@@ -1,16 +1,16 @@
 {
-    "version": "4.3.9.226",
+    "version": "4.3.9.227",
     "description": "The Most Feature Rich Chromium",
     "license": "GPL",
     "notes": "Based on the prominent web browser project - Chromium, Cent Browser inherits all its advantages.",
     "architecture": {
         "64bit": {
-            "url": "http://static.centbrowser.com/installer_64/centbrowser_4.3.9.226_x64_portable.exe#/dl.7z",
-            "hash": "81a73e76be4ba628109a77f46d334bd4b2db5800e4e3dcaa3f62b93c404fb386"
+            "url": "http://static.centbrowser.com/win_stable/4.3.9.227/centbrowser_4.3.9.227_x64_portable.exe#/dl.7z",
+            "hash": "d17f38aef67c04835c9859e8ecc99c0fab9b3f62c22fda5398a4535a0f105174"
         },
         "32bit": {
-            "url": "http://static.centbrowser.com/installer_32/centbrowser_4.3.9.226_portable.exe#/dl.zip",
-            "hash": "104ef54a020c57d8c2cb337fa94a28229858b8c213b3415a4613f9cf73521e87"
+            "url": "http://static.centbrowser.com/win_stable/4.3.9.227/centbrowser_4.3.9.227_portable.exe#/dl.zip",
+            "hash": "139d6d69942efa02ed4ad52e7cc9a98cb52f01c88d5b6e8133b04c668335b1a0"
         }
     },
     "shortcuts": [
@@ -28,10 +28,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://static.centbrowser.com/installer_64/centbrowser_$version_x64_portable.exe#/dl.7z"
+                "url": "http://static.centbrowser.com/win_stable/$version/centbrowser_$version_x64_portable.exe#/dl.7z"
             },
             "32bit": {
-                "url": "http://static.centbrowser.com/installer_32/centbrowser_$version_portable.exe#/dl.zip"
+                "url": "http://static.centbrowser.com/win_stable/$version/centbrowser_$version_portable.exe#/dl.zip"
             }
         }
     }
