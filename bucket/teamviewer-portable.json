@@ -5,9 +5,9 @@
         "url": "https://www.teamviewer.com/en/eula/"
     },
     "description": "TeamViewer is proprietary computer software for remote control, desktop sharing, online meetings, web conferencing and file transfer between computers.",
-    "version": "15.12.4",
+    "version": "15.13.6",
     "url": "https://download.teamviewer.com/download/version_15x/TeamViewerPortable.zip",
-    "hash": "e1100b8e049052184bf7a1f6e0f5e71c979cda3ef5675588e07fb56151ff52e4",
+    "hash": "0748d1efeee59785178842f7b1dae49457c1ded7d5f48d2eaf9478478cb84ea5",
     "shortcuts": [
         [
             "TeamViewer.exe",
