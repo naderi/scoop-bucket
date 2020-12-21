@@ -1,10 +1,10 @@
 {
-    "version": "4.7.2",
+    "version": "5.0.0",
     "description": "Manually changing your location-based network and system configuration on your laptop computer.",
     "homepage": "https://www.netsetman.com/en/freeware",
     "license": "Non-Commercial Freeware",
     "url": "https://www.netsetman.com/netsetman.exe#/dl.exe",
-    "hash": "7215df1465e86e99ac41df00f15e43ecd5d665f86ae0d90c4a7803cea0be30e8",
+    "hash": "3fa6cd140e2bafccfe6e97ff738dfda99adf26917e5404958bae2a3426756d61",
     "innosetup": true,
     "pre_install": [
         "if(!(Test-Path \"$dir/settings.ini\")) { Add-Content \"$dir/settings.ini\" $null }",
