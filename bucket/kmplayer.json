@@ -1,10 +1,10 @@
 {
     "description": "KMPlayer is a versatile media player.",
     "homepage": "https://www.mozilla.org/en-US/firefox/nightly/",
-    "version": "2020.06.09.40",
+    "version": "2020.12.22.30",
     "license": "Freeware",
     "url": "http://update.kmpmedia.net/kmp64player/update#dl.7z",
-    "hash": "ec26a8d7e1d21702ac5c6041e05014ef9e91046a7b23bbebadd3ba0857569ab1",
+    "hash": "18e9a0256f7ab0fe0c193c6568ae9941973f10eed88a7e23569c7b3548d5d738",
     "pre_install": [
         "if(!(Test-Path \"$dir/KMPlayer64.ini\")) { Add-Content \"$dir/KMPlayer64.ini\" $null }",
         "if(!(Test-Path \"$dir/default.kpl\")) { Add-Content \"$dir/default.kpl\" $null }"
