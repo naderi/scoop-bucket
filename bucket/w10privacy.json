@@ -1,5 +1,5 @@
 {
-    "version": "3.7.0.2",
+    "version": "3.7.0.3",
     "description": "W10Privacy. Sets of data protection and privacy options.",
     "homepage": "https://www.winprivacy.de/english-home",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.winprivacy.de/deutsch-start/download"
     },
     "url": "https://www.winprivacy.de/app/download/12302828636/W10Privacy.zip",
-    "hash": "cbd58dd62510ef3e4c36734ff6732923edb10a12cf60b035ff8a30200e2485ec",
+    "hash": "c8d89e8134781b0386a93eb7cf759383e2cbf10ed37238a3ac93d8061ce0fecd",
     "installer": {
         "script": [
             "if (-not (Test-Path \"$persist_dir\\W10Privacy.ini\")) { Set-Content \"$dir\\W10Privacy.ini\" '' -Encoding Ascii }",
