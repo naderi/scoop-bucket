@@ -3,25 +3,23 @@
     "description": "MiTeC XML Viewer",
     "homepage": "https://www.mitec.cz/xmlv.html",
     "license": "Proprietary",
+    "url": "https://www.mitec.cz/Downloads/XMLView.zip",
+    "hash": "d9752d931934d1e865e878e7d88a9d13a82870bd16796f9b8215e9acb3c36b7f",
     "architecture": {
         "64bit": {
-            "url": "https://www.mitec.cz/Downloads/XMLView.zip",
-            "hash": "d9752d931934d1e865e878e7d88a9d13a82870bd16796f9b8215e9acb3c36b7f",
             "pre_install": [
                 "Remove-Item \"$dir\\XMLView.exe\" -Force",
                 "Get-ChildItem $dir 'XMLView*exe' | Rename-Item -NewName 'XMLView.exe' -Force"
             ]
         },
         "32bit": {
-            "url": "https://www.mitec.cz/Downloads/XMLView.zip",
-            "hash": "d9752d931934d1e865e878e7d88a9d13a82870bd16796f9b8215e9acb3c36b7f",
             "pre_install": "Remove-Item \"$dir\\XMLView64.exe\" -Force"
         }
     },
     "shortcuts": [
         [
             "XMLView.exe",
-            "MiTeC XML Viewer"
+            "MiTeC\\XML Viewer"
         ]
     ],
     "checkver": {
@@ -29,13 +27,6 @@
         "regex": "<NAME>MiTeC XML Viewer 32/64 bit\\s+([\\d.]+)<"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://www.mitec.cz/Downloads/XMLView.zip"
-            },
-            "32bit": {
-                "url": "https://www.mitec.cz/Downloads/XMLView.zip"
-            }
-        }
+        "url": "https://www.mitec.cz/Downloads/XMLView.zip"
     }
 }
