@@ -1,22 +1,21 @@
 {
-    "version": "1.4",
-    "description": "MiTeC Photo Viewer",
-    "homepage": "https://www.mitec.cz/photo.html",
-    "license": "Proprietary",
-    "url": "https://www.mitec.cz/Downloads/PhotoView.zip",
-    "hash": "6bcbb3aafd3db71e7cbdfb75d78934101ded79a5792f52fbae600ec16910795c",
-    "pre_install": "Remove-Item \"$dir\\*.lang\" -Force",
+    "version": "2.3.0",
+    "description": "MiTeC Network Meter",
+    "homepage": "https://www.mitec.cz/netmet.html",
+    "license": "Freeware",
+    "url": "https://www.mitec.cz/Downloads/NetMet.zip",
+    "hash": "ecebf7f87f22d5a3b0fb2d19f6309d83b02dc81da2b769948511c926e9f99047",
     "shortcuts": [
         [
-            "PhotoView.exe",
-            "MiTeC PhotoView"
+            "NetMet.exe",
+            "MiTeC\\Network Meter"
         ]
     ],
     "checkver": {
         "url": "https://www.mitec.cz/Data/XML/data_downloads.xml",
-        "regex": "<NAME>MiTeC Photo View\\s+([\\d.]+)<"
+        "regex": "<NAME>MiTeC Network Meter\\s+([\\d.]+)<"
     },
     "autoupdate": {
-        "url": "https://www.mitec.cz/Downloads/PhotoView.zip"
+        "url": "https://www.mitec.cz/Downloads/NetMet.zip"
     }
 }
