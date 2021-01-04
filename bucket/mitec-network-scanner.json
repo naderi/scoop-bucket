@@ -8,7 +8,6 @@
             "url": "https://www.mitec.cz/Downloads/NetScanner64.zip",
             "hash": "96e22db60e403a66056875ee61f1b8a8f0c7fbfdb9fb419da0e4127dd1ef3930",
             "pre_install": "Remove-Item \"$dir\\NetScanner.exe\" -Force",
-            "bin": "GetSys64.exe",
             "shortcuts": [
                 [
                     "NetScanner64.exe",
@@ -20,7 +19,6 @@
             "url": "https://www.mitec.cz/Downloads/NetScanner.zip",
             "hash": "04559282560352a7efdd9d405cc26574a527a41a0c516b7d8bbe9dc34d7db107",
             "pre_install": "Remove-Item \"$dir\\NetScanner64.exe\" -Force",
-            "bin": "GetSys.exe",
             "shortcuts": [
                 [
                     "NetScanner.exe",
