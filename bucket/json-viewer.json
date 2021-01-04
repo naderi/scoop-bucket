@@ -6,8 +6,10 @@
     "url": "https://www.mitec.cz/Downloads/JSONView.zip",
     "hash": "187bf665cd8cca28ec0cd244e85a5abea254e26293dc1aea7aa301801b286958",
     "shortcuts": [
-        "JSONView.exe",
-        "JSON Viewer"
+        [
+            "JSONView.exe",
+            "JSON Viewer"
+        ]
     ],
     "checkver": {
         "url": "https://www.mitec.cz/Data/XML/data_downloads.xml",
