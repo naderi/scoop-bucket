@@ -1,22 +1,32 @@
 {
-    "version": "1.4",
-    "description": "MiTeC Photo Viewer",
-    "homepage": "https://www.mitec.cz/photo.html",
+    "version": "3.0.0",
+    "description": "MiTeC EXE Explorer",
+    "homepage": "https://www.mitec.cz/exe.html",
     "license": "Proprietary",
-    "url": "https://www.mitec.cz/Downloads/PhotoView.zip",
-    "hash": "6bcbb3aafd3db71e7cbdfb75d78934101ded79a5792f52fbae600ec16910795c",
-    "pre_install": "Remove-Item \"$dir\\*.lang\" -Force",
+    "url": "https://www.mitec.cz/Downloads/EXE.zip",
+    "hash": "d95f21d174d1c6faedb0ab4bec66989d0676fdd8292b9bad4c3136686a7eded8",
+    "architecture": {
+        "64bit": {
+            "pre_install": [
+                "Remove-Item \"$dir\\EXE.exe\" -Force",
+                "Get-ChildItem $dir 'EXE*exe' | Rename-Item -NewName 'EXE.exe' -Force"
+            ]
+        },
+        "32bit": {
+            "pre_install": "Remove-Item \"$dir\\EXE64.exe\" -Force"
+        }
+    },
     "shortcuts": [
         [
-            "PhotoView.exe",
-            "MiTeC PhotoView"
+            "EXE.exe",
+            "MiTeC\\EXE Explorer"
         ]
     ],
     "checkver": {
         "url": "https://www.mitec.cz/Data/XML/data_downloads.xml",
-        "regex": "<NAME>MiTeC Photo View\\s+([\\d.]+)<"
+        "regex": "<NAME>MiTeC EXE Explorer 32/64\\s+([\\d.]+)<"
     },
     "autoupdate": {
-        "url": "https://www.mitec.cz/Downloads/PhotoView.zip"
+        "url": "https://www.mitec.cz/Downloads/EXE.zip"
     }
 }
