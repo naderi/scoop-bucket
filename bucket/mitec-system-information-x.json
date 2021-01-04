@@ -33,16 +33,8 @@
         }
     },
     "checkver": {
-        "architecture": {
-            "64bit": {
-                "url": "https://www.mitec.cz/Data/XML/data_downloads.xml",
-                "regex": "<NAME>MiTeC System Information X 64-bit\\s+([\\d.]+)<"
-            },
-            "32bit": {
-                "url": "https://www.mitec.cz/Data/XML/data_downloads.xml",
-                "regex": "<NAME>MiTeC System Information X 32-bit\\s+([\\d.]+)<"
-            }
-        }
+        "url": "https://www.mitec.cz/Data/XML/data_downloads.xml",
+        "regex": "<NAME>MiTeC System Information X 64-bit\\s+([\\d.]+)<"
     },
     "autoupdate": {
         "architecture": {
