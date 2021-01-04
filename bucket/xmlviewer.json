@@ -1,19 +1,23 @@
 {
-    "version": "6.0.0",
+    "version": "6.1.0",
     "description": "MiTeC XML Viewer",
     "homepage": "https://www.mitec.cz/xmlv.html",
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://www.mitec.cz/Downloads/XMLView64.zip",
-            "hash": "d569890e05e1039a614aabef35de362a66821e63636a7ef64838383bb942bca6"
+            "url": "https://www.mitec.cz/Downloads/XMLView.zip",
+            "hash": "d9752d931934d1e865e878e7d88a9d13a82870bd16796f9b8215e9acb3c36b7f",
+            "pre_install": [
+                "Remove-Item 'XMLView.exe' -Force",
+                "Get-ChildItem $dir 'XMLView*exe' | Rename-Item -NewName 'XMLView.exe' -Force"
+            ]
         },
         "32bit": {
             "url": "https://www.mitec.cz/Downloads/XMLView.zip",
-            "hash": "3ab4489b2a3c33caa669a02ff1493f33e5ea2c4b619eb5540fab9b6cf7266941"
+            "hash": "d9752d931934d1e865e878e7d88a9d13a82870bd16796f9b8215e9acb3c36b7f",
+            "pre_install": "Remove-Item 'XMLView64.exe' -Force"
         }
     },
-    "pre_install": "Get-ChildItem $dir 'XMLView*exe' | Rename-Item -NewName 'XMLView.exe' -Force",
     "shortcuts": [
         [
             "XMLView.exe",
@@ -27,7 +31,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.mitec.cz/Downloads/XMLView64.zip"
+                "url": "https://www.mitec.cz/Downloads/XMLView.zip"
             },
             "32bit": {
                 "url": "https://www.mitec.cz/Downloads/XMLView.zip"
