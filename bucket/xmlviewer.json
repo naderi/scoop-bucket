@@ -22,7 +22,7 @@
     ],
     "checkver": {
         "url": "https://www.mitec.cz/Data/XML/data_downloads.xml",
-        "regex": "<NAME>MiTeC XML Viewer 64-bit\\s+([\\d.]+)<"
+        "regex": "<NAME>MiTeC XML Viewer 32/64 bit\\s+([\\d.]+)<"
     },
     "autoupdate": {
         "architecture": {
