@@ -8,7 +8,7 @@
     "shortcuts": [
         [
             "JSONView.exe",
-            "MiTeC JSON Viewer"
+            "MiTeC\\JSON Viewer"
         ]
     ],
     "checkver": {
