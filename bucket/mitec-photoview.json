@@ -9,7 +9,7 @@
     "shortcuts": [
         [
             "PhotoView.exe",
-            "MiTeC PhotoView"
+            "MiTeC\\PhotoView"
         ]
     ],
     "checkver": {
