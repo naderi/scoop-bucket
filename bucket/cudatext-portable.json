@@ -1,16 +1,16 @@
 {
-    "version": "1.119.0.0",
+    "version": "1.120.0.2",
     "description": "Text editor",
     "homepage": "http://uvviewsoft.com/cudatext/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://fossies.org/windows/misc/cudatext-win-x64-1.119.0.0.zip",
-            "hash": "ccf7e878db7f6365de15472bfc62daee11a9b66011ef5fcaeea4ba09d87da233"
+            "url": "https://fossies.org/windows/misc/cudatext-win-x64-1.120.0.2.zip",
+            "hash": "9e4c861b9aff6bc961f5b269e310534daff7a17ea562513df703ec9e9ac66dc1"
         },
         "32bit": {
-            "url": "https://fossies.org/windows/misc/cudatext-win-x32-1.119.0.0.zip",
-            "hash": "6710fbf520d82b6ce3e2368e3dd905bfd4628e62e1fe17e11cf991c702823975"
+            "url": "https://fossies.org/windows/misc/cudatext-win-x32-1.120.0.2.zip",
+            "hash": "bf617016a5afcc07c8c379c2ebcb9423b0f143601d30c67169e53a326e6cc5da"
         }
     },
     "shortcuts": [
