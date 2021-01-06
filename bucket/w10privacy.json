@@ -7,7 +7,7 @@
         "url": "https://www.winprivacy.de/deutsch-start/download"
     },
     "url": "https://www.winprivacy.de/app/download/12302828636/W10Privacy.zip",
-    "hash": "c8d89e8134781b0386a93eb7cf759383e2cbf10ed37238a3ac93d8061ce0fecd",
+    "hash": "da79e51ead606708fb97473ffd4f83133ca6c6a36a723921783cdbfacac015e6",
     "installer": {
         "script": [
             "if (-not (Test-Path \"$persist_dir\\W10Privacy.ini\")) { Set-Content \"$dir\\W10Privacy.ini\" '' -Encoding Ascii }",
