@@ -30,7 +30,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/paolo-projects/auto-unlocker/releases/download/v$version/Unlocker.zip"
+                "url": "https://github.com/paolo-projects/auto-unlocker/releases/download/v$version/Unlocker_Win_x64.zip"
             }
         }
     }
