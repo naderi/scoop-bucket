@@ -2,15 +2,15 @@
     "homepage": "https://tools.stefankueng.com/grepWin.html",
     "description": "Regular expression search and replace tool in files.",
     "license": "GPL-3.0-only",
-    "version": "2.0.5",
+    "version": "2.0.6",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stefankueng/grepWin/releases/download/2.0.5/grepWin-x64-2.0.5_portable.zip",
-            "hash": "9e2c73874f66087057b86d2fd5259af29142ffc8c2ab144a0f132f35dd382c83"
+            "url": "https://github.com/stefankueng/grepWin/releases/download/2.0.6/grepWin-x64-2.0.6_portable.zip",
+            "hash": "1366c8cd4cdded0c5e5e2e727b737ceeb14b86a906c0f97a8426eef870d207e4"
         },
         "32bit": {
-            "url": "https://github.com/stefankueng/grepWin/releases/download/2.0.5/grepWin-2.0.5_portable.zip",
-            "hash": "c1ea8ff65a6e8b9749ad8e54bf8027a4e24e5f3e6d6c5edeb7a230beae682ce8"
+            "url": "https://github.com/stefankueng/grepWin/releases/download/2.0.6/grepWin-2.0.6_portable.zip",
+            "hash": "c81c4ba22d14c26c682cb2d4b6f9286a53a7799c22c8fea75bea0d8418ce3037"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\grepwin.ini\")) {Set-Content \"$dir\\grepwin.ini\" (@('[global]', '[Software\\grepWin\\History]') -join \"`r`n\") -Encoding ASCII}",
