@@ -1,0 +1,19 @@
+{
+    "homepage": "https://github.com/chrisant996/cmder-powerline-prompt",
+    "version": "rel.1bf5ea",
+    "license": "",
+    "url": "https://github.com/chrisant996/cmder-powerline-prompt/archive/rel.1bf5ea.zip",
+    "hash": "6c49e781b5edc52597330df2bd454b9d7486c603e6d4eb10ef2cdbf0a7d3ecb5",
+    "extract_dir": "cmder-powerline-prompt-rel.1bf5ea",
+    "notes": [
+        "This requires either Cmder or Clink installed.",
+        "To add these scripts to clink.path, run the following in Command Prompt:",
+        "   for /f \"tokens=1,*\" %a in ('clink set clink.path ^| findstr Value:') do (set curr=%b)",
+        "   clink set clink.path $dir\\;%curr%"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/chrisant996/cmder-powerline-prompt/archive/$version.zip",
+        "extract_dir": "cmder-powerline-prompt-$version"
+    }
+}
