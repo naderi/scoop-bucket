@@ -1,9 +1,9 @@
 {
-    "version": "1.13.12",
+    "version": "1.14.1",
     "description": "Durchsucht die Online-Mediatheken verschiedener Sender und listet die gefundenen Sendungen zum Herunterladen auf.",
     "homepage": "https://mediathekview.de/",
     "url": "https://download.mediathekview.de/stabil/MediathekView-latest-win.zip",
-    "hash": "d8f9d9e114ba816506b9302b21f8d0e2b42dcc40f5da646229e370e215b44b37",
+    "hash": "371d60ba0978d6415a7067067c3469b6d89a271685e2d4f3d824e380cfdb9522",
     "extract_dir": "MediathekView",
     "shortcuts": [
         [
