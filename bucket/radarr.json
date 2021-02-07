@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/Radarr/Radarr",
-    "version": "3.0.1.4259",
+    "version": "3.0.2.4552",
     "license": "MIT",
-    "url": "https://github.com/Radarr/Radarr/releases/download/v3.0.1.4259/Radarr.master.3.0.1.4259.windows-core-x64.zip",
-    "hash": "adfe8951ee6f6f4355f841d2ca76a4c825ed717ed3f8c5e272b8cb8e38453af6",
+    "url": "https://github.com/Radarr/Radarr/releases/download/v3.0.2.4552/Radarr.master.3.0.2.4552.windows-core-x64.zip",
+    "hash": "385df7bc4a3f02f868136aa023a995503a96258647b2fcbfaa6ef6cb3108b32f",
     "extract_dir": "Radarr",
     "shortcuts": [
         [
