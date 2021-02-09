@@ -23,7 +23,7 @@
     },
     "checkver": {
         "url": "https://www.teamviewer.com/en/download/windows/",
-        "re": ">\\s*([\\d.]+)\\s*<"
+        "re": "Current version:\\s*([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://download.teamviewer.com/download/version_$majorVersionx/TeamViewerPortable.zip"
