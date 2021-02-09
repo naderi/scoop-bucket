@@ -12,10 +12,10 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.winusb.net/winusb-application-change-log",
+        "url": "http://www.winusb.net/winusb-application-change-log",
         "regex": ">([\\d.]+)</span"
     },
     "autoupdate": {
-        "url": "https://www.winusb.net/assets/WinUSB.exe"
+        "url": "http://www.winusb.net/assets/WinUSB.exe"
     }
 }
