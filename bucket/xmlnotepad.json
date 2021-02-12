@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/Microsoft/XmlNotepad",
-    "version": "2.8.0.23",
+    "version": "2.8.0.24",
     "license": "MIT",
     "url": "http://www.lovettsoftware.com/downloads/xmlnotepad/xmlnotepadsetup.zip",
-    "hash": "5afb3e135462aa3960be039b4ea5e68d768a02350e4df0173a564684437b5096",
+    "hash": "d7a5eec3f39e158ba6a80c343ee9ba93a7d7f244134866e59bdb55e687a47c0d",
     "installer": {
         "script": [
             "Expand-7ZipArchive \"$dir\\cab1.cab\" \"$dir\" -Removal",
