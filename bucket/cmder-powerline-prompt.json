@@ -7,9 +7,10 @@
     "extract_dir": "cmder-powerline-prompt-v.1bf5ea",
     "notes": [
         "This requires either Cmder or Clink installed.",
-        "To add these scripts to clink.path, run the following in Command Prompt:",
-        "   for /f \"tokens=1,*\" %a in ('clink set clink.path ^| findstr Value:') do (set curr=%b)",
-        "   clink set clink.path $dir\\;%curr%"
+        "If you have Clink, run this command to configure adding these scripts to Clink's script path:",
+        "\tclink installscripts $dir",
+        "To remove them from Clink's script path:",
+        "\tclink uninstallscripts $dir"
     ],
     "checkver": {
         "url": "https://github.com/chrisant996/cmder-powerline-prompt/releases/latest",
