@@ -26,11 +26,8 @@
             "Xml Notepad"
         ]
     ],
-    "checkver": {
-        "url": "http://www.lovettsoftware.com/downloads/xmlnotepad/Updates.xml",
-        "regex": "version number=\"([\\d.]+)"
-    },
+    "checkver": "GitHub",
     "autoupdate": {
-        "url": "http://www.lovettsoftware.com/downloads/xmlnotepad/xmlnotepadsetup.zip"
+        "url": "https://lovettsoftwarestorage.blob.core.windows.net/downloads/XmlNotepad/XmlNotepadSetup.zip"
     }
 }
