@@ -27,7 +27,7 @@
     },
     "checkver": {
         "url": "https://www.mitec.cz/Data/XML/data_downloads.xml",
-        "regex": "<NAME>MiTeC Task Manager DeLuxe 32/64\\s+([\\d.]+)<"
+        "regex": "<NAME>MiTeC Network Scanner 32/64\\s+([\\d.]+)<"
     },
     "autoupdate": {
         "architecture": {
