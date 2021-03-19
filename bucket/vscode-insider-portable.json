@@ -53,8 +53,8 @@
         "64bit": {
             "url": [
                 "https://vscode-update.azurewebsites.net/latest/win32-x64-archive/insider#/dl.7z",
-                "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/vscode-install-context.reg",
-                "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/vscode-uninstall-context.reg"
+                "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/vscode-install-context.reg",
+                "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/vscode-uninstall-context.reg"
             ],
             "hash": [
                 "cbc5999354c2cc2b5ec71f2adbdc2dbd155478dd3d4a97ee87285aab63bb3c02",
@@ -65,8 +65,8 @@
         "32bit": {
             "url": [
                 "https://vscode-update.azurewebsites.net/latest/win32-archive/insider#/dl.7z",
-                "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/vscode-install-context.reg",
-                "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/vscode-uninstall-context.reg"
+                "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/vscode-install-context.reg",
+                "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/vscode-uninstall-context.reg"
             ],
             "hash": [
                 "301a0f6486658cefbe992c2606403ff517a264a48b2f1cb2bf37f74e266c7ec8",
