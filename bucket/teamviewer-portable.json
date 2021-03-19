@@ -22,8 +22,8 @@
         ]
     },
     "checkver": {
-        "url": "https://www.teamviewer.com/en/download/windows/",
-        "re": "Current version:\\s*([\\d.]+)"
+        "url": "https://community.teamviewer.com/English/categories/change-logs-en",
+        "re": "\\[Windows\\].*?([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://download.teamviewer.com/download/version_$majorVersionx/TeamViewerPortable.zip"
