@@ -33,7 +33,7 @@
             "shortcuts": [
                 [
                     "IDE\\bin\\pycharm64.exe",
-                    "JetBrains\\PyCharm Community"
+                    "PyCharm Community"
                 ]
             ]
         },
@@ -42,7 +42,7 @@
             "shortcuts": [
                 [
                     "IDE\\bin\\pycharm.exe",
-                    "JetBrains\\PyCharm Community"
+                    "PyCharm Community"
                 ]
             ]
         }
