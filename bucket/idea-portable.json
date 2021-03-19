@@ -33,7 +33,7 @@
             "shortcuts": [
                 [
                     "IDE\\bin\\idea64.exe",
-                    "JetBrains\\IntelliJ IDEA Community"
+                    "IntelliJ IDEA Community"
                 ]
             ]
         },
@@ -42,7 +42,7 @@
             "shortcuts": [
                 [
                     "IDE\\bin\\idea.exe",
-                    "JetBrains\\IntelliJ IDEA Community"
+                    "IntelliJ IDEA Community"
                 ]
             ]
         }
