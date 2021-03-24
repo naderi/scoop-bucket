@@ -45,14 +45,10 @@
         "  $content | Set-Content -Path \"$dir\\vscode-uninstall-context.reg\"",
         "}"
     ],
-    "checkver": {
-        "url": "https://code.visualstudio.com/sha?build=insider",
-        "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].timestamp"
-    },
     "architecture": {
         "64bit": {
             "url": [
-                "https://vscode-update.azurewebsites.net/latest/win32-x64-archive/insider#/dl.7z",
+                "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-archive",
                 "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/vscode-install-context.reg",
                 "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/vscode-uninstall-context.reg"
             ],
@@ -64,7 +60,7 @@
         },
         "32bit": {
             "url": [
-                "https://vscode-update.azurewebsites.net/latest/win32-archive/insider#/dl.7z",
+                "https://code.visualstudio.com/sha/download?build=stable&os=win32-archive",
                 "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/vscode-install-context.reg",
                 "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/vscode-uninstall-context.reg"
             ],
@@ -75,17 +71,21 @@
             ]
         }
     },
+    "checkver": {
+        "url": "https://code.visualstudio.com/sha?build=insider",
+        "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].timestamp"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://vscode-update.azurewebsites.net/latest/win32-x64-archive/insider#/dl.7z",
+                "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-archive",
                 "hash": {
                     "url": "https://code.visualstudio.com/sha?build=insider",
                     "jsonpath": "$.products[?(@.platform.os == 'win32-x64-archive')].sha256hash"
                 }
             },
             "32bit": {
-                "url": "https://vscode-update.azurewebsites.net/latest/win32-archive/insider#/dl.7z",
+                "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-archive",
                 "hash": {
                     "url": "https://code.visualstudio.com/sha?build=insider",
                     "jsonpath": "$.products[?(@.platform.os == 'win32-archive')].sha256hash"
