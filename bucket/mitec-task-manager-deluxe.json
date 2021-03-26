@@ -1,10 +1,10 @@
 {
-    "version": "3.7.9",
+    "version": "3.7.10",
     "description": "MiTeC Task Manager DeLuxe 32/64",
     "homepage": "https://www.mitec.cz/tmx.html",
     "license": "Proprietary",
     "url": "https://www.mitec.cz/Downloads/TMX.zip",
-    "hash": "ce16e96c17509d445bf1aa7b8ab1b7e9599b5b91fa38f76a3fbf89c69c5517e9",
+    "hash": "e120ffd74fe216af8b663d202de42a8a166ff15b2d66fa9a107ab8e4d2302b90",
     "architecture": {
         "64bit": {
             "pre_install": [
