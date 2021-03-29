@@ -5,6 +5,25 @@
     "license": "Proprietary",
     "architecture": {
         "64bit": {
+            "pre_install": [
+                "Remove-Item \"$dir\\MSIX.exe\", \"$dir\\GetSys.exe\" -Force",
+                "Get-ChildItem $dir 'MSIX*exe' | Rename-Item -NewName 'MSIX.exe' -Force",
+                "Get-ChildItem $dir 'GetSys*exe' | Rename-Item -NewName 'GetSys.exe' -Force"
+            ]
+        },
+        "32bit": {
+            "pre_install": "Remove-Item \"$dir\\MSIX64.exe\", \"$dir\\GetSys64.exe\" -Force"
+        }
+    },
+    "bin": "GetSys.exe",
+    "shortcuts": [
+        [
+            "MSIX.exe",
+            "MiTeC\\System Information X"
+        ]
+    ],
+    "architecture": {
+        "64bit": {
             "url": "https://www.mitec.cz/Downloads/MSIX64.ZIP",
             "hash": "fbe65489eca24d869075b8fef82a82e2d0a0b37bce4e937cd4b4137a3f151b95",
             "bin": "GetSys64.exe",
@@ -29,16 +48,9 @@
     },
     "checkver": {
         "url": "https://www.mitec.cz/Data/XML/data_downloads.xml",
-        "regex": "<NAME>MiTeC System Information X 64-bit\\s+([\\d.]+)<"
+        "regex": "<NAME>MiTeC System Information X 32/64bit\\s+([\\d.]+)<"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://www.mitec.cz/Downloads/MSIX64.ZIP"
-            },
-            "32bit": {
-                "url": "https://www.mitec.cz/Downloads/MSIX.ZIP"
-            }
-        }
+        "url": "https://www.mitec.cz/Downloads/MSIX.ZIP"
     }
 }
