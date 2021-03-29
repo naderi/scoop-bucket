@@ -4,10 +4,10 @@
         "identifier": "GPL-2.0-only",
         "url": "https://github.com/qbittorrent/qBittorrent/blob/master/COPYING"
     },
-    "version": "4.3.3.10",
+    "version": "4.3.4.11",
     "description": "qBittorrent BitTorrent client with anti-leech enhancement.",
-    "url": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.3.3.10/qbittorrent_4.3.3.10_x64_setup.exe#/dl.7z",
-    "hash": "6c4b560a6392c6a149857762d860e8d3b854b828e220b65fb756bfbfadaab950",
+    "url": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.3.4.11/qbittorrent_4.3.4.11_x64_setup.exe#/dl.7z",
+    "hash": "cbafbf27b3d0977a97833da9b52882b2aa147cb290b38cffe9b2f56a4ac91a5d",
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
     "shortcuts": [
         [
