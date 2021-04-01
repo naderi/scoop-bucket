@@ -5,12 +5,6 @@
     "version": "7.8.5.34493",
     "url": "https://update.cyberduck.io/windows/Cyberduck-Installer-7.8.5.34493.msi",
     "hash": "479ca135ea4830ac68976cc17db3c72d1eb31724d31b396776b7426900e43ddb",
-    "installer": {
-        "script": [
-            "Rename-Item \"$dir\\Cyberduck*.exe\" \"$dir\\setup.exe\"",
-            "Expand-InnoArchive -Path \"$dir\\setup.exe\" -Switches \"-a\" -Removal"
-        ]
-    },
     "extract_dir": "Cyberduck",
     "shortcuts": [
         [
