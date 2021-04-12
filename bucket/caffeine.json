@@ -1,10 +1,10 @@
 {
-    "version": "1.96",
+    "version": "1.97",
     "description": "Prevent your PC from activating a screen saver or locking",
     "homepage": "https://www.zhornsoftware.co.uk/caffeine/",
     "license": "Freeware",
     "url": "https://www.zhornsoftware.co.uk/caffeine/caffeine.zip",
-    "hash": "a9efb65279ce70cff14481380e66217178599fd82dcb600e3957515f79d25ee7",
+    "hash": "083b16e4100e7a59f8ac5094938a88da47b2547f5b9eac21cc55c96ad9200585",
     "architecture": {
         "64bit": {
             "bin": "caffeine64.exe",
