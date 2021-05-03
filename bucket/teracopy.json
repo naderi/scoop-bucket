@@ -7,7 +7,9 @@
     "innosetup": true,
     "architecture": {
         "64bit": {
-            "post_install": [
+            "pre_install": [
+                "if(!(Test-Path \"$dir/Options.ini\")) { Add-Content \"$dir/Options.ini\" $null }",
+                "if(!(Test-Path \"$dir/main.db\")) { Add-Content \"$dir/main.db\" $null }",
                 "Rename-Item \"$dir\\Context,1.dll\" \"Context.dll\"",
                 "Rename-Item \"$dir\\TeraCopy,1.dll\" \"TeraCopy.dll\"",
                 "Rename-Item \"$dir\\TeraCopy,1.exe\" \"TeraCopy.exe\"",
@@ -19,7 +21,9 @@
             ]
         },
         "32bit": {
-            "post_install": [
+            "pre_install": [
+                "if(!(Test-Path \"$dir/Options.ini\")) { Add-Content \"$dir/Options.ini\" $null }",
+                "if(!(Test-Path \"$dir/main.db\")) { Add-Content \"$dir/main.db\" $null }",
                 "Rename-Item \"$dir\\Context,2.dll\" \"Context.dll\"",
                 "Rename-Item \"$dir\\TeraCopy,2.dll\" \"TeraCopy.dll\"",
                 "Rename-Item \"$dir\\TeraCopy,2.exe\" \"TeraCopy.exe\"",
