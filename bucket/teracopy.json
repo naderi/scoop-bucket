@@ -5,25 +5,33 @@
     "url": "http://www.codesector.com/files/teracopy.exe#tera.exe",
     "hash": "ff9b3da8b24ca260cb4995bdffdc08f2ee937695c5bf6707773168b8991ffd21",
     "innosetup": true,
-    "bin": "TeraCopy.exe",
     "architecture": {
         "64bit": {
             "post_install": [
+                "Rename-Item \"$dir\\Context,1.dll\" \"Context.dll\"",
+                "Rename-Item \"$dir\\TeraCopy,1.dll\" \"TeraCopy.dll\"",
+                "Rename-Item \"$dir\\TeraCopy,1.exe\" \"TeraCopy.exe\"",
                 "Rename-Item \"$dir\\TeraCopyService,1.exe\" \"TeraCopyService.exe\"",
-                "Rename-Item \"$dir\\TeraCopyExt,1.dll\" \"TeraCopyExt.dll\"",
-                "Remove-Item \"$dir\\TeraCopyExt,2.dll\"",
+                "Remove-Item \"$dir\\Context,2.dll\"",
+                "Remove-Item \"$dir\\TeraCopy,2.exe\"",
+                "Remove-Item \"$dir\\TeraCopy,2.dll\"",
                 "Remove-Item \"$dir\\TeraCopyService,2.exe\""
             ]
         },
         "32bit": {
             "post_install": [
+                "Rename-Item \"$dir\\Context,2.dll\" \"Context.dll\"",
+                "Rename-Item \"$dir\\TeraCopy,2.dll\" \"TeraCopy.dll\"",
+                "Rename-Item \"$dir\\TeraCopy,2.exe\" \"TeraCopy.exe\"",
                 "Rename-Item \"$dir\\TeraCopyService,2.exe\" \"TeraCopyService.exe\"",
-                "Rename-Item \"$dir\\TeraCopyExt,2.dll\" \"TeraCopyExt.dll\"",
-                "Remove-Item \"$dir\\TeraCopyExt,1.dll\"",
+                "Remove-Item \"$dir\\Context,1.dll\"",
+                "Remove-Item \"$dir\\TeraCopy,1.exe\"",
+                "Remove-Item \"$dir\\TeraCopy,1.dll\"",
                 "Remove-Item \"$dir\\TeraCopyService,1.exe\""
             ]
         }
     },
+    "bin": "TeraCopy.exe",
     "persist": [
         "Options.ini",
         "main.db"
