@@ -13,8 +13,17 @@
             "hash": "f66be4083c00f4eedb4ff0aac8ea791344d98c8ec1e3a1920eda7923c21a32be"
         }
     },
-    "innosetup": true,
-    "post_install": "Remove-Item \"$dir\\Uninstall.exe\" -Force",
+    "installer": {
+        "args": [
+            "-q",
+            "-dir \"$dir\""
+        ],
+        "keep": true
+    },
+    "uninstaller": {
+        "file": "uninstall.exe",
+        "args": "-q"
+    },
     "bin": "javaws.exe",
     "shortcuts": [
         [
