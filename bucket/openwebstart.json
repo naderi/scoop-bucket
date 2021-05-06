@@ -1,0 +1,40 @@
+{
+    "version": "4.6.2",
+    "description": "Unicode text editor",
+    "license": "GPL-3.0-or-later",
+    "homepage": "https://openwebstart.com/",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.tsi.telecom-paristech.fr/gpac/release/1.0.1/gpac-1.0.1-rev0-gd8538e8a-master-x64.exe#/dl.7z",
+            "hash": "5c7e615f928a286eaec97cfbd32e6445605b6f04f5f4ef0d2108e57eff8a0fe6"
+        },
+        "32bit": {
+            "url": "https://download.tsi.telecom-paristech.fr/gpac/release/1.0.1/gpac-1.0.1-rev0-gd8538e8a-master-win32.exe#/dl.7z",
+            "hash": "2ef807be236cbe22945d4c62ad3c99c920013ac344f38f981ed067935ae90fdb"
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\Uninstall.exe\" -Force",
+    "bin": [
+        "javaws.exe"
+    ],
+    "shortcuts": [
+        [
+            "itw-settings.exe",
+            "OpenWebStart Settings"
+        ]
+    ],
+    "checkver": {
+        "url": "https://openwebstart.com/download/",
+        "regex": "Latest stable release: ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/karakun/OpenWebStart/releases/download/v$version/OpenWebStart_windows-x64_$underscoreVersion.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/karakun/OpenWebStart/releases/download/v$version/OpenWebStart_windows-x32_$underscoreVersion.exe"
+            }
+        }
+    }
+}
