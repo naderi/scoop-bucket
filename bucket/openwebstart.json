@@ -1,22 +1,20 @@
 {
-    "version": "4.6.2",
-    "description": "Unicode text editor",
-    "license": "GPL-3.0-or-later",
+    "version": "1.3.3",
+    "description": "Run JNLP files with the latest Java version",
+    "license": "GNU General Public License, version 2",
     "homepage": "https://openwebstart.com/",
     "architecture": {
         "64bit": {
-            "url": "https://download.tsi.telecom-paristech.fr/gpac/release/1.0.1/gpac-1.0.1-rev0-gd8538e8a-master-x64.exe#/dl.7z",
-            "hash": "5c7e615f928a286eaec97cfbd32e6445605b6f04f5f4ef0d2108e57eff8a0fe6"
+            "url": "https://github.com/karakun/OpenWebStart/releases/download/v1.3.3/OpenWebStart_windows-x64_1_3_3.exe#/dl.7z",
+            "hash": "9fc017777ba737a421ef2e0f6f6136c993f41cc739fdc41bc4151370af815fc0"
         },
         "32bit": {
-            "url": "https://download.tsi.telecom-paristech.fr/gpac/release/1.0.1/gpac-1.0.1-rev0-gd8538e8a-master-win32.exe#/dl.7z",
-            "hash": "2ef807be236cbe22945d4c62ad3c99c920013ac344f38f981ed067935ae90fdb"
+            "url": "https://github.com/karakun/OpenWebStart/releases/download/v1.3.3/OpenWebStart_windows-x32_1_3_3.exe#/dl.7z",
+            "hash": "f66be4083c00f4eedb4ff0aac8ea791344d98c8ec1e3a1920eda7923c21a32be"
         }
     },
     "post_install": "Remove-Item \"$dir\\Uninstall.exe\" -Force",
-    "bin": [
-        "javaws.exe"
-    ],
+    "bin": "javaws.exe",
     "shortcuts": [
         [
             "itw-settings.exe",
@@ -30,10 +28,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/karakun/OpenWebStart/releases/download/v$version/OpenWebStart_windows-x64_$underscoreVersion.exe"
+                "url": "https://github.com/karakun/OpenWebStart/releases/download/v$version/OpenWebStart_windows-x64_$underscoreVersion.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://github.com/karakun/OpenWebStart/releases/download/v$version/OpenWebStart_windows-x32_$underscoreVersion.exe"
+                "url": "https://github.com/karakun/OpenWebStart/releases/download/v$version/OpenWebStart_windows-x32_$underscoreVersion.exe#/dl.7z"
             }
         }
     }
