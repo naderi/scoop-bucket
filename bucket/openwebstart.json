@@ -18,7 +18,7 @@
             "-q",
             "-dir \"$dir\""
         ],
-        "keep": true
+        "keep": false
     },
     "uninstaller": {
         "file": "uninstall.exe",
