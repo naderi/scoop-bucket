@@ -18,8 +18,9 @@
             "-q",
             "-dir \"$dir\""
         ],
-        "keep": false
+        "keep": true
     },
+    "post_install": "Remove-Item \"$dir\\OpenWebStart_windows-x64*.exe\" -Force",
     "uninstaller": {
         "file": "uninstall.exe",
         "args": "-q"
