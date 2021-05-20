@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v1.11.5/Beekeeper-Studio-1.11.5-portable.exe#/dl.7z",
-            "hash": "sha512:546750bcdc92b92034757fcfe3189105e2b4f570bad94f0d1d845ad96968d340955358e842887f00258af40811d06f50d67477b027c2bd67068e2aff18ec4b5e",
+            "hash": "563189024e03dff7b5aecb99ccd99dde825ce0479596646d8d4de9b05207b5f9",
             "pre_install": [
                 "Expand-7ZipArchive \"$dir\\Additional files\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
                 "Remove-Item \"$dir\\Additional files\" -Force -Recurse"
@@ -28,10 +28,6 @@
             "64bit": {
                 "url": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v$version/Beekeeper-Studio-$version-portable.exe#/dl.7z"
             }
-        },
-        "hash": {
-            "url": "$baseurl/latest.yml",
-            "regex": "sha512:\\s+$base64"
         }
     }
 }
