@@ -1,0 +1,35 @@
+{
+    "version": "0.9.0",
+    "homepage": "https://github.com/antonycourtney/tad",
+    "description": "Tad is a desktop application for viewing and analyzing tabular data such as CSV files.",
+    "license": "MIT",
+    "url": "https://github.com/antonycourtney/tad/releases/download/v0.9.0/Tad.Setup.0.9.0.exe#/dl.7z",
+    "hash": "8f5c469ffacdafe7cedb23975c565c9d76d0b0cec311b2e56ccd352c2734d02a",
+    "installer": {
+        "script": [
+            "Expand-7ZipArchive \"$dir\\Additional files\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
+            "Remove-Item \"$dir\\Additional files\" -Force -Recurse"
+        ]
+    },
+    "shortcuts": [
+        [
+            "Beekeeper Studio.exe",
+            "Beekeeper Studio"
+        ]
+    ],
+    "persist": "beekeeper_studio_data",
+    "checkver": {
+        "github": "https://github.com/beekeeper-studio/beekeeper-studio"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v$version/Beekeeper-Studio-$version-portable#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/latest.yml",
+            "regex": "sha512:\\s+$base64"
+        }
+    }
+}
