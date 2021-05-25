@@ -1,5 +1,5 @@
 {
-    "version": "5.6.5",
+    "version": "5.6.6",
     "description": "Video and audio conferencing, chat, and webinars",
     "homepage": "https://zoom.us",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://zoom.us/terms"
     },
     "url": "https://www.zoom.us/client/latest/ZoomInstaller.exe#/dl.7z",
-    "hash": "9bc0b22ea5852c861d72c01f52f69ac2094f0f82217bed2d5d8856edfe033b3c",
+    "hash": "fb9a412a7e906069a64c4f6eb6cba9afcd76407210bbe81353e32208e20069a1",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\Zoom.msi\" -Removal",
         "Remove-Item \"$dir\\Install*\""
