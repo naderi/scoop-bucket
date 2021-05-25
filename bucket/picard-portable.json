@@ -11,13 +11,13 @@
     },
     "pre_install": [
         "Remove-Item \"$dir\\`$*\" -Recurse",
-        "if(!(Test-Path \"$dir/Picard.ini\")) { Add-Content \"$dir/Picard.ini\" $null }"
+        "if(!(Test-Path \"$dir/picard.ini\")) { Add-Content \"$dir/picard.ini\" $null }"
     ],
     "bin": [
         [
             "picard.exe",
-            "-c \"$dir\\picard.ini\"",
-            "busybox"
+            "picard",
+            "-c $dir\\picard.ini"
         ],
         [
             "fpcalc.exe",
@@ -31,6 +31,7 @@
             "-c \"$dir\\picard.ini\""
         ]
     ],
+    "persist": "picard.ini",
     "checkver": {
         "url": "https://picard.musicbrainz.org/downloads/",
         "regex": "picard-setup-([\\d.]+)\\.exe"
