@@ -1,11 +1,11 @@
 {
     "homepage": "https://www.xmind.net/",
-    "version": "2021.01.07",
+    "version": "2021.5.27",
     "license": "shareware",
     "architecture": {
         "64bit": {
             "url": "https://www.xmind.net/zen/download/win64/#/dl.7z",
-            "hash": "6fd240b6127999f40cdb4c988131dc3318dbfcce5d2f2ceeef19a5005d247bf8",
+            "hash": "d2b3ab584c2fe676e7b32246d0e52fdb964c74745f36fffe5ff4a2590f854180",
             "installer": {
                 "script": [
                     "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
@@ -15,7 +15,7 @@
         },
         "32bit": {
             "url": "https://www.xmind.net/zen/download/win32/#/dl.7z",
-            "hash": "2a0893610ce3bf5c15af81b832c3d5ec403059f35c523a3a19fcb67bd8878817",
+            "hash": "f6f7915ba6a7306d47c471c0190a4c0e8ef044e543ac1f5a216abef2c17e7a20",
             "installer": {
                 "script": [
                     "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\" -Removal",
