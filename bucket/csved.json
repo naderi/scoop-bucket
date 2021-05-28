@@ -1,5 +1,5 @@
 {
-    "homepage": "https://csved.sjfrancke.nl/",
+    "homepage": "https://csved.sjfrancke.nl",
     "license": "cardware",
     "version": "2.5.6",
     "url": "http://home.hccnet.nl/s.j.francke/csved/CSVed.zip",
@@ -19,7 +19,7 @@
         "CSVed.tbx"
     ],
     "checkver": {
-        "url": "https://csved.sjfrancke.nl/",
+        "url": "https://csved.sjfrancke.nl",
         "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36",
         "regex": "version.+?([\\d.]+)"
     },
