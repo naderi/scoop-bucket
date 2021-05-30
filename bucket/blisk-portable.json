@@ -25,7 +25,7 @@
     "shortcuts": [
         [
             "blisk.exe",
-            "Blisk"
+            "Blisk",
             "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
