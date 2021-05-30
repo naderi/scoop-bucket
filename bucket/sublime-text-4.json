@@ -9,8 +9,8 @@
     "notes": "Add Sublime Text as a context menu option by running: \"reg import '$dir\\install-context.reg'\"",
     "url": [
         "https://download.sublimetext.com/sublime_text_build_4107_x64.zip",
-        "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/sublime-text/install-context.reg",
-        "https://raw.githubusercontent.com/lukesampson/scoop-extras/master/scripts/sublime-text/uninstall-context.reg"
+        "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/sublime-text/sublime-text-install-context.reg",
+        "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/sublime-text/sublime-text-uninstall-context.reg"
     ],
     "hash": [
         "5cca7325f109cc321b15f74f277e4909b9664d87687b6c5adaa706e14dc90447",
