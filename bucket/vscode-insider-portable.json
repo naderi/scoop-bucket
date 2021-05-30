@@ -49,8 +49,8 @@
         "64bit": {
             "url": [
                 "https://code.visualstudio.com/sha/download?build=insider&os=win32-x64-archive#/dl.7z",
-                "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/vscode-install-context.reg",
-                "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/vscode-uninstall-context.reg"
+                "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/visual-studio-code/vscode-install-context.reg",
+                "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/visual-studio-code/vscode-uninstall-context.reg"
             ],
             "hash": [
                 "deaf151c251bc590ef560322f2b49c38f7b494fca595f0f2d4f86f202add2b4a",
