@@ -30,7 +30,7 @@
         [
             "firefox.exe",
             "Firefox Developer",
-            "-Profile Profile"
+            "-Profile \"$dir\\Profile\""
         ]
     ],
     "persist": "Profile",
