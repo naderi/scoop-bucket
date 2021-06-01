@@ -1,7 +1,7 @@
 {
+    "version": "90.0b1",
     "description": "Beta builds of Firefox: the popular open source web browser.",
     "homepage": "https://www.mozilla.org/en-US/firefox/beta/",
-    "version": "90.0b1",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
@@ -18,17 +18,17 @@
         [
             "firefox.exe",
             "firefox-beta",
-            "-Profile \"$dir\\Profile\""
+            "-profile \"$dir\\profile\""
         ]
     ],
     "shortcuts": [
         [
             "firefox.exe",
             "Firefox Beta",
-            "-Profile \"$dir\\Profile\""
+            "-profile \"$dir\\profile\""
         ]
     ],
-    "persist": "Profile",
+    "persist": "profile",
     "checkver": {
         "url": "https://www.mozilla.org/de/firefox/all/",
         "regex": "<option value=\"desktop_beta\">([\\db.]+)"
