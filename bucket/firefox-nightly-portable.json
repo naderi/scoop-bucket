@@ -25,7 +25,7 @@
         [
             "firefox.exe",
             "Firefox Nightly",
-            "-Profile Profile"
+            "-Profile \"$dir\\Profile\""
         ]
     ],
     "persist": "Profile",
