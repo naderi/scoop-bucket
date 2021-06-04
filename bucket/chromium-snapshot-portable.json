@@ -1,17 +1,17 @@
 {
     "##": "Check chromium.woolyss.com for different versions of Chromium releases.",
-    "version": "889244",
+    "version": "889277",
     "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web.",
     "homepage": "https://www.chromium.org",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Win_x64%2F889244%2Fchrome-win.zip?alt=media",
-            "hash": "eae4907da17e367e1e4d6efa0e0d1bb09883c9b478450de7ddcff3a15962b050"
+            "url": "https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Win_x64%2F889277%2Fchrome-win.zip?alt=media",
+            "hash": "7dd5abb3f36f92bdcffc32ff89f2168580f615e4d244d19494c928b661313702"
         },
         "32bit": {
-            "url": "https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Win%2F889244%2Fchrome-win.zip?alt=media",
-            "hash": "2194d22a7e8db376d19dd6260ddecc6a2d147d1668af3ffeef131cc0e92f1068"
+            "url": "https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Win%2F889277%2Fchrome-win.zip?alt=media",
+            "hash": "8d7fb46198fe483a19ab29895cc0b9cb466a6f64913f7d73a0c24b8a651697f8"
         }
     },
     "extract_dir": "chrome-win",
