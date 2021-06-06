@@ -15,19 +15,11 @@
         }
     },
     "extract_dir": "chrome-win",
-    "bin": [
-        "chrome.exe",
-        [
-            "chrome.exe",
-            "chromium-snapshot",
-            "--user-data-dir=\"$dir\\User Data\""
-        ]
-    ],
     "shortcuts": [
         [
             "chrome.exe",
             "Chromium Snapshot",
-            "--user-data-dir=\"$dir\\User Data\""
+            "--user-data-dir=\"User Data\""
         ]
     ],
     "persist": "User Data",
