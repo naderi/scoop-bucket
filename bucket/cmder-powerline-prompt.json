@@ -5,13 +5,26 @@
     "url": "https://github.com/chrisant996/cmder-powerline-prompt/archive/v.1bf5ea.zip",
     "hash": "5e42637ba4ef26506fef82522e3fc876969202baf28aeeeff13768b628d83f48",
     "extract_dir": "cmder-powerline-prompt-v.1bf5ea",
-    "notes": [
-        "This requires either Cmder or Clink installed.",
-        "If you have Clink, run this command to configure adding these scripts to Clink's script path:",
-        "\tclink installscripts $dir",
-        "To remove them from Clink's script path:",
-        "\tclink uninstallscripts $dir"
-    ],
+    "installer": {
+        "script": [
+            "if (Get-Command clink -ErrorAction SilentlyContinue) {",
+            "   clink installscripts $dir",
+            "} elseif ($Env:CMDER_ROOT) {",
+            "   & $Env:CMDER_ROOT\\vendor\\clink\\clink.bat installscripts $dir",
+            "} else {",
+            "   \"Clink or Cmder installation not found. Please manually install these scripts\"",
+            "}"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "if (Get-Command clink -ErrorAction SilentlyContinue) {",
+            "   clink uninstallscripts $dir",
+            "} elseif ($Env:CMDER_ROOT) {",
+            "   & $Env:CMDER_ROOT\\vendor\\clink\\clink.bat uninstallscripts $dir",
+            "}"
+        ]
+    },
     "checkver": {
         "url": "https://github.com/chrisant996/cmder-powerline-prompt/releases/latest",
         "re": "/releases/tag/([\\w.]+)"
