@@ -1,12 +1,12 @@
 {
-    "version": "1.11.6",
+    "version": "1.12.0",
     "homepage": "https://github.com/beekeeper-studio/beekeeper-studio",
     "description": "Beekeeper Studio is a cross-platform SQL editor and database manager available for Linux, Mac, and Windows.",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v1.11.6/Beekeeper-Studio-1.11.6-portable.exe#/dl.7z",
-            "hash": "db330ab78bdce9c37fa03a689dfef2872b4a466f75ec392f8de51b2937c762ec",
+            "url": "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v1.12.0/Beekeeper-Studio-1.12.0-portable.exe#/dl.7z",
+            "hash": "328a007a6f45f98cd528ba9f075a2cc1645bf95b3e49aced7dfda9b4bcb9cbc1",
             "pre_install": [
                 "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
                 "Remove-Item \"$dir\\`$*\" -Force -Recurse"
