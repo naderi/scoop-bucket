@@ -1,10 +1,10 @@
 {
-    "version": "2.15.0.787",
+    "version": "2.15.0.788",
     "description": "Balabolka is a Text-To-Speech (TTS) program.",
     "homepage": "http://balabolka.site/balabolka.htm",
     "license": "Freeware",
     "url": "http://balabolka.site/balabolka_portable.zip",
-    "hash": "725dbe83e313119273fa985db80b5ef4a03724f289ab3f077a23f498c2442da0",
+    "hash": "cc3675dcc1baf79a4a7a6269899d82d15aa5c351b72755eeca5be770381f839c",
     "pre_install": "if(!(Test-Path \"$dir/balabolka.pcfg\")) { Add-Content \"$dir/balabolka.pcfg\" $null }",
     "extract_dir": "Balabolka",
     "persist": "balabolka.pcfg",
