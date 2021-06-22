@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/chrisant996/cmder-powerline-prompt",
-    "version": "v.2a6ac9",
+    "version": "v.06cc7a",
     "license": "",
-    "url": "https://github.com/chrisant996/cmder-powerline-prompt/archive/v.2a6ac9.zip",
-    "hash": "12f1ce4322fefb4d14474553f2c4f4e9760cac0786a9cceca269bac70fad581c",
-    "extract_dir": "cmder-powerline-prompt-v.2a6ac9",
+    "url": "https://github.com/chrisant996/cmder-powerline-prompt/archive/v.06cc7a.zip",
+    "hash": "d389b0a433ae9831c55a5dc1523bbd041bca0e5ccc7f3f790eb2c361bd18381f",
+    "extract_dir": "cmder-powerline-prompt-v.06cc7a",
     "installer": {
         "script": [
             "if (Get-Command clink -ErrorAction SilentlyContinue) {",
