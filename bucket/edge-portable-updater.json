@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/UndertakerBen/PorEdgeUpd",
-    "version": "1.4.0.1",
+    "version": "1.4.2.0",
     "license": "MIT",
-    "url": "https://github.com/UndertakerBen/PorEdgeUpd/releases/download/v1.4.0.1/Portable.Edge.Chromium.Updater.v1.4.0.1.7z",
-    "hash": "e1d7324461488a86f870fa7356548e9c4f2cb7edccec19bb53d9ab6c40b8aedb",
+    "url": "https://github.com/UndertakerBen/PorEdgeUpd/releases/download/v1.4.2.0/Portable.Edge.Chromium.Updater.v1.4.2.0.7z",
+    "hash": "4206831e6bb1d1cbf0693959c7cdb2f6a291f7d60b3c28da9fb2301e79d0965e",
     "pre_install": [
         "if (!(Test-Path \"$dir\\Edge Launcher.exe\")) {",
         "   Copy-Item \"$dir\\Bin\\Launcher\\Edge Launcher.exe\" \"$dir\"",
