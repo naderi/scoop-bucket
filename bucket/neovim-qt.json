@@ -16,7 +16,7 @@
   "shortcuts": [
     [
       "bin\\nvim-qt.exe",
-      "Neovim QT"
+      "Neovim Qt"
     ]
   ],
   "checkver": {
