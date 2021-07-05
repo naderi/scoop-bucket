@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Eugeny/tabby/releases/download/v1.0.144/tabby-1.0.144-portable.zip",
-            "hash": "bbc7b5224703631f896e3859b4ec407d9709642177e4a8d7454aa8d4d325cb38",
+            "hash": "bf50ec275dd00e1625e56323009a5e7d67212ebbfd96d99c9d9a586a5b25803f",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Unins*\" -Force -Recurse"
