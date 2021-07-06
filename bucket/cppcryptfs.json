@@ -1,9 +1,9 @@
 {
-    "version": "1.4.3.7",
+    "version": "1.4.3.8",
     "description": "CryFS encrypts your files, so you can safely store them anywhere.",
     "homepage": "https://www.cryfs.org/",
-    "url": "https://github.com/bailey27/cppcryptfs/releases/download/1.4.3.7/cppcryptfs.exe",
-    "hash": "c24421c146a1c9c124bf3bd8a384b014cd3ab306fc2d8644fa083ab1a0e131c5",
+    "url": "https://github.com/bailey27/cppcryptfs/releases/download/1.4.3.8/cppcryptfs.exe",
+    "hash": "7412ccd466bfec313560361ae627dd260a103a4fb28206ca26424a89397907c6",
     "shortcuts": [
         [
             "cppcryptfs.exe",
