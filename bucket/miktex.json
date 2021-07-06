@@ -39,6 +39,16 @@
             "--private"
         ]
     },
+    "shortcuts": [
+        [
+            "texmfs/install/miktex/bin/x64/miktex-console.exe",
+            "MikTeX\\MikTeX Console"
+        ],
+        [
+            "texmfs/install/miktex/bin/x64/miktex-texworks.exe",
+            "MikTeX\\MikTeX TeXworks"
+        ]
+    ],
     "persist": [
         "texmfs\\install",
         "texmfs\\config"
