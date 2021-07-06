@@ -39,7 +39,10 @@
             "--private"
         ]
     },
-    "persist": "texmfs\\config",
+    "persist": [
+        "texmfs\\install",
+        "texmfs\\config"
+    ],
     "checkver": {
         "url": "https://miktex.org/download",
         "regex": "basic-miktex-([\\d.]+)\\.exe"
