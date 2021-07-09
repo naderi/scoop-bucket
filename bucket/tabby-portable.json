@@ -1,12 +1,12 @@
 {
-    "version": "1.0.145",
+    "version": "1.0.146",
     "description": "Tabby (formerly Terminus) is a terminal for a more modern age",
     "homepage": "https://eugeny.github.io/tabby/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Eugeny/tabby/releases/download/v1.0.145/tabby-1.0.145-portable.zip",
-            "hash": "f92e52e35c3825f6c712e5cbb94f405b794ee094176437056692da974ba77ad4"
+            "url": "https://github.com/Eugeny/tabby/releases/download/v1.0.146/tabby-1.0.146-portable.zip",
+            "hash": "c6ef5b6c56020cab2204c44d304613d4095d40e0670bed6e47dab581bdc21312"
         }
     },
     "shortcuts": [
