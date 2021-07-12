@@ -5,7 +5,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.xmind.net/zen/download/win64/#/dl.7z",
-            "hash": "d2b3ab584c2fe676e7b32246d0e52fdb964c74745f36fffe5ff4a2590f854180",
+            "hash": "93b58da27622b01c366492164392ea6b2e8c84f700159547158130c0bb7b1a74",
             "installer": {
                 "script": [
                     "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
@@ -15,7 +15,7 @@
         },
         "32bit": {
             "url": "https://www.xmind.net/zen/download/win32/#/dl.7z",
-            "hash": "f6f7915ba6a7306d47c471c0190a4c0e8ef044e543ac1f5a216abef2c17e7a20",
+            "hash": "6e4a513f08386f202aa7ea60b89046d545776d6f9e69691de03451111af6206e",
             "installer": {
                 "script": [
                     "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\" -Removal",
