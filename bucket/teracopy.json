@@ -2,52 +2,43 @@
     "homepage": "http://www.codesector.com/teracopy",
     "version": "3.8.5",
     "license": "free for home users",
-    "url": "http://www.codesector.com/files/teracopy.exe#tera.exe",
-    "hash": "401870777b39b6ffbfd5ec96ae79470e9caf2d2b5526927100dd91e87b3228ee",
-    "innosetup": true,
+    "url": "https://www.codesector.com/files/teracopy.zip",
+    "hash": "f508babcf303682c95d7b6abe35c1c379d9f0dc81da91a040525331f01d14981",
+    "extract_dir": "TeraCopy",
     "architecture": {
         "64bit": {
             "pre_install": [
                 "if(!(Test-Path \"$dir/Options.ini\")) { Add-Content \"$dir/Options.ini\" $null }",
-                "if(!(Test-Path \"$dir/main.db\")) { Add-Content \"$dir/main.db\" $null }",
-                "Rename-Item \"$dir\\Context,1.dll\" \"Context.dll\"",
-                "Rename-Item \"$dir\\TeraCopy,1.dll\" \"TeraCopy.dll\"",
-                "Rename-Item \"$dir\\TeraCopy,1.exe\" \"TeraCopy.exe\"",
-                "Rename-Item \"$dir\\TeraCopyService,1.exe\" \"TeraCopyService.exe\"",
-                "Remove-Item \"$dir\\Context,2.dll\"",
-                "Remove-Item \"$dir\\TeraCopy,2.exe\"",
-                "Remove-Item \"$dir\\TeraCopy,2.dll\"",
-                "Remove-Item \"$dir\\TeraCopyService,2.exe\""
+                "if(!(Test-Path \"$dir/main.db\")) { Add-Content \"$dir/main.db\" $null }"
+            ],
+            "bin": "TeraCopy.exe",
+            "shortcuts": [
+                [
+                    "TeraCopy.exe",
+                    "TeraCopy"
+                ]
             ]
         },
         "32bit": {
             "pre_install": [
                 "if(!(Test-Path \"$dir/Options.ini\")) { Add-Content \"$dir/Options.ini\" $null }",
-                "if(!(Test-Path \"$dir/main.db\")) { Add-Content \"$dir/main.db\" $null }",
-                "Rename-Item \"$dir\\Context,2.dll\" \"Context.dll\"",
-                "Rename-Item \"$dir\\TeraCopy,2.dll\" \"TeraCopy.dll\"",
-                "Rename-Item \"$dir\\TeraCopy,2.exe\" \"TeraCopy.exe\"",
-                "Rename-Item \"$dir\\TeraCopyService,2.exe\" \"TeraCopyService.exe\"",
-                "Remove-Item \"$dir\\Context,1.dll\"",
-                "Remove-Item \"$dir\\TeraCopy,1.exe\"",
-                "Remove-Item \"$dir\\TeraCopy,1.dll\"",
-                "Remove-Item \"$dir\\TeraCopyService,1.exe\""
+                "if(!(Test-Path \"$dir/main.db\")) { Add-Content \"$dir/main.db\" $null }"
+            ],
+            "bin": "Win32\\TeraCopy.exe",
+            "shortcuts": [
+                [
+                    "Win32\\TeraCopy.exe",
+                    "TeraCopy"
+                ]
             ]
         }
     },
-    "bin": "TeraCopy.exe",
     "persist": [
         "Options.ini",
         "main.db"
     ],
-    "shortcuts": [
-        [
-            "TeraCopy.exe",
-            "TeraCopy"
-        ]
-    ],
     "checkver": "TeraCopy ([\\d.]+)",
     "autoupdate": {
-        "url": "http://www.codesector.com/files/teracopy.exe#tera.exe"
+        "url": "https://www.codesector.com/files/teracopy.zip"
     }
 }
