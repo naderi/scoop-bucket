@@ -1,0 +1,32 @@
+{
+    "version": "2.1.0",
+    "description": "A high performace text editor for huge file and long line.",
+    "homepage": "https://kingtoolbox.github.io/",
+    "license": "Apache-2.0",
+    "suggest": {
+        "vcredist2019": "extras/vcredist2019"
+    },
+    "url": "https://github.com/kingToolbox/WindTerm/releases/download/2.1/WindTerm_2.1.0_Windows_Portable.zip",
+    "hash": "dc37829b31d536fbb69918b753356151c30186dcbfd76a9d91bcfc8609d2f9f4",
+    "extract_dir": "WindTerm_2.1.0",
+    "shortcuts": [
+        [
+            "WindEdit.exe",
+            "WindEdit"
+        ]
+    ],
+    "persist": [
+        "global",
+        "plugins",
+        "profiles",
+        "terminal"
+    ],
+    "checkver": {
+        "github": "https://github.com/kingToolbox/WindEdit",
+        "regex": "WindEdit_([\\d.]+)_Windows_Portable"
+    },
+    "autoupdate": {
+        "url": "https://github.com/kingToolbox/WindEdit/releases/download/$majorVersion.$minorVersion/WindEdit.$version.zip",
+        "extract_dir": "WindEdit $version"
+    }
+}
