@@ -10,7 +10,7 @@
         },
         "32bit": {
             "url": "https://dorado-api.deno.dev/edge?arch=86&channel=stable&dl#/MicrosoftEdge-92.0.902.62-x86.7z",
-            "hash": "e4c3d5d9f04db0182cb67a0769d76d83bb051741f0b3394807c2c7719b4dde1e"
+            "hash": "5f6807c0b25aa112685757c6f527c36122d4cb5244b9d1f8968168dcb7bc0547"
         }
     },
     "installer": {
