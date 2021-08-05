@@ -1,6 +1,6 @@
 {
     "version": "1.4.3",
-    "description": "Shell session recorder (Asciinema for Windows)",
+    "description": "Terminal session recorder (Asciinema)",
     "homepage": "https://github.com/ibigbug/PowerSession",
     "license": "MIT",
     "architecture": {
