@@ -19,8 +19,7 @@
     ],
     "persist": [
         "tmp",
-        "storage",
-        "portable.ini"
+        "storage"
     ],
     "checkver": {
         "github": "https://github.com/HandBrake/HandBrake"
