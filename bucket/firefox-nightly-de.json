@@ -5,15 +5,15 @@
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-93.0a1.de.win64.installer.exe#/firefox.7z",
-            "hash": "sha512:34fd26e55b94fa86e38fcaa0e87e5f2ebe52a664f18ccabc825b3eaaac989cbc26be8155942d197d2cf6fb285951ec33df25f53bdb2127ab8cc0074adfbd026e"
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-93.0a1.de.win64.zip",
+            "hash": "sha512:4e5307298786e5b6ad21c026ddaa14d76aa69305f5864b0631c57c648be320d3a32299142ca21c19cf7c006beea8e74d19e462898f9aff5c9ae876234632a806"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-93.0a1.de.win32.installer.exe#/firefox.7z",
-            "hash": "sha512:36e594cfa0ea09a935f8ee087dab5a1ad0898fc4ff077a31e4ed96c023cb97f9c76b1e749367f0b7e75ddeef5e37eb5a573cc1ebf373053ed3cf8afcff29b491"
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-93.0a1.de.win32.zip",
+            "hash": "sha512:7f63fcc225a401d0c7d14a432a2891e2f81edcabe7b4dcea4a55ade483463a079fac40aea84330b097d62eedddaaa2eaa02dd844dba48147c93eecd56c349069"
         }
     },
-    "extract_dir": "core",
+    "extract_dir": "firefox",
     "bin": [
         [
             "firefox.exe",
@@ -37,13 +37,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.de.win64.installer.exe#/firefox.7z",
+                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.de.win64.zip",
                 "hash": {
                     "url": "$baseurl/firefox-$majorVersion.$minorVersion.de.win64.checksums"
                 }
             },
             "32bit": {
-                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.de.win32.installer.exe#/firefox.7z",
+                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.de.win32.zip",
                 "hash": {
                     "url": "$baseurl/firefox-$majorVersion.$minorVersion.de.win32.checksums"
                 }
