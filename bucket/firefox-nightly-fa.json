@@ -37,13 +37,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://archive.mozilla.org/pub/firefox/nightly/$matchYyyy/$matchMm/$matchYyyy-$matchMm-$matchDd-$matchHr-$matchMi-$matchSe-mozilla-central/firefox-$majorVersion.$minorVersion.fa-IR.win64.installer.exe#/dl.7z",
+                "url": "https://archive.mozilla.org/pub/firefox/nightly/$matchYyyy/$matchMm/$matchYyyy-$matchMm-$matchDd-$matchHr-$matchMi-$matchSe-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.fa-IR.win64.installer.exe#/firefox.7z",
                 "hash": {
                     "url": "$baseurl/firefox-$majorVersion.$minorVersion.fa-IR.win64.checksums"
                 }
             },
             "32bit": {
-                "url": "https://archive.mozilla.org/pub/firefox/nightly/$matchYyyy/$matchMm/$matchYyyy-$matchMm-$matchDd-$matchHr-$matchMi-$matchSe-mozilla-central/firefox-$majorVersion.$minorVersion.fa-IR.win32.installer.exe#/dl.7z",
+                "url": "https://archive.mozilla.org/pub/firefox/nightly/$matchYyyy/$matchMm/$matchYyyy-$matchMm-$matchDd-$matchHr-$matchMi-$matchSe-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.fa-IR.win32.installer.exe#/firefox.7z",
                 "hash": {
                     "url": "$baseurl/firefox-$majorVersion.$minorVersion.fa-IR.win32.checksums"
                 }
