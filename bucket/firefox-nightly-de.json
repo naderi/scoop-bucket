@@ -5,12 +5,12 @@
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://download.mozilla.org/?product=firefox-nightly-latest-l10n-ssl&os=win64&lang=de#/firefox.7z",
-            "hash": "ed861370fae8df29caed3b7a6aac4cf00f35e764d194f311f093893f9bbc3408"
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-93.0a1.de.win64.installer.exe#/firefox.7z",
+            "hash": "sha512:34fd26e55b94fa86e38fcaa0e87e5f2ebe52a664f18ccabc825b3eaaac989cbc26be8155942d197d2cf6fb285951ec33df25f53bdb2127ab8cc0074adfbd026e"
         },
         "32bit": {
-            "url": "https://download.mozilla.org/?product=firefox-nightly-latest-l10n-ssl&os=win&lang=de#/firefox.7z",
-            "hash": "9d158ac1c8a3c0a982e3ecdf5802438620578ebded3a624fa63ebda6a0ccd7db"
+            "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-93.0a1.de.win32.installer.exe#/firefox.7z",
+            "hash": "sha512:36e594cfa0ea09a935f8ee087dab5a1ad0898fc4ff077a31e4ed96c023cb97f9c76b1e749367f0b7e75ddeef5e37eb5a573cc1ebf373053ed3cf8afcff29b491"
         }
     },
     "extract_dir": "core",
@@ -37,10 +37,16 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.mozilla.org/?product=firefox-nightly-latest-l10n-ssl&os=win64&lang=de#/firefox.7z"
+                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.de.win64.installer.exe#/firefox.7z",
+                "hash": {
+                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.de.win64.checksums"
+                }
             },
             "32bit": {
-                "url": "https://download.mozilla.org/?product=firefox-nightly-latest-l10n-ssl&os=win&lang=de#/firefox.7z"
+                "url": "https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.de.win32.installer.exe#/firefox.7z",
+                "hash": {
+                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.de.win32.checksums"
+                }
             }
         }
     }
