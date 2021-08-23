@@ -1,16 +1,16 @@
 {
-    "version": "93.0a1.20210821212131",
+    "version": "93.0a1.20210822212235",
     "description": "Nightly builds of Firefox: the popular open source web browser.",
     "homepage": "https://www.mozilla.org/de-DE/firefox/nightly/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/nightly/2021/08/2021-08-21-21-21-31-mozilla-central/firefox-93.0a1.de-DE.win64.installer.exe#/dl.7z",
-            "hash": "sha512:95ab587fa412435a385f24a39a58748e48ad3b33fbde7bf7181a8fd4859070a5917bada79f326905503a1c66c79048da73864111bf0d948a0fdd32c3a86b28e7"
+            "url": "https://download.mozilla.org/?product=firefox-nightly-latest-l10n-ssl&os=win64&lang=de#/firefox.7z",
+            "hash": "ed861370fae8df29caed3b7a6aac4cf00f35e764d194f311f093893f9bbc3408"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/nightly/2021/08/2021-08-21-21-21-31-mozilla-central/firefox-93.0a1.de-DE.win32.installer.exe#/dl.7z",
-            "hash": "sha512:7b9f22d7c08f2206c1c541e45f86f0e79823a3888d2e57e06e32022301dcc939432b8b98bf7dfd89cc97731fe0dea15fdbc464eb306e3c10d79e0b4194674309"
+            "url": "https://download.mozilla.org/?product=firefox-nightly-latest-l10n-ssl&os=win&lang=de#/firefox.7z",
+            "hash": "9d158ac1c8a3c0a982e3ecdf5802438620578ebded3a624fa63ebda6a0ccd7db"
         }
     },
     "extract_dir": "core",
@@ -37,15 +37,17 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://archive.mozilla.org/pub/firefox/nightly/$matchYyyy/$matchMm/$matchYyyy-$matchMm-$matchDd-$matchHr-$matchMi-$matchSe-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.de-DE.win64.installer.exe#/firefox.7z",
+                "url": "https://download.mozilla.org/?product=firefox-nightly-latest-l10n-ssl&os=win64&lang=de#/firefox.7z",
                 "hash": {
-                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.de-DE.win64.checksums"
+                    "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win64/de-DE/$basename"
                 }
             },
             "32bit": {
-                "url": "https://archive.mozilla.org/pub/firefox/nightly/$matchYyyy/$matchMm/$matchYyyy-$matchMm-$matchDd-$matchHr-$matchMi-$matchSe-mozilla-central-l10n/firefox-$majorVersion.$minorVersion.de-DE.win32.installer.exe#/firefox.7z",
+                "url": "https://download.mozilla.org/?product=firefox-nightly-latest-l10n-ssl&os=win&lang=de#/firefox.7z",
                 "hash": {
-                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.de-DE.win32.checksums"
+                    "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
+                    "regex": "$sha512\\s+win64/de-DE/$basename"
                 }
             }
         }
