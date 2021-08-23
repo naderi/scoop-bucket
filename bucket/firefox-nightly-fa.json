@@ -37,16 +37,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.mozilla.org/?product=firefox-nightly-latest-l10n-ssl&os=win64&lang=fa#/firefox.7z",
-                "hash": {
-                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.fa-IR.win64.checksums"
-                }
+                "url": "https://download.mozilla.org/?product=firefox-nightly-latest-l10n-ssl&os=win64&lang=fa#/firefox.7z"
             },
             "32bit": {
-                "url": "https://download.mozilla.org/?product=firefox-nightly-latest-l10n-ssl&os=win&lang=fa#/firefox.7z",
-                "hash": {
-                    "url": "$baseurl/firefox-$majorVersion.$minorVersion.fa-IR.win32.checksums"
-                }
+                "url": "https://download.mozilla.org/?product=firefox-nightly-latest-l10n-ssl&os=win&lang=fa#/firefox.7z"
             }
         }
     }
