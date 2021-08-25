@@ -1,10 +1,10 @@
 {
-    "version": "dc66c303",
+    "version": "bc275e42",
     "description": "Non-linear video editor aiming to provide a fully-featured alternative to high-end professional video editing software.",
     "homepage": "https://olivevideoeditor.org",
     "license": "GPL-3.0-only",
-    "url": "https://olivevideoeditor.org/dl/Olive-dc66c303-Windows-x86_64.zip",
-    "hash": "sha1:ac1503a6a2a94f78eadc7c1b5075cd9e80f48335",
+    "url": "https://olivevideoeditor.org/dl/Olive-bc275e42-Windows-x86_64.zip",
+    "hash": "sha1:92df6f25ac797faf8d40ca696d604e2d5be85513",
     "extract_dir": "olive-editor",
     "pre_install": [
         "'config.xml', 'layout', 'shortcuts' | ForEach-Object { New-Item \"$dir\\$_\" -ItemType File | Out-Null }",
