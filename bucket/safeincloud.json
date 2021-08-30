@@ -11,6 +11,10 @@
             "SafeInCloud"
         ]
     ],
+    "persist": [
+        "SafeInCloud.exe.config",
+        "Data"
+    ],
     "checkver": {
         "url": "https://www.computerbild.de/download/SafeInCloud-Password-Manager-13715445.html",
         "regex": "<title>.+?([\\d.]+)"
