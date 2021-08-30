@@ -1,0 +1,21 @@
+{
+    "version": "0.11.0",
+    "description": "SafeInCloud Password Manager",
+    "homepage": "https://www.safe-in-cloud.com/en/",
+    "url": "https://github.com/cryfs/cryfs/releases/download/0.11.0/cryfs-0.11.0-win64.msi",
+    "hash": "5a1f6bffe7621bd4652651c9169a6f87abc7c23b0a077ad141fa641bf7a80caa",
+    "extract_dir": "SafeInCloud_Portable",
+    "shortcuts": [
+        [
+            "SafeInCloud.exe",
+            "SafeInCloud"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.computerbild.de/download/SafeInCloud-Password-Manager-13715445.html",
+        "regex": "<title>.+?([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.safe-in-cloud.com/download/SafeInCloud_Portable.zip"
+    }
+}
