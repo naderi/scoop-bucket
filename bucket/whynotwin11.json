@@ -1,6 +1,7 @@
 {
     "version": "2.4.1",
     "homepage": "https://github.com/rcmaehl/WhyNotWin11",
+    "description": "Detection Script to help identify why your PC isn't Windows 11 Release Ready.",
     "license": "GNU",
     "architecture": {
         "64bit": {
