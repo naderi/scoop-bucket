@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/chrisant996/clink-flex-prompt",
-    "version": "0.3",
+    "version": "0.4",
     "license": "MIT",
-    "url": "https://github.com/chrisant996/clink-flex-prompt/releases/download/v0.3/clink-flex-prompt-0.3.zip",
-    "hash": "6b17afc84787ea0661d8b0f7bc5fc12d74949130c3c33fd26b533183b6914047",
+    "url": "https://github.com/chrisant996/clink-flex-prompt/releases/download/v0.4/clink-flex-prompt-0.4.zip",
+    "hash": "c1695e9c06fbdc7bc7206254d2bb2fe34cf749fd168c39002713addff38678ce",
     "installer": {
         "script": [
             "if (Get-Command clink -ErrorAction SilentlyContinue) {",
