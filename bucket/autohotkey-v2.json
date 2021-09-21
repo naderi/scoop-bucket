@@ -6,7 +6,8 @@
     "url": "https://www.autohotkey.com/download/2.0/AutoHotkey_2.0-beta.1.zip",
     "hash": "93c9fa6807dad1b0592a19fc180eb33b2932dc372582e59089928fd7b9161dc9",
     "pre_install": [
-        "if(!(Test-Path \"$dir/AutoHotkey.ahk\")) { Add-Content \"$dir/AutoHotkey.ahk\" $null }"
+        "if(!(Test-Path \"$dir/Scripts\")) { New-Item \"$dir/Scripts\" -ItemType Directory | Out-Null }",
+        "if(!(Test-Path \"$dir/Scripts/Default.ahk\")) { Add-Content \"$dir/Scripts/Default.ahk\" \"SetWorkingDir A_ScriptDir\" }"
     ],
     "architecture": {
         "64bit": {
@@ -14,7 +15,7 @@
                 [
                     "AutoHotkey64.exe",
                     "AutoHotkey 2",
-                    "AutoHotkey.ahk"
+                    "Scripts\\Default.ahk"
                 ]
             ]
         },
@@ -23,12 +24,12 @@
                 [
                     "AutoHotkey32.exe",
                     "AutoHotkey 2",
-                    "AutoHotkey.ahk"
+                    "Scripts\\Default.ahk"
                 ]
             ]
         }
     },
-    "persist": "AutoHotkey.ahk",
+    "persist": "Scripts",
     "checkver": {
         "url": "https://www.autohotkey.com/download/2.0/version.txt",
         "regex": "(.*)"
