@@ -1,0 +1,42 @@
+{
+    "version": "2.0-beta.1",
+    "description": "The ultimate automation scripting language for Windows.",
+    "homepage": "https://www.autohotkey.com/",
+    "license": "GPL-2.0-or-later",
+    "url": "https://www.autohotkey.com/download/2.0/AutoHotkey_2.0-beta.1.zip",
+    "hash": "93c9fa6807dad1b0592a19fc180eb33b2932dc372582e59089928fd7b9161dc9",
+    "pre_install": [
+        "if(!(Test-Path \"$dir/AutoHotkey.ahk\")) { Add-Content \"$dir/AutoHotkey.ahk\" $null }"
+    ],
+    "architecture": {
+        "64bit": {
+            "shortcuts": [
+                [
+                    "AutoHotkey64.exe",
+                    "AutoHotkey 2",
+                    "AutoHotkey.ahk"
+                ]
+            ]
+        },
+        "32bit": {
+            "shortcuts": [
+                [
+                    "AutoHotkey32.exe",
+                    "AutoHotkey 2",
+                    "AutoHotkey.ahk"
+                ]
+            ]
+        }
+    },
+    "persist": "AutoHotkey.ahk",
+    "checkver": {
+        "url": "https://www.autohotkey.com/download/2.0/version.txt",
+        "regex": "(.*)"
+    },
+    "autoupdate": {
+        "url": "https://www.autohotkey.com/download/$matchHead/AutoHotkey_$version.zip",
+        "hash": {
+            "url": "$baseurl/AutoHotkey_$version.zip.sha256"
+        }
+    }
+}
