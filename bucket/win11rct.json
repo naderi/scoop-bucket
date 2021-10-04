@@ -4,7 +4,7 @@
     "description": "Windows 11 Requirements Check Tool",
     "license": "GNU",
     "url": "https://github.com/ByteJammer/Win11RCT/releases/download/1.2.1/Win11RCT.zip",
-    "hash": "09d8876288c4c9095fa92e1d0bba681a66c947e9908538b3e0ad044555b99d89",
+    "hash": "b9351cddc9603fe1727ea9affaa24687a22ecf18f66481ab8f85f4bcda1ea7a8",
     "shortcuts": [
         [
             "Win11RCT.exe",
@@ -13,9 +13,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/ByteJammer/Win11RCT/releases/download/$version/Win11RCT.zip",
-        "hash": {
-            "url": "$baseurl/sha256.txt"
-        }
+        "url": "https://github.com/ByteJammer/Win11RCT/releases/download/$version/Win11RCT.zip"
     }
 }
