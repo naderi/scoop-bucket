@@ -1,5 +1,5 @@
 {
-    "version": "7.31",
+    "version": "7.21",
     "description": "The Font-View-OK, creates a quick visual overview of fonts.",
     "homepage": "http://www.softwareok.com/?seite=Freeware/FontViewOK",
     "license": {
@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "http://www.softwareok.com/Download/FontViewOK_Portable_x64.zip",
-            "hash": "d0e24d380254973a779a5699c8fcdf0423da9238bd077a24b4a4596591ee6956",
+            "hash": "9fdabbcb467d2e69e681717548462b782c780f1d9c30fa56d74472a660b3ed69",
             "shortcuts": [
                 [
                     "FontViewOK_x64_p.exe",
@@ -19,7 +19,7 @@
         },
         "32bit": {
             "url": "http://www.softwareok.com/Download/FontViewOK_Portable.zip",
-            "hash": "d0e24d380254973a779a5699c8fcdf0423da9238bd077a24b4a4596591ee6956",
+            "hash": "bb994c1345a34e142d50951d76fa12e7e2afd7647ff6efc25f8a9ea09aff7ac8",
             "shortcuts": [
                 [
                     "FontViewOK_p.exe",
