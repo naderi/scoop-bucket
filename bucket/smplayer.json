@@ -30,7 +30,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.smplayer.info/downloads/",
+        "url": "https://www.smplayer.info/en/downloads",
         "regex": "Click here to download SMPlayer ([\\d.]+) \\(32-bit\\)"
     },
     "autoupdate": {
