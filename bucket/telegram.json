@@ -1,15 +1,15 @@
 {
-    "version": "3.2.1",
+    "version": "3.2.0",
     "description": "A messaging app with a focus on speed and security",
     "homepage": "https://telegram.org",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://telegram.org/dl/desktop/win64_portable#/dl.7z",
+            "url": "https://updates.tdesktop.com/tx64/tportable-x64.3.2.0.zip",
             "hash": "cb8d1eb0595af7dd1f3b19b39733188f0476c6e76862484577d87970329183eb"
         },
         "32bit": {
-            "url": "https://telegram.org/dl/desktop/win_portable#/dl.7z",
+            "url": "https://updates.tdesktop.com/tsetup/tportable.3.2.0.zip",
             "hash": "5f4d92e70485d1fbebc6aa9e52649b781627ec7a99725bf2705b79f318ef8f57"
         }
     },
@@ -24,15 +24,16 @@
     ],
     "persist": "tdata",
     "checkver": {
-        "github": "https://github.com/telegramdesktop/tdesktop"
+        "url": "https://github.com/telegramdesktop/tdesktop/releases",
+        "regex": "tportable-x64.(.+).zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://telegram.org/dl/desktop/win64_portable#/dl.7z"
+                "url": "https://updates.tdesktop.com/tx64/tportable-x64.$version.zip"
             },
             "32bit": {
-                "url": "https://telegram.org/dl/desktop/win_portable#/dl.7z"
+                "url": "https://updates.tdesktop.com/tsetup/tportable.$version.zip"
             }
         }
     }
