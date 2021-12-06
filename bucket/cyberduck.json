@@ -2,9 +2,9 @@
     "homepage": "https://cyberduck.io/",
     "description": "Multiple protocols libre file transfer client",
     "license": "GPL-2.0-or-later",
-    "version": "8.1.0.36410",
-    "url": "https://update.cyberduck.io/windows/Cyberduck-Installer-8.1.0.36410.msi",
-    "hash": "b32222a10dc7d20189e1a38af9672f502be8ce70be78b54958023ef14d4bb847",
+    "version": "8.1.1.36550",
+    "url": "https://update.cyberduck.io/windows/Cyberduck-Installer-8.1.1.36550.msi",
+    "hash": "45fd62991bc3192570a4d9063ee47a03963ed57724c7865d3d296eba769c91d8",
     "extract_dir": "Cyberduck",
     "shortcuts": [
         [
