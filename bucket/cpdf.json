@@ -3,13 +3,30 @@
     "description": "Powerful PDF manipulation tool",
     "homepage": "http://community.coherentpdf.com/",
     "license": "Freeware",
-    "url": "https://github.com/coherentgraphics/cpdf-binaries/raw/master/Windows/cpdf.exe",
-    "hash": "5c6025434adcc95b6cd558fc6dd412352d57b04c1d4839078c056c6491eed8c3",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/coherentgraphics/cpdf-binaries/raw/master/Windows/cpdf.exe",
+            "hash": "5c6025434adcc95b6cd558fc6dd412352d57b04c1d4839078c056c6491eed8c3"
+        },
+        "32bit": {
+            "url": "https://github.com/coherentgraphics/cpdf-binaries/raw/master/Windows/cpdf.exe",
+            "hash": "5c6025434adcc95b6cd558fc6dd412352d57b04c1d4839078c056c6491eed8c3"
+        }
+    },
     "bin": "cpdf.exe",
     "checkver": {
-        "github": "https://github.com/johnwhitington/cpdf-source"
+        "url": "https://www.coherentpdf.com/news-archive.html",
+        "regex": "PDF Command Line Tools\\s([\\d.]+)\\savailable"
     },
     "autoupdate": {
-        "url": "https://github.com/coherentgraphics/cpdf-binaries/raw/master/Windows/cpdf.exe"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/coherentgraphics/cpdf-binaries/raw/master/Windows64bit/cpdf.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/coherentgraphics/cpdf-binaries/raw/master/Windows32bit/cpdf.exe"
+            }
+        }
     }
 }
+
