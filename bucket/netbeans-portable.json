@@ -10,7 +10,7 @@
     "installer": {
         "script": [
             "$conf = Get-Content \"$dir\\etc\\netbeans.conf\"",
-            "$jdk = Get-Item '$scoopdir\\apps\\temurin-jdk\\current*'",
+            "$jdk = Get-Item \"$scoopdir\\apps\\temurin-jdk\\current\"",
             "Set-Content \"$dir\\etc\\netbeans.conf\" (",
             "  $conf -replace '#netbeans_jdkhome=.*',\"netbeans_jdkhome=`\"$jdk`\"\")",
             "if (-not $?) { exit 1 }"
