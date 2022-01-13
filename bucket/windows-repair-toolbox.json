@@ -10,6 +10,7 @@
             "Windows Repair Toolbox"
         ]
     ],
+    "persist": "Downloads",
     "checkver": {
         "url": "https://windows-repair-toolbox.com/",
         "regex": "Program version:\\s([\\d.]+)"
