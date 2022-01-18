@@ -1,16 +1,16 @@
 {
-    "version": "72.0b11",
+    "version": "97.0b4",
     "description": "Developer builds of Firefox: the popular open source web browser.",
     "homepage": "https://www.mozilla.org/fa-IR/firefox/developer/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/devedition/releases/72.0b11/win64/fa-IR/Firefox%20Setup%2072.0b11.exe#/dl.7z",
-            "hash": "sha512:2c942bf5946a1c777c53e2f83c28cb13115d38761a0cecb45fa2650b5cc61b95713d141710797a37adc6317058080620f0b6cb14902fff43ec584ba065896255"
+            "url": "https://archive.mozilla.org/pub/devedition/releases/97.0b4/win64/fa-IR/Firefox%20Setup%2097.0b4.exe#/dl.7z",
+            "hash": "sha512:90c87483bce83c2d50396eba8a8f4592b0893cd64d92da487bcea087f78b624ab32683ada0d776e800fbec8418cc5436ab1021a8488635bdf2b64cc40ca41322"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/devedition/releases/72.0b11/win32/fa-IR/Firefox%20Setup%2072.0b11.exe#/dl.7z",
-            "hash": "sha512:2c942bf5946a1c777c53e2f83c28cb13115d38761a0cecb45fa2650b5cc61b95713d141710797a37adc6317058080620f0b6cb14902fff43ec584ba065896255"
+            "url": "https://archive.mozilla.org/pub/devedition/releases/97.0b4/win32/fa-IR/Firefox%20Setup%2097.0b4.exe#/dl.7z",
+            "hash": "sha512:90c87483bce83c2d50396eba8a8f4592b0893cd64d92da487bcea087f78b624ab32683ada0d776e800fbec8418cc5436ab1021a8488635bdf2b64cc40ca41322"
         }
     },
     "extract_dir": "core",
@@ -35,9 +35,8 @@
     ],
     "persist": "profile",
     "checkver": {
-        "url": "https://aus5.mozilla.org/update/6/Firefox/60.0/_/WINNT_x86_64-msvc-x64/en-US/aurora/_/_/_/_/update.xml",
-        "xpath": "/updates/update/patch/@URL",
-        "regex": "devedition-([\\db.]+)-"
+        "url": "https://www.mozilla.org/de/firefox/all/",
+        "regex": "<option value=\"desktop_developer\">([\\db.]+)"
     },
     "autoupdate": {
         "architecture": {
