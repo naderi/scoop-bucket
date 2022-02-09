@@ -1,10 +1,10 @@
 {
-    "version": "4.0.6",
+    "version": "4.0.7",
     "description": "The 100% fresh, free-range, ethical browser (portable classic branch).",
     "homepage": "https://www.waterfox.net",
     "license": "MPL-2.0",
-    "url": "https://github.com/WaterfoxCo/Waterfox/releases/download/G4.0.6/Waterfox.G4.0.6.Setup.exe#/dl.7z",
-    "hash": "fb7d3cccfdc72f51290e7f5ea613d446277188de41331e3a8b27fca5325ee22b",
+    "url": "https://github.com/WaterfoxCo/Waterfox/releases/download/G4.0.7/Waterfox.G4.0.7.Setup.exe#/dl.7z",
+    "hash": "545c1eb95e40b98554164969de875cfc271190c362d6dade8335c8608ae85b52",
     "extract_dir": "core",
     "bin": [
         [
