@@ -1,10 +1,10 @@
 {
-    "version": "1.8.1.2",
+    "version": "2.3.1",
     "description": "UVviewsoft LogViewer is a viewer for text log files of unlimited size.",
     "homepage": "http://www.uvviewsoft.com/logviewer/",
     "license": "Freeware",
-    "url": "http://uc.maximus.in.ua/files/uCalendar1812u2.7z",
-    "hash": "08818c5ecd4ccd1588de644da6e695856f625ba88382479a2ba8cdbfe07e9ae5",
+    "url": "http://www.uvviewsoft.com/logviewer/files/uvviewsoft_LogViewer.zip",
+    "hash": "f33993e44dad1666e64a38c5ffac3e8fc55c02526d473f2a40db8c91446fcd9c",
     "pre_install": "if(!(Test-Path \"$dir/LogView.ini\")) { Add-Content \"$dir/LogViewer.ini\" $null }",
     "shortcuts": [
         [
