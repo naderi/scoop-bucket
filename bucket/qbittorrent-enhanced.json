@@ -1,5 +1,5 @@
 {
-    "version": "4.4.1.10",
+    "version": "4.4.1.0",
     "description": "qBittorrent BitTorrent client with anti-leech enhancement.",
     "homepage": "https://github.com/c0re100/qBittorrent-Enhanced-Edition",
     "license": {
@@ -35,9 +35,6 @@
             "32bit": {
                 "url": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-$version/qbittorrent_enhanced_$version_setup.exe#/dl.7z"
             }
-        },
-        "hash": {
-            "url": "$url.sha256sum"
         }
     }
 }
