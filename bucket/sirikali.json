@@ -14,7 +14,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/mhogomchungu/sirikali/releases/download/$version/SiriKali-$version.exe.zip",
+        "url": "https://github.com/mhogomchungu/sirikali/releases/download/$version/SiriKali-$version.exe#/dl.7z",
         "extract_dir": "SiriKali-$version.exe"
     }
 }
