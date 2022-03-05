@@ -9,7 +9,9 @@
     "shortcuts": [
         [
             "sirikali.exe",
-            "SiriKali"
+            "SiriKali",
+            "",
+            "icons\\sirikali.ico"
         ]
     ],
     "checkver": "github",
