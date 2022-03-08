@@ -1,0 +1,18 @@
+{
+    "version": "0.2.39",
+    "description": "One of the most known Windows PowerToys to tweak the User Interface (UI)",
+    "homepage": "https://github.com/builtbybel/TweakUIX",
+    "license": "MIT",
+    "url": "https://github.com/PeterDing/chord/releases/download/v0.2.39/chord-0.2.39-win.exe#/dl.7z",
+    "hash": "183e2a0aa781ef496cbc3e4d26aabffd23ece2de83f1eab76f1a495db974add9",
+    "shortcuts": [
+        [
+            "Tweak UIX.exe",
+            "Tweak UIX"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/builtbybel/TweakUIX/releases/download/$version/TweakUIX.zip"
+    }
+}
