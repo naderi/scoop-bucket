@@ -26,7 +26,10 @@
         "args": "--uninstall"
     },
     "persist": "backup",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/paolo-projects/auto-unlocker/releases/",
+        "regex": "releases/tag/v(.+?)\""
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
