@@ -5,7 +5,7 @@
     "license": "Freeware",
     "url": "http://downloads.wisecleaner.com/soft/WRCFree_10.7.2.699.zip",
     "hash": "7fbeb405b30918d4eb3eeb0d51353bdad5dc5ffe8140fb86973562c9ffe0af17",
-    "extract_dir": "Wise Registry Cleaner",
+    "extract_dir": "WRCFree_10.7.2.699",
     "shortcuts": [
         [
             "WiseRegCleaner.exe",
@@ -21,6 +21,7 @@
         "regex": "WRCFree.+?([\\d.]+)?\\.zip"
     },
     "autoupdate": {
-        "url": "http://downloads.wisecleaner.com/soft/WRCFree_$version.zip"
+        "url": "http://downloads.wisecleaner.com/soft/WRCFree_$version.zip",
+        "extract_dir": "WRCFree_$version"
     }
 }
