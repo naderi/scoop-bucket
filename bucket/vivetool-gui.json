@@ -1,7 +1,7 @@
 {
     "version": "0.1.0",
     "description": "Windows Feature Control GUI based on ViVeTool",
-    "homepage": "https://github.com/builtbybel/TweakUIX",
+    "homepage": "https://github.com/PeterStrick/ViVeTool-GUI",
     "license": "MIT",
     "url": "https://github.com/builtbybel/TweakUIX/releases/download/0.18.0/TweakUIX.zip",
     "hash": "c6c14923463bfc0bda9bd13cf23b726ede72d50f7099aa58f65824cca4cdae35",
