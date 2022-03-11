@@ -5,7 +5,7 @@
     "license": "Proprietary",
     "url": "http://www.texts.io/Texts-1.5.msi",
     "hash": "f696fbf90d00315c179de2e070c3bc6131488de5d4e06f8de150d952ba0a1c79",
-    "extract_dir": "CintaNotes_3_13",
+    "extract_dir": "Texts",
     "shortcuts": [
         [
             "Texts.exe",
