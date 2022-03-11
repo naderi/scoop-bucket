@@ -1,0 +1,22 @@
+{
+    "version": "1.5.1",
+    "description": "Rich Editor for Plain Text. Separate Content from Formatting. Store in Markdown.",
+    "homepage": "http://www.texts.io",
+    "license": "Proprietary",
+    "url": "https://github.com/PeterStrick/ViVeTool-GUI/releases/download/v1.5.1/ViVeTool.GUI.1.5.1.Portable.zip",
+    "hash": "9b595c355cab53719bb01c7209696d3e4dc59b193764855dd609cb6a6afda0fe",
+    "extract_dir": "CintaNotes_3_13",
+    "shortcuts": [
+        [
+            "Texts.exe",
+            "Texts"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.texts.io/download/",
+        "regex": "href=\"/Texts-([\\d.]+)\\.[dmg|msi]"
+    },
+    "autoupdate": {
+        "url": "http://www.texts.io/Texts-$version.msi"
+    }
+}
