@@ -1,10 +1,10 @@
 {
-    "version": "1.1.160",
+    "version": "2.95",
     "description": "Persian poet and poetry database",
     "homepage": "https://github.com/ganjoor/desktop",
     "license": "GNU-2",
-    "url": "https://github.com/builtbybel/ThisIsWin11/releases/download/1.1.160/TIW11.zip",
-    "hash": "a969cba5c4f578a9e66bdf8d1dd27f8253d2d95fe5c03d1c7bef8818090b548a",
+    "url": "https://github.com/ganjoor/desktop/releases/download/v2.95/GanjoorSetup-2.95.exe#/dl.7z",
+    "hash": "9b01d06c1bd5725ed66e85a81486bda06e287948afec2e7e8a4fed658e27ab86",
     "architecture": {
         "64bit": {
             "installer": {
@@ -36,7 +36,7 @@
     "autoupdate": {
         "url": "https://github.com/ganjoor/desktop/releases/download/v$version/GanjoorSetup-$version.exe#/dl.7z",
         "hash": {
-           "mode": "github"
+            "mode": "github"
         }
     }
 }
