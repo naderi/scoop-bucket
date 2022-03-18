@@ -9,7 +9,7 @@
         "64bit": {
             "installer": {
                 "script": [
-                    "Move-Item \"$dir\\$_0_\\*\" \"$dir\"",
+                    "Move-Item \"$dir\\`$_0_\\*\" \"$dir\"",
                     "Move-Item \"$dir\\x64\\*\" \"$dir\"",
                     "Get-ChildItem \"$dir\" -Recurse -Directory | Remove-Item -Recurse"
                 ]
@@ -18,7 +18,7 @@
         "32bit": {
             "installer": {
                 "script": [
-                    "Move-Item \"$dir\\$_0_\\*\" \"$dir\"",
+                    "Move-Item \"$dir\\`$_0_\\*\" \"$dir\"",
                     "Move-Item \"$dir\\x86\\*\" \"$dir\"",
                     "Get-ChildItem \"$dir\" -Recurse -Directory | Remove-Item -Recurse"
                 ]
