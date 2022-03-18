@@ -1,0 +1,42 @@
+{
+    "version": "1.1.160",
+    "description": "Persian poet and poetry database",
+    "homepage": "https://github.com/ganjoor/desktop",
+    "license": "GNU-2",
+    "url": "https://github.com/builtbybel/ThisIsWin11/releases/download/1.1.160/TIW11.zip",
+    "hash": "a969cba5c4f578a9e66bdf8d1dd27f8253d2d95fe5c03d1c7bef8818090b548a",
+    "architecture": {
+        "64bit": {
+            "installer": {
+                "script": [
+                    "Move-Item \"$dir\\$_0_\\*\" \"$dir\"",
+                    "Move-Item \"$dir\\x64\\*\" \"$dir\"",
+                    "Get-ChildItem \"$dir\" -Recurse -Directory | Remove-Item -Recurse"
+                ]
+            }
+        },
+        "32bit": {
+            "installer": {
+                "script": [
+                    "Move-Item \"$dir\\$_0_\\*\" \"$dir\"",
+                    "Move-Item \"$dir\\x86\\*\" \"$dir\"",
+                    "Get-ChildItem \"$dir\" -Recurse -Directory | Remove-Item -Recurse"
+                ]
+            }
+        }
+    },
+    "shortcuts": [
+        [
+            "ganjoor.exe",
+            "Ganjoor Desktop"
+        ]
+    ],
+    "persist": "ganjoor.s3db",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/ganjoor/desktop/releases/download/v$version/GanjoorSetup-$version.exe#/dl.7z",
+        "hash": {
+           "mode": "github"
+        }
+    }
+}
