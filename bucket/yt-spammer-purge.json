@@ -16,8 +16,7 @@
         "}",
         "if (!(Test-Path \"$persist_dir\\SpamPurgeConfig.ini\")) {",
         "   New-Item \"$dir\\SpamPurgeConfig.ini\" | Out-Null",
-        "   Set-Content -Path \"$dir\\SpamPurgeConfig.ini\" -Value '[general]
-auto_check_update = False'",
+        "   Set-Content -Path \"$dir\\SpamPurgeConfig.ini\" -Value '[general]`r`nauto_check_update = False'",
         "}",
         "if (!(Test-Path \"$persist_dir\\SpamPurge_Resources\")) {",
         "   New-Item -Path \"$dir\\SpamPurge_Resources\" -ItemType Directory | Out-Null",
