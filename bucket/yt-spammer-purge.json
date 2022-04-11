@@ -1,13 +1,13 @@
 {
-    "version": "2.16.9",
+    "version": "2.16.4",
     "description": "Scans for and deletes scam comments on your YouTube channel using several methods.",
     "homepage": "https://github.com/ThioJoe/YT-Spammer-Purge",
     "license": "GPL-3.0-only",
     "notes": "Your config files are stored in $dir. Visit the wiki to find out how to configure them: https://github.com/ThioJoe/YT-Spammer-Purge/wiki/Config-File-Settings",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ThioJoe/YT-Spammer-Purge/releases/download/v2.16.9/YTSpammerPurge.2.16.9.exe#/YTSpammerPurge.exe",
-            "hash": "c48a1933e05b7f2e1daea6e7a5c94c31b6e355a73d5a1f74696acbe70dca0b4e"
+            "url": "https://github.com/ThioJoe/YT-Spammer-Purge/releases/download/v2.16.8/YTSpammerPurge.2.16.8.exe#/YTSpammerPurge.exe",
+            "hash": "5bff0a268af14cd375798007f1b1eb98d69fac1e72961da0fa296f9c59b6e32b"
         }
     },
     "pre_install": [
@@ -16,8 +16,7 @@
         "}",
         "if (!(Test-Path \"$persist_dir\\SpamPurgeConfig.ini\")) {",
         "   New-Item \"$dir\\SpamPurgeConfig.ini\" | Out-Null",
-        "   Set-Content -Path \"$dir\\SpamPurgeConfig.ini\" -Value '[general]
-auto_check_update = False'",
+        "   Set-Content -Path \"$dir\\SpamPurgeConfig.ini\" -Value '[general]\nauto_check_update = False'",
         "}",
         "if (!(Test-Path \"$persist_dir\\SpamPurge_Resources\")) {",
         "   New-Item -Path \"$dir\\SpamPurge_Resources\" -ItemType Directory | Out-Null",
