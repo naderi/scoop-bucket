@@ -1,9 +1,9 @@
 {
-    "version": "2.16.1",
+    "version": "2.16.9",
     "description": "Allows you to filter and search for spammer comments on your channel and other's channel(s)",
     "homepage": "https://github.com/ThioJoe/YT-Spammer-Purge",
     "license": "GPL-3.0",
-    "url": "https://github.com/ThioJoe/YT-Spammer-Purge/releases/download/v2.16.9/YTSpammerPurge.2.16.9.exe#/dl.7z",
+    "url": "https://github.com/ThioJoe/YT-Spammer-Purge/releases/download/v2.16.9/YTSpammerPurge.2.16.9.exe#/YTSpammerPurge.exe",
     "hash": "c48a1933e05b7f2e1daea6e7a5c94c31b6e355a73d5a1f74696acbe70dca0b4e",
     "shortcuts": [
         [
