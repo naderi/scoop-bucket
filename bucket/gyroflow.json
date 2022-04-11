@@ -1,6 +1,6 @@
 {
     "version": "1",
-    "description": "youtube-local is a browser-based client written in Python for watching Youtube anonymously and without the lag of the slow page used by Youtube.",
+    "description": "Gyroflow is an application that can stabilize your video by using motion data from a gyroscope and optionally an accelerometer.",
     "homepage": "https://github.com/gyroflow/gyroflow",
     "license": "GPL-3.0",
     "architecture": {
