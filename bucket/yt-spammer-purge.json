@@ -1,5 +1,5 @@
 {
-    "version": "2.16.9",
+    "version": "2.16.4",
     "description": "Scans for and deletes scam comments on your YouTube channel using several methods.",
     "homepage": "https://github.com/ThioJoe/YT-Spammer-Purge",
     "license": "GPL-3.0-only",
@@ -16,7 +16,7 @@
         "}",
         "if (!(Test-Path \"$persist_dir\\SpamPurgeConfig.ini\")) {",
         "   New-Item \"$dir\\SpamPurgeConfig.ini\" | Out-Null",
-        "   Set-Content -Path \"$dir\\SpamPurgeConfig.ini\" -Value '[general]`r`nauto_check_update = False'",
+        "   Set-Content -Path \"$dir\\SpamPurgeConfig.ini\" -Value \"[general]`r`nauto_check_update = False\"",
         "}",
         "if (!(Test-Path \"$persist_dir\\SpamPurge_Resources\")) {",
         "   New-Item -Path \"$dir\\SpamPurge_Resources\" -ItemType Directory | Out-Null",
