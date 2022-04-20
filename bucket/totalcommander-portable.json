@@ -47,6 +47,8 @@
     ],
     "persist": [
         "plugins",
+        "language",
+        "no.bar",
         "default.bar",
         "default.br2",
         "vertical.bar",
