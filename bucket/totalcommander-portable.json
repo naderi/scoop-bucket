@@ -5,7 +5,7 @@
     "license": "Shareware",
     "architecture": {
         "64bit": {
-            "url": "http://totalcommander.ch/win/tcmd1000x64.exe",
+            "url": "https://www.totalcommander.ch/win/tcmd1000x64.exe",
             "hash": "c14ac3e7a9976959151fd656168b5cf51b757c88d215f6766e00a9c604976738",
             "bin": [
                 [
@@ -21,7 +21,7 @@
             ]
         },
         "32bit": {
-            "url": "http://totalcommander.ch/win/tcmd1000x32.exe",
+            "url": "https://www.totalcommander.ch/win/tcmd1000x32.exe",
             "hash": "7a96608325f48e7498a7da52eb52fdf353749e6cfa8b3353cf19b55d55b4695e",
             "bin": [
                 [
@@ -72,10 +72,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://totalcommander.ch/win/tcmd$cleanVersionx64.exe"
+                "url": "https://www.totalcommander.ch/win/tcmd$cleanVersionx64.exe"
             },
             "32bit": {
-                "url": "http://totalcommander.ch/win/tcmd$cleanVersionx32.exe"
+                "url": "https://www.totalcommander.ch/win/tcmd$cleanVersionx32.exe"
             }
         }
     }
