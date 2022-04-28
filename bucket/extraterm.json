@@ -13,7 +13,7 @@
     "pre_install": "if (!(Test-Path \"$persist_dir\\application_paths.json\")) {Set-Content \"$dir\\application_paths.json\" (@('{', '  \"userSettingsPath\": \"./config\"','}') -join \"`r`n\") -Encoding ASCII}",
     "shortcuts": [
         [
-            "extraterm.exe",
+            "extratermqt.exe",
             "Extraterm"
         ]
     ],
