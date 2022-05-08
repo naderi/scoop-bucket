@@ -1,0 +1,21 @@
+{
+    "version": "5.0",
+    "description": "adbLink provides a link between your Android device and your computer.",
+    "homepage": "http://jocala.com/adblink.html",
+    "license": "GPL-3",
+    "url": "http://jocala.com/downloads/adblw50.exe",
+    "hash": "6f88d1ea035203ae6890521e309bc0ce0ec980e6042459ea46841be78a641279",
+    "shortcuts": [
+        [
+            "adbLink.exe",
+            "adbLink"
+        ]
+    ],
+    "checkver": {
+        "url": "http://jocala.com/adblink.html",
+        "regex": "adbLink\\s([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://jocala.com/downloads/adblw$cleanVersion.exe"
+    }
+}
