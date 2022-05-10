@@ -9,6 +9,7 @@
             "hash": "6d1dd1f560c6c8b559b3432299a29e9ab12012ba60c5ba7a3c66b0d3e663a09d"
         }
     },
+    "extract_dir": "securefs-windows-amd64",
     "bin": [
         [
             "securefs.exe",
