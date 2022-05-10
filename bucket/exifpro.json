@@ -1,0 +1,23 @@
+{
+    "version": "0.13.0",
+    "description": "ExifPro is an image browser application that can help you display, describe, tag, and manipulate your collection of photographs.",
+    "homepage": "https://github.com/dream7180/ExifPro-mod",
+    "license": "GNU-2",
+    "url": "https://github.com/netheril96/securefs/releases/download/0.13.0/securefs-windows-amd64.7z",
+    "hash": "6d1dd1f560c6c8b559b3432299a29e9ab12012ba60c5ba7a3c66b0d3e663a09d",
+    "extract_dir": "securefs-windows-amd64",
+    "bin": [
+        [
+            "ExifPro.exe",
+            "ExifPro"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/dream7180/ExifPro-mod/releases/download/$version/ExifPro$versionen.zip",
+        "hash": {
+            "mode": "github"
+        },
+        "extract_dir": "ExifPro$majorVersion"
+    }
+}
