@@ -13,6 +13,9 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/netheril96/securefs/releases/download/$version/securefs-win64.7z"
+        "url": "https://github.com/netheril96/securefs/releases/download/$version/securefs-win64.7z",
+        "hash": {
+           "mode": "github"
+        }
     }
 }
