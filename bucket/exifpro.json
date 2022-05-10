@@ -6,7 +6,7 @@
     "url": "https://github.com/dream7180/ExifPro-mod/releases/download/3.3/ExifPro3.3en.zip",
     "hash": "2a3c8513d6de0b068d5b54a7af473398e47292ccc84ebf8302e298ff42eb78cf",
     "extract_dir": "ExifPro3",
-    "bin": [
+    "shortcuts": [
         [
             "ExifPro.exe",
             "ExifPro"
