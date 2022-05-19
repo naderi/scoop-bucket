@@ -6,6 +6,7 @@
     "hash": "3437606dbc3044289310dde3a9b63decdc7727e10dd01a4889cf5a04dfe070ad",
     "pre_install": [
         "Remove-Item $dir\\* -exclude *.ttf -Force -Recurse",
+        "Remove-Item $dir\\*-VF.ttf -Force -Recurse",
         "Get-ChildItem \"$dir\" -Recurse -Directory | Remove-Item -Recurse"
     ],
     "installer": {
