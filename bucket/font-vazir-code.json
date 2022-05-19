@@ -4,7 +4,10 @@
     "homepage": "https://github.com/rastikerdar/vazir-code-font",
     "url": "https://github.com/rastikerdar/vazir-code-font/releases/download/v1.1.2/vazir-code-font-v1.1.2.zip",
     "hash": "5c10819faef1d281db03703a82d498815b3d73b83badfa3100f9bbcd893b071e",
-    "pre_install": "Remove-Item $dir\\* -exclude $dir\\*.ttf -Force -Recurse",
+    "pre_install": [
+        "Remove-Item $dir\\* -exclude *.ttf -Force -Recurse",
+        "Get-ChildItem \"$dir\" -Recurse -Directory | Remove-Item -Recurse"
+    ],
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
