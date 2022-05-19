@@ -1,9 +1,9 @@
 {
-    "version": "4.0.5",
+    "version": "3.4.0",
     "license": "SIL OFL 1.1",
     "homepage": "https://github.com/rastikerdar/sahel-font",
-    "url": "https://github.com/rastikerdar/sahel-font/releases/download/v4.0.5/sahel-font-v4.0.5.zip",
-    "hash": "35df990be0a5a24d0e59d02bd94a9eef5e9461a75f69c054641eb9d6df8f87f6",
+    "url": "https://github.com/rastikerdar/sahel-font/releases/download/v3.4.0/sahel-font-v3.4.0.zip",
+    "hash": "3437606dbc3044289310dde3a9b63decdc7727e10dd01a4889cf5a04dfe070ad",
     "pre_install": [
         "Remove-Item $dir\\* -exclude *.ttf -Force -Recurse",
         "Get-ChildItem \"$dir\" -Recurse -Directory | Remove-Item -Recurse"
