@@ -1,9 +1,9 @@
 {
-    "version": "1.1.2",
+    "version": "0.10",
     "license": "SIL OFL 1.1",
     "homepage": "https://github.com/rastikerdar/tanha-font",
-    "url": "https://github.com/rastikerdar/tanha-font/releases/download/v1.1.2/tanha-font-v1.1.2.zip",
-    "hash": "5c10819faef1d281db03703a82d498815b3d73b83badfa3100f9bbcd893b071e",
+    "url": "https://github.com/rastikerdar/tanha-font/releases/download/v0.10/tanha-font-v0.10.zip",
+    "hash": "5707650a2e7ee0e669bfdcb94b93de92a5c55a37257030d39a5b854b19864547",
     "pre_install": [
         "Remove-Item $dir\\* -exclude *.ttf -Force -Recurse",
         "Get-ChildItem \"$dir\" -Recurse -Directory | Remove-Item -Recurse"
