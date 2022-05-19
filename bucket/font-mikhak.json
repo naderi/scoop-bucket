@@ -1,9 +1,9 @@
 {
-    "version": "6.1",
+    "version": "3.2",
     "license": "SIL OFL 1.1",
     "homepage": "https://github.com/aminabedi68/Mikhak/",
-    "url": "https://github.com/aminabedi68/Mikhak/releases/download/6.1/Mikhak-v6.1.zip",
-    "hash": "dcd051b11813d7bbe66cf1ab3642093336156674af0525ba88d7f7f17f8f1ca7",
+    "url": "https://github.com/aminabedi68/Mikhak/releases/download/3.2/Mikhak-v3.2.zip",
+    "hash": "5e306b69d3d9a911d74cb62a76b22f74794425a01e456211fc840e7aa2267191",
     "pre_install": [
         "Move-Item $dir\\Mikhak-v$version\\Statics\\ttf\\* $dir",
         "Remove-Item $dir\\Mikhak-v$version, $dir\\FD -Force -Recurse"
