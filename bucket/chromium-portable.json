@@ -24,7 +24,7 @@
     ],
     "checkver": {
         "github": "https://github.com/macchrome/winchrome/",
-        "regex": "/v(?<chromeVersion>[\\d.]+)-r(?<build>[\\d]+)-Win64/ungoogled-chromium-[\\d.]+(?<end>-\\d)_Win(32|64)\\.7z",
+        "regex": "tag/v(?<chromeVersion>[\\d.]+)-r(?<build>[\\d]+)-Win64/ungoogled-chromium-[\\d.]+(?<end>-\\d)_Win(32|64)\\.7z",
         "replace": "${chromeVersion}-r${build}${end}",
         "reverse": true
     },
