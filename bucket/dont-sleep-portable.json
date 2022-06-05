@@ -1,7 +1,7 @@
 {
-    "homepage": "https://www.softwareok.com/?Download=DontSleep",
     "version": "8.81",
     "description": "A small program to prevent system Shutdown, Stand By, Turn Off, Restart, Hibernate.",
+    "homepage": "https://www.softwareok.com/?Download=DontSleep",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.softwareok.com/?seite=Microsoft/DontSleep/Eula"
@@ -31,8 +31,8 @@
     },
     "persist": "DontSleep.ini",
     "checkver": {
-        "url": "https://www.softwareok.com/?seite=Microsoft",
-        "re": "Don\\'t Sleep\\s([\\d.]+)"
+        "url": "https://www.softwareok.com/?seite=Microsoft/DontSleep/History",
+        "regex": "version ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
