@@ -3,12 +3,21 @@
     "homepage": "https://multidoge.org",
     "description": "MultiDoge is a desktop Dogecoin client, powered by dogecoinj. Ported from the MultiBit Bitcoin client.",
     "license": "MIT",
-    "url": "https://github.com/langerhans/multidoge/releases/download/v0.1.7/multidoge-exe-full.jar#/multidoge.jar",
-    "hash": "d74a0e33767250ca0f8a2e962de342de0d69140339b025a7f8cb7d6f51dbd5f9",
+    "url": [
+        "https://github.com/langerhans/multidoge/releases/download/v0.1.7/multidoge-exe-full.jar#/multidoge.jar",
+        "https://raw.githubusercontent.com/langerhans/multidoge/master/src/main/resources/images/favicon64.ico#/MultiDoge.ico"
+    ],
+    "hash": [
+        "d74a0e33767250ca0f8a2e962de342de0d69140339b025a7f8cb7d6f51dbd5f9",
+        "d74a0e33767250ca0f8a2e962de342de0d69140339b025a7f8cb7d6f51dbd5f9"
+    ],
+    "pre_install": "Set-Content \"$dir\\MultiDoge.bat\" '@start javaw.exe -jar \"%~MultiDoge.jar\"' -Encoding Ascii",
     "shortcuts": [
         [
-            "javaw.exe -jar multidoge.jar",
-            "MultiDoge"
+            "MultiDoge.bat",
+            "MultiDoge",
+            "",
+            "MultiDoge.ico"
         ]
     ],
     "checkver": {
