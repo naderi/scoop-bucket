@@ -9,9 +9,9 @@
     ],
     "hash": [
         "d74a0e33767250ca0f8a2e962de342de0d69140339b025a7f8cb7d6f51dbd5f9",
-        "d74a0e33767250ca0f8a2e962de342de0d69140339b025a7f8cb7d6f51dbd5f9"
+        "027ad8d5ed0e000e5d60e0a17c9d62218456898eeec8130ae1779557fb5fb7ef"
     ],
-    "pre_install": "Set-Content \"$dir\\MultiDoge.bat\" '@start javaw.exe -jar \"%~MultiDoge.jar\"' -Encoding Ascii",
+    "pre_install": "Set-Content \"$dir\\MultiDoge.bat\" '@start javaw.exe -jar \"%~dp0\\MultiDoge.jar\" %*' -Encoding ASCII",
     "shortcuts": [
         [
             "MultiDoge.bat",
