@@ -5,8 +5,8 @@
     "url": "https://github.com/aminabedi68/Estedad/releases/download/7.2/Estedad-v7.2.zip",
     "hash": "227d9c40489e0979f876c3a38214fc4ee3a9e6a4b980bf72e5756f95545f9466",
     "pre_install": [
-        "Move-Item $dir\\Estedad-v$version\\ttf\\* $dir",
-        "Remove-Item $dir\\Estedad-v$version, $dir\\FD -Force -Recurse"
+        "Move-Item $dir\\ttf\\* $dir",
+        "Remove-Item $dir\\ttf, $dir\\FD, $dir\\Variable, $dir\\webfonts -Force -Recurse"
     ],
     "installer": {
         "script": [
