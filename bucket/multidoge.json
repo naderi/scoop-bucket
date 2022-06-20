@@ -1,10 +1,10 @@
 {
-    "version": "1.14.5",
+    "version": "0.1.7",
     "homepage": "https://multidoge.org",
     "description": "MultiDoge is a desktop Dogecoin client, powered by dogecoinj. Ported from the MultiBit Bitcoin client.",
     "license": "MIT",
-    "url": "https://github.com/dogecoin/dogecoin/releases/download/v1.14.5/dogecoin-1.14.5-win32.zip",
-    "hash": "f83994d7d68cc86d728f8aa021a221e6f71a5134ee0619db549ef6d9c13f18b7",
+    "url": "https://github.com/langerhans/multidoge/releases/download/v0.1.7/multidoge-exe-full.jar#/multidoge.jar",
+    "hash": "d74a0e33767250ca0f8a2e962de342de0d69140339b025a7f8cb7d6f51dbd5f9",
     "shortcuts": [
         [
             "javaw.exe -jar multidoge.jar",
