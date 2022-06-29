@@ -2,9 +2,9 @@
     "homepage": "https://duck.sh/",
     "description": "Cyberduck for the command line interface",
     "license": "GPL-2.0-or-later",
-    "version": "8.3.3.37544",
-    "url": "https://dist.duck.sh/duck-8.3.3.37544.msi",
-    "hash": "de0a4733cdb34f14e54e8110d598f9f3abc1b4a3ce9fea4fdd4892c6e286158e",
+    "version": "8.4.1.38006",
+    "url": "https://dist.duck.sh/duck-8.4.1.38006.msi",
+    "hash": "737d9282084cb4ea886eb17c485aa1dc70a5685ff625333673026cd9b3a77259",
     "extract_dir": "Cyberduck CLI",
     "bin": "duck.exe",
     "checkver": {
