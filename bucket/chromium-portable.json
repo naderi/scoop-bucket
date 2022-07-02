@@ -24,7 +24,7 @@
     ],
     "checkver": {
         "github": "https://github.com/macchrome/winchrome/",
-        "regex": "/releases/download/v(?<chromeVersion>[\\d.]+-\\d)-r(?<build>[\\d]+)-Win64/ungoogled-chromium-[\\d.]+-\\d_Win64",
+        "regex": "/releases/download/v(?<chromeVersion>[\\d.]+)-r(?<build>[\\d]+)-Win64/ungoogled-chromium-[\\d.]+-\\d_Win64",
         "replace": "${chromeVersion}-r${build}${end}",
         "reverse": true
     },
