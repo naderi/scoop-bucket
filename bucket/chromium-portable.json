@@ -25,7 +25,7 @@
     "checkver": {
         "url": "https://github.com/macchrome/winchrome/tags",
         "regex": "/releases/tag/v(?<chromeVersion>[\\d.]+)-r(?<build>[\\d]+)-Win64",
-        "replace": "${chromeVersion}-r${build}${end}",
+        "replace": "${chromeVersion}-r${build}",
         "reverse": true
     },
     "autoupdate": {
