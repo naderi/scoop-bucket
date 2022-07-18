@@ -3,8 +3,9 @@
     "description": "STDU XML Editor is a lightweight editor of XML documents.",
     "homepage": "http://www.stdutility.com/stdu-xml-editor.html",
     "license": "freeware",
-    "url": "http://www.stdutility.com/download/stduxmleditor.exe",
+    "url": "http://www.stdutility.com/download/stduxmleditor.exe#/dl.7z",
     "hash": "b89d5be16ed1c941ec836b3e7c8e059daa6eb1d3a113c23fcb4e0f6ad541b070",
+    "innosetup": true,
     "pre_install": [
         "if(!(Test-Path \"$dir/STDUXMLEditorSetting.xml\")) { Add-Content \"$dir/STDUXMLEditorSetting.xml\" $null }",
         "if(!(Test-Path \"$dir/STDUXMLEditorResource.xml\")) { Add-Content \"$dir/STDUXMLEditorResource.xml\" $null }"
@@ -25,6 +26,6 @@
         "regex": "ver\\. ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "http://www.stdutility.com/download/stduxmleditor.exe"
+        "url": "http://www.stdutility.com/download/stduxmleditor.exe#/dl.7z"
     }
 }
