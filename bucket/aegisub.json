@@ -1,7 +1,7 @@
 {
-    "homepage": "https://github.com/Aegisub/Aegisub",
-    "description": "Aegisub is a free, cross-platform open source tool for creating and modifying subtitles",
     "version": "3.2.2",
+    "description": "Aegisub is a free, cross-platform open source tool for creating and modifying subtitles",
+    "homepage": "https://github.com/Aegisub/Aegisub",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
