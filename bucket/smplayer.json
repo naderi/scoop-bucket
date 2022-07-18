@@ -37,13 +37,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/$version/smplayer-portable-$version-x64.7z",
+                "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/$version/smplayer-portable-$version.0-x64.7z",
                 "hash": {
                     "mode": "fosshub"
                 }
             },
             "32bit": {
-                "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/$version/smplayer-portable-$version-win32-qt5.6.7z",
+                "url": "https://downloads.sourceforge.net/project/smplayer/SMPlayer/$version/smplayer-portable-$version.0-win32-qt5.6.7z",
                 "hash": {
                     "mode": "fosshub"
                 }
