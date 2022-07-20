@@ -1,0 +1,37 @@
+{
+    "version": "1.0.9.0",
+    "description": "A Swiss Army knife for developers.",
+    "homepage": "https://github.com/veler/DevToys/",
+    "license": "MIT",
+    "url": "https://github.com/veler/DevToys/releases/download/v1.0.9.0/64360VelerSoftware.DevToys_1.0.9.0_neutral___j80j2txgjg9dj.Msixbundle#/dl.7z",
+    "hash": "f5bf6aa6f8a382057953ddc3956506f6c54e0261915d05a9e5b6782e99baaa41",
+    "architecture": {
+        "64bit": {
+            "pre_install": [
+                "$file = \"DevToysPackage_$($version).0_x64.msix\"",
+                "Remove-Item \"$dir\\*\" -Exclude $file -Recurse",
+                "Expand-7zipArchive \"$dir\\$file\" -Removal | Out-Null"
+            ]
+        },
+        "32bit": {
+            "pre_install": [
+                "$file = \"DevToysPackage_$($version).0_x86.msix\"",
+                "Remove-Item \"$dir\\*\" -Exclude $file -Recurse",
+                "Expand-7zipArchive \"$dir\\$file\" -Removal | Out-Null"
+            ]
+        }
+    },
+    "shortcuts": [
+        [
+            "DevToys.exe",
+            "DevToys"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/veler/DevToys/releases/",
+        "regex": "DevToys/tree/v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/veler/DevToys/releases/download/v$version/64360VelerSoftware.DevToys_$version_neutral___j80j2txgjg9dj.Msixbundle#/dl.7z"
+    }
+}
