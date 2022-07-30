@@ -1,7 +1,7 @@
 {
-    "homepage": "https://www.microsoft.com/en-us/edge",
-    "description": "The chromium based Microsoft Edge browser (Beta Channel)",
     "version": "104.0.1293.35",
+    "description": "The chromium based Microsoft Edge browser (Beta Channel)",
+    "homepage": "https://www.microsoft.com/en-us/edge",
     "license": "Freeware",
     "architecture": {
         "64bit": {
@@ -26,7 +26,7 @@
     "persist": "User Data",
     "checkver": {
         "url": "https://edgeupdates.microsoft.com/api/products",
-        "jsonpath": "$[?(@.Product == 'Beta')].releases[?(@.Platform == 'Windows' && @.Architecture == 'x64')].ProductVersion"
+        "jsonpath": "$[?(@.Product == 'Beta')].Releases[?(@.Platform == 'Windows' && @.Architecture == 'x64')].ProductVersion"
     },
     "autoupdate": {
         "architecture": {
