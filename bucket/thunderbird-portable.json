@@ -17,14 +17,14 @@
     "bin": [
         [
             "thunderbird.exe",
-            "thunderbird-de",
+            "tbp",
             "-profile \"$dir\\profile\""
         ]
     ],
     "shortcuts": [
         [
             "thunderbird.exe",
-            "Mozilla Thunderbird (de)",
+            "Thunderbird Portable",
             "-profile \"$dir\\profile\""
         ]
     ],
