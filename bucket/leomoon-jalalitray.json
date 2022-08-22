@@ -5,9 +5,7 @@
     "license": "MIT",
     "url": "https://leomoon.com/static/?file=leomoon-jalalitray_win.zip#/dl.zip",
     "hash": "d181c9c9652544140ddb10f97add949a24d709c1c5e993514d6535b28ae14d40",
-    "pre_install": [
-        "Expand-InnoArchive \"$dir\\leomoon-jalalitray_win.exe\" \"$dir\" -Removal | Out-Null"
-    ],
+    "pre_install": "Expand-InnoArchive \"$dir\\leomoon-jalalitray_win.exe\" \"$dir\" -Removal | Out-Null",
     "shortcuts": [
         [
             "LeoMoon JalaliTray.exe",
