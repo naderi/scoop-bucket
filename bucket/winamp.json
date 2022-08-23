@@ -24,5 +24,11 @@
         "Plugins",
         "Skins"
     ],
-
+    "checkver": {
+        "url": "https://www.winamp.com/",
+        "regex": "https://download.nullsoft.com/winamp/client/winamp(.+)_full"
+    },
+    "autoupdate": {
+        "url": "https://download.nullsoft.com/winamp/client/winamp$version_full_en-us.exe#/dl.7z"
+    }
 }
