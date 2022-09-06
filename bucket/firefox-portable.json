@@ -1,7 +1,7 @@
 {
+    "version": "104.0.2",
     "description": "Popular open source web browser.",
     "homepage": "https://www.mozilla.org/firefox/",
-    "version": "104.0.2",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
@@ -18,14 +18,14 @@
         [
             "firefox.exe",
             "firefox",
-            "-Profile \"$dir\\Profile\""
+            "-profile \"$dir\\profile\""
         ]
     ],
     "shortcuts": [
         [
             "firefox.exe",
             "Firefox",
-            "-Profile Profile"
+            "-profile \"$dir\\profile\""
         ]
     ],
     "persist": "Profile",
