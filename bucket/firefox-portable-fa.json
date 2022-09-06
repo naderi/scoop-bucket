@@ -1,16 +1,16 @@
 {
-    "version": "104.0",
+    "version": "104.0.2",
     "description": "Popular open source web browser.",
     "homepage": "https://www.mozilla.org/firefox/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
             "url": "https://archive.mozilla.org/pub/firefox/releases/104.0.2/win64/fa-IR/Firefox%20Setup%20104.0.2.exe#/dl.7z",
-            "hash": "sha512:a236d37b358ae224926951dcd9a43677d52edcc41f88df642ccac04a7c92182dd629652a25a6cb0ab092131df1ca76763011197d36520b667b88517a3432188a"
+            "hash": "sha512:1851cee9558c23bee8825e59ea84f87262e10987189569d633a68802666342f343ab8ed0bbc29affa02124471eb2cb3bdce77b3191a67b38520c59a90c3866ac"
         },
         "32bit": {
             "url": "https://archive.mozilla.org/pub/firefox/releases/104.0.2/win32/fa-IR/Firefox%20Setup%20104.0.2.exe#/dl.7z",
-            "hash": "sha512:93ddad594caef19778bdb2cab8957a721e243e5359c24c64ecd7b6ed707204bebca3691f826b4c62c661d580f12ef0db6205d278f439226fdd359b5139912bb0"
+            "hash": "sha512:1851cee9558c23bee8825e59ea84f87262e10987189569d633a68802666342f343ab8ed0bbc29affa02124471eb2cb3bdce77b3191a67b38520c59a90c3866ac"
         }
     },
     "extract_dir": "core",
