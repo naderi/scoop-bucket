@@ -24,8 +24,8 @@
     ],
     "persist": "tdata",
     "checkver": {
-        "url": "https://github.com/telegramdesktop/tdesktop/tags",
-        "regex": "/releases/tag/v(.+)?\""
+        "url": "https://github.com/telegramdesktop/tdesktop/",
+        "regex": "title=\"[V|v]ersion\\s([\\d.]+)\""
     },
     "autoupdate": {
         "architecture": {
