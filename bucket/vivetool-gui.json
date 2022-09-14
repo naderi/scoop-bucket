@@ -12,8 +12,8 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/PeterStrick/ViVeTool-GUI",
-        "regex": "/releases/download/v([\\d.]+).+(?<build>[\\d]).Portable"
+        "url": "https://github.com/PeterStrick/ViVeTool-GUI",
+        "regex": "title=\"Version\\s([\\d.]+)\""
     },
     "autoupdate": {
         "url": "https://github.com/PeterStrick/ViVeTool-GUI/releases/download/v$version/ViVeTool.GUI.$version.$matchBuild.Portable.zip"
