@@ -13,7 +13,7 @@
     ],
     "checkver": {
         "url": "https://github.com/PeterStrick/ViVeTool-GUI",
-        "regex": "title=\"Version\\s([\\d.]+)\""
+        "regex": "title=\"[V|v]ersion\\s([\\d.]+)\""
     },
     "autoupdate": {
         "url": "https://github.com/PeterStrick/ViVeTool-GUI/releases/download/v$version/ViVeTool.GUI.$version.$matchBuild.Portable.zip"
