@@ -1,5 +1,5 @@
 {
-    "version": "1.19.0.1910",
+    "version": "1.19.0.19104",
     "homepage": "https://github.com/cbucher/console",
     "description": "A modified version of Console 2 for a better experience under Windows Vista/7/8/10 and a better visual rendering.",
     "license": "GPL-2.0-only",
@@ -21,7 +21,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/cbucher/console/latest",
+        "url": "https://github.com/cbucher/console/releases/latest",
         "regex": "/ConsoleZ.([\\d.]+).7z"
     },
     "autoupdate": {
