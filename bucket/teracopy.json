@@ -8,8 +8,7 @@
     "architecture": {
         "64bit": {
             "pre_install": [
-                "if(!(Test-Path \"$dir/Options.ini\")) { Add-Content \"$dir/Options.ini\" $null }",
-                "if(!(Test-Path \"$dir/main.db\")) { Add-Content \"$dir/main.db\" $null }"
+                "if(!(Test-Path \"$dir/Options.ini\")) { Add-Content \"$dir/Options.ini\" $null }"
             ],
             "bin": "TeraCopy.exe",
             "shortcuts": [
