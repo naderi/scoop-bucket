@@ -1,9 +1,9 @@
 {
-    "version": "7.2.23.121",
+    "version": "7.2.25.148",
     "homepage": "https://www.foxmail.com/",
     "description": "Foxmail like you've never seen it before.",
-    "url": "https://dldir1.qq.com/foxmail/windows/FoxmailSetup_7.2.23.121.exe#/dl.7z",
-    "hash": "88ba7dca52c4dee2b9fef74e5f6bb7a013c42f0420490a7cbca2ab26e7838387",
+    "url": "https://dldir1.qq.com/foxmail/windows/FoxmailSetup_7.2.25.148.exe#/dl.7z",
+    "hash": "9dbd6355991c948c9a333b44e2abce79f45cda90e924e5b504851b4f3bea9ac7",
     "pre_install": [
         "$file = 'FMStorage.list'",
         "if (!(Test-Path \"$persist_dir\\$file\")) {",
