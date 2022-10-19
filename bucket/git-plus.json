@@ -1,6 +1,5 @@
 {
-    "##": "Maintainers: when updating this manifest to a new version, you might like to also update git.json",
-    "version": "2.38.0.windows.1",
+    "version": "2.38.0.windows.0",
     "homepage": "https://git-for-windows.github.io/",
     "license": "GPL-2.0-only",
     "architecture": {
@@ -30,8 +29,7 @@
         "usr\\bin\\tig.exe"
     ],
     "checkver": {
-        "url": "https://github.com/git-for-windows/git/tags",
-        "regex": "releases/tag/v(.+?)\""
+        "github": "https://github.com/git-for-windows/"
     },
     "autoupdate": {
         "architecture": {
