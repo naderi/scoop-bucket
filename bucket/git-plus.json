@@ -29,7 +29,7 @@
         "usr\\bin\\tig.exe"
     ],
     "checkver": {
-        "github": "https://github.com/git-for-windows/"
+        "github": "https://github.com/git-for-windows/git/"
     },
     "autoupdate": {
         "architecture": {
