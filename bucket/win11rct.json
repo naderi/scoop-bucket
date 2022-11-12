@@ -1,5 +1,5 @@
 {
-    "version": "1.5.0",
+    "version": "1.4.0",
     "homepage": "https://github.com/ByteJammer/Win11RCT",
     "description": "Windows 11 Requirements Check Tool",
     "license": "GNU",
@@ -12,10 +12,10 @@
         ]
     ],
     "checkver": {
-        "url": "https://bytejams.com/",
+        "url": "https://bytejams.com/win11rct/",
         "regex": "Version\\s([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://bytejams.com/Win11RCT.zip"
+        "url": "https://bytejams.com/win11rct/Win11RCT.zip"
     }
 }
