@@ -1,7 +1,7 @@
 {
     "version": "2.2.2",
     "description": "FFMPEG plugin for Audacity",
-    "homepage": "http://lame.buanzo.org/",
+    "homepage": "https://lame.buanzo.org/",
     "license": "LGPL-2.1-only",
     "depends": [
         "audacity"
@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "re": "/ffmpeg-win-([\\d.]+).zip",
-        "url": "http://lame.buanzo.org/"
+        "url": "https://lame.buanzo.org/"
     },
     "autoupdate": {
         "url": "https://lame.buanzo.org/ffmpeg-win-$version.zip"
