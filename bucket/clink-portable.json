@@ -9,7 +9,13 @@
     ],
     "url": "https://github.com/chrisant996/clink/releases/download/v1.4.3/clink.1.4.3.67deea.zip",
     "hash": "dca4ea9f02da7063d76fb56d7958af6016be7f7ee01d8e78047c5a9d4fa82bdc",
-    "bin": "clink.bat",
+    "bin": [
+        [
+            "clink.bat",
+            "clink",
+            "--profile d:\\apps\\scoop\\apps\\clink-portable\\current\\profile\\"
+        ]
+    ],
     "persist": "profile",
     "checkver": {
         "github": "https://github.com/chrisant996/clink",
