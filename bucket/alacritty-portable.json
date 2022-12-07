@@ -41,5 +41,5 @@
             "https://github.com/alacritty/alacritty/releases/download/v$version/alacritty.yml#/alacritty.yml.example"
         ]
     },
-    "notes": "An example config has been placed in $persist_dir as alacritty.yml.example. Change this to alacritty.yml to use it with alacritty-config and the appropriate shortcut."
+    "notes": "An example config has been placed in installation's directory as alacritty.yml.example."
 }
