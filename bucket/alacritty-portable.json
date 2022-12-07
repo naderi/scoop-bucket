@@ -19,7 +19,7 @@
         "alacritty.exe",
         [
             "alacritty.exe",
-            "alacritty-config",
+            "alacritty",
             "--config-file \"$dir\\alacritty.yml\""
         ]
     ],
