@@ -1,7 +1,8 @@
 {
-    "homepage": "http://gpac.io",
     "version": "2.2",
+    "description": "GPAC is an open source multimedia framework developed for research and academic purposes.",
     "license": "LGPL-2.1",
+    "homepage": "http://gpac.io",
     "architecture": {
         "64bit": {
             "url": "https://download.tsi.telecom-paristech.fr/gpac/release/2.2/gpac-2.2-rev0-gab012bbf-master-x64.exe#/dl.7z",
@@ -15,14 +16,16 @@
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$TEMP\", \"$dir\\Uninstall.exe\" -Force -Recurse",
     "bin": [
         "mp4box.exe",
-        "dashcast.exe",
-        "mp42ts.exe",
-        "mp4client.exe"
+        "gpac.exe"
     ],
     "shortcuts": [
         [
-            "mp4client.exe",
-            "MP4Client"
+            "gpac.exe",
+            "GPAC"
+        ],
+        [
+            "mp4box.exe",
+            "MP4Box"
         ]
     ],
     "persist": [
