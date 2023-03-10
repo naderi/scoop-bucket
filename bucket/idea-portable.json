@@ -1,5 +1,5 @@
 {
-    "version": "2022.3.3-223.8836.35",
+    "version": "2022.3.3-223.8836.41",
     "description": "IntelliJ IDEA Community. Cross-Platform Java IDE for professional developers by JetBrains.",
     "homepage": "https://www.jetbrains.com/idea/",
     "license": {
@@ -11,7 +11,7 @@
         "https://raw.githubusercontent.com/naderi/scoop-bucket/master/scripts/jetbrain-portabler.ps1"
     ],
     "hash": [
-        "8882da2f1d49675da598f71bb8650eef8fb00c4382a6094cb48abb2673b4202e",
+        "8952100f32939de8a025ecd1a1f2ec851c199905c394995e323afb5e39f20d96",
         "5b43fc8a57d7d8d519071a50849a5db92c90ecdf56b64ac57f15fdae5b4f0572"
     ],
     "extract_to": "IDE",
