@@ -11,6 +11,10 @@
         "64bit": {
             "url": "https://github.com/YerongAI/Office-Tool/releases/download/v10.1.10.1/Office_Tool_v10.1.10.1_x64.zip",
             "hash": "286d3d5b6349e946455515fdb988750e0e759b6137a7495628142d5faa3bea09"
+        },
+        "arm64": {
+            "url": "https://github.com/YerongAI/Office-Tool/releases/download/v10.1.10.1/Office_Tool_v10.1.10.1_x64.zip",
+            "hash": "286d3d5b6349e946455515fdb988750e0e759b6137a7495628142d5faa3bea09"
         }
     },
     "extract_dir": "Office Tool",
@@ -29,6 +33,10 @@
             },
             "64bit": {
                 "url": "https://github.com/YerongAI/Office-Tool/releases/download/v$version/Office_Tool_v$version_x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/YerongAI/Office-Tool/releases/download/v$version/Office_Tool_v$version_arm64.zip"
+                }
             }
         }
     }
