@@ -1,17 +1,12 @@
 {
-    "version": "0.8.0-canary.34",
+    "version": "0.8.0",
     "homepage": "https://github.com/toeverything/AFFiNE",
     "license": "MPL-2.0",
-    "url": "https://github.com/toeverything/AFFiNE/releases/download/v0.8.0-canary.34/affine-canary-windows-x64.exe#/dl.7z",
-    "hash": "bd37b6448042c1e99f7390884518606c58d3d46b134c4ad3d07755eef74f1089",
+    "url": "https://github.com/toeverything/AFFiNE/releases/download/v0.8.0/affine-stable-windows-x64.exe#/dl.7z",
+    "hash": "07005aaa9b692186b39ae21abd2c1756fd9e0d58d0cf06596d6a9bafb671a09b",
     "pre_install": [
         "Get-ChildItem \"$dir\\*\" -Exclude 'AFFiNE-*nupkg' | Remove-Item",
         "Expand-7zipArchive \"$dir\\AFFiNE-*-full.nupkg\" -ExtractDir 'lib\\net45' -Removal"
-    ],
-    "post_install": [
-        "if (Test-Path \"$dir/AFFiNE-canary.exe\"){ Move-Item \"$dir/AFFiNE-canary.exe\" \"$dir/AFFiNE.exe\" }",
-        "if (Test-Path \"$dir/AFFiNE-beta.exe\"){ Move-Item \"$dir/AFFiNE-beta.exe\" \"$dir/AFFiNE.exe\" }",
-        "if (Test-Path \"$dir/AFFiNE-stable.exe\"){ Move-Item \"$dir/AFFiNE-stable.exe\" \"$dir/AFFiNE.exe\" }"
     ],
     "shortcuts": [
         [
@@ -19,11 +14,8 @@
             "AFFiNE"
         ]
     ],
-    "checkver": {
-        "url": "https://api.github.com/repos/toeverything/AFFiNE/releases?per_page=1",
-        "jsonpath": "$[0].name"
-    },
+    "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/toeverything/AFFiNE/releases/download/v$version/affine-canary-windows-x64.exe#/dl.7z"
+        "url": "https://github.com/toeverything/AFFiNE/releases/download/v$version/affine-stable-windows-x64.exe#/dl.7z"
     }
 }
