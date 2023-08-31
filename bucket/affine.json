@@ -1,5 +1,6 @@
 {
     "version": "0.8.2",
+    "description": "A privacy-focussed, local-first, open-source, and ready-to-use alternative for Notion & Miro.",
     "homepage": "https://github.com/toeverything/AFFiNE",
     "license": "MPL-2.0",
     "url": "https://github.com/toeverything/AFFiNE/releases/download/v0.8.2/affine-stable-windows-x64.exe#/dl.7z",
