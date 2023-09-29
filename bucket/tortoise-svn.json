@@ -1,7 +1,7 @@
 {
-    "homepage": "https://tortoisesvn.net",
+    "version": "1.14.5.2946",
     "description": "An Apache™ Subversion (SVN)® client, implemented as a Windows shell extension.",
-    "version": "1.14.5.29465",
+    "homepage": "https://tortoisesvn.net",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
@@ -77,7 +77,7 @@
     ],
     "checkver": {
         "url": "https://tortoisesvn.net/downloads.html",
-        "re": "tortoisesvn/storage/(?<release>[\\d.]+)/Application/TortoiseSVN-([\\d.]+)-x64-svn-(?<svn>[\\d.]+).msi"
+        "re": "tortoisesvn/files/(?<release>[\\d.]+)/Application/TortoiseSVN-([\\d.]+)-x64-svn-(?<svn>[\\d.]+).msi"
     },
     "autoupdate": {
         "architecture": {
