@@ -5,6 +5,9 @@
     "url": "https://github.com/LesFerch/WinSetView/archive/refs/tags/2.80.zip",
     "hash": "b1897f0ea05153d3e363eb909a15605c25a9c6c0dbee523e7053e406e5545e93",
     "extract_dir": "WinSetView-2.80",
+    "bin":[
+        "WinSetView.ps1"
+    ],
     "shortcuts": [
         [
             "WinSetView.exe",
