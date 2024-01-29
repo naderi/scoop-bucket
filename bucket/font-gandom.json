@@ -1,9 +1,9 @@
 {
-    "version": "0.8",
+    "version": "0.7",
     "license": "SIL OFL 1.1",
     "homepage": "https://github.com/rastikerdar/gandom-font",
-    "url": "https://github.com/rastikerdar/gandom-font/releases/download/v0.8/gandom-font-v0.8.zip",
-    "hash": "a02f88ef41938332dc07a174af554494631ef756d076799ea18d1e6af2e5af66",
+    "url": "https://github.com/rastikerdar/gandom-font/releases/download/v0.7/gandom-font-v0.7.zip",
+    "hash": "822ec15f79c3c7bb9f4d338925e904f9ee4feda857bea31e38cc42c717a7cb82",
     "pre_install": [
         "Remove-Item $dir\\* -exclude *.ttf -Force -Recurse",
         "Get-ChildItem \"$dir\" -Recurse -Directory | Remove-Item -Recurse"
