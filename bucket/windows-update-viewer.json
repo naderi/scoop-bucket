@@ -33,6 +33,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Timthreetwelve/WUView/releases/download/v$version/WindowsUpdateViewer_$version.0_NonInstall.zip"
+        "url": "https://github.com/Timthreetwelve/WUView/releases/download/v$version/WindowsUpdateViewer_$version.0_Portable.zip"
     }
 }
