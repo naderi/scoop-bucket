@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://archive.mozilla.org/pub/firefox/releases/122.0.1/win64/de-DE/Firefox%20Setup%20122.0.1.exe#/dl.7z",
-            "hash": "sha512:0ee7dc0ebde96351deea80f1d55ff2811243e503ca3e282e0d167866568eb36246b99e875c2883ce6de2034fb8c12204493c065f6b6eb57c84af206f0e9656bc"
+            "hash": "sha512:b6e38771bcecc0234b469495e8e24eecf007f5f239e9af7eb4dae54f46d24731aeea4d94dc92117b5225349d747a2240d52b8da403def2da2d6d32fb2095afcf"
         },
         "32bit": {
             "url": "https://archive.mozilla.org/pub/firefox/releases/122.0.1/win32/de-DE/Firefox%20Setup%20122.0.1.exe#/dl.7z",
@@ -39,7 +39,7 @@
                 "url": "https://archive.mozilla.org/pub/firefox/releases/$version/win64/de-DE/Firefox%20Setup%20$version.exe#/dl.7z",
                 "hash": {
                     "url": "https://archive.mozilla.org/pub/firefox/releases/$version/SHA512SUMS",
-                    "regex": "$sha512\\s+win64/de-DE/$basename"
+                    "regex": "$sha512\\s+win64/de/$basename"
                 }
             },
             "32bit": {
