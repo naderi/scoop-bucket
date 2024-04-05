@@ -1,18 +1,19 @@
 {
-    "version": "2.3",
-    "homepage": "https://github.com/builtbybel/BloatyNosy",
-    "description": "BloatyNosy - former Debloos (Debloat OS) - is a universal debloater and PC manager for Windows 11",
+    "version": "3.3.0",
+    "homepage": "https://github.com/builtbybel/Winpilot",
+    "description": "Winpilot (former BloatyNosy) - Upgrade your Windows 10 and 11 journey with the sleek power of Winpilot – the AI-driven way to customize your digital world.",
     "license": "MIT",
-    "url": "https://github.com/builtbybel/BloatyNosy/releases/download/2.3/BloatyNosyAI.zip",
-    "hash": "38729f34eba15d8c2b86b39e95da3e4ed8b6b392a342b3f6b54d8ace785b0737",
+    "changelog": "https://github.com/builtbybel/Winpilot/releases",
+    "url": "https://github.com/builtbybel/Winpilot/releases/download/3.3.0/Winpilot.zip",
+    "hash": "271029790e51c0bc5a657dd3abc20fa584fb803ca4259257e001c0eda3043666",
     "shortcuts": [
         [
-            "BloatyNosy.exe",
-            "BloatyNosy"
+            "Winpilot.exe",
+            "Winpilot"
         ]
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/builtbybel/BloatyNosy/releases/download/$version/BloatyNosyAI.zip"
+        "url": "https://github.com/builtbybel/Winpilot/releases/download/$version/Winpilot.zip"
     }
 }
