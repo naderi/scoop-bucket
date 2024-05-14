@@ -1,12 +1,12 @@
 {
     "homepage": "http://extraterm.org/",
     "description": "The swiss army chainsaw of terminal emulators.",
-    "version": "0.76.1",
+    "version": "0.77.0",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sedwards2009/extraterm/releases/download/v0.76.1/extratermqt-setup-0.76.1.exe#/dl.7z",
-            "hash": "3d3ce8cfc85283729ac6c5e69e4111a0390dd281b68e6ee41012edb4faf48e66"
+            "url": "https://github.com/sedwards2009/extraterm/releases/download/v0.77.0/extratermqt-setup-0.77.0.exe#/dl.7z",
+            "hash": "6cc9a7529dc93aebecd78f58f7095aede282446d81719e3ae02812a17604fca5"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\application_paths.json\")) {Set-Content \"$dir\\application_paths.json\" (@('{', '  \"userSettingsPath\": \"./config\"','}') -join \"`r`n\") -Encoding ASCII}",
