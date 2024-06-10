@@ -1,16 +1,16 @@
 {
-    "version": "2.3.8",
+    "version": "2.4.0",
     "description": "LyX is a document processor that encourages an approach to writing based on the structure of your documents (WYSIWYM) and not simply their appearance (WYSIWYG).",
     "homepage": "https://www.lyx.org/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://ftp.icm.edu.pl/packages/lyx/bin/2.3.8/LyX-238-Installer-1-x64.exe#/dl.7z",
-            "hash": "202c3381573e7b8aacd0dbad46a6bc09528af00129c801192f97d2390bcfc355"
+            "url": "https://ftp.icm.edu.pl/packages/lyx/bin/2.4.0/LyX-240-Installer-1-x64.exe#/dl.7z",
+            "hash": "1d2af55110f1b42f949ea19096fa18c301ec6547082ac96563fe808ba4371b90"
         },
         "32bit": {
             "url": "https://ftp.icm.edu.pl/packages/lyx/bin/2.3.8/LyX-238-Installer-1-x32.exe#/dl.7z",
-            "hash": "958faf40c58752aa8b6227a65cb454cff6faf8db6f5bc696c18e0eddde030db0"
+            "hash": ""
         }
     },
     "shortcuts": [
@@ -28,9 +28,6 @@
         "architecture": {
             "64bit": {
                 "url": "https://ftp.icm.edu.pl/packages/lyx/bin/$version/LyX-$matchBuild1-Installer$matchBuild2-x64.exe#/dl.7z"
-            },
-            "32bit": {
-                "url": "https://ftp.icm.edu.pl/packages/lyx/bin/$version/LyX-$matchBuild1-Installer$matchBuild2-x32.exe#/dl.7z"
             }
         }
     }
