@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/netheril96/securefs/releases/download/$version/securefs-windows-amd64.zip",
+                "url": "https://github.com/netheril96/securefs/releases/download/$version/securefs-windows-amd64-release.zip",
                 "hash": {
                     "mode": "github"
                 }
