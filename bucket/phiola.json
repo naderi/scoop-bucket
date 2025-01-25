@@ -1,0 +1,25 @@
+{
+    "version": "2.2.8",
+    "description": "A fast media player/recorder/converter",
+    "homepage": "https://github.com/stsaz/phiola",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/stsaz/phiola/releases/download/v2.2.8/phiola-2.2.8-windows-x64.zip",
+    "hash": "ccb33007b0cdf53946fad9e27d2214f9d6715bd148c1e2a7e470d02ccce12ecd",
+    "extract_dir": "phiola-2",
+    "bin": "phiola.exe",
+    "shortcuts": [
+        [
+            "phiola-gui.exe",
+            "phiola"
+        ]
+    ],
+    "pre_install": "if(!(Test-Path \"$dir\\mod\\gui\\user.conf\")) { Add-Content \"$dir\\mod\\gui\\user.conf\" $null }",
+    "persist": "mod\\gui\\user.conf",
+    "checkver": {
+        "github": "https://github.com/stsaz/phiola"
+    },
+    "autoupdate": {
+        "url": "https://github.com/stsaz/phiola/releases/download/v$version/phiola-$version-windows-x64.zip",
+        "extract_dir": "phiola-$majorVersion"
+    }
+}
