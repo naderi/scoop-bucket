@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/danloh/mdSilo-app/releases/download/app-v0.5.9/mdsilo_0.5.9_x64_en-US.msi",
-            "hash": "007e718bb730bfcfcc88646ff290fe8833da772572ca195ab1040c72a9ad54b8"
+            "hash": "c04a634522ca525cca11501029e68fcae1df509e2de31996cdf3a38098ac9867"
         }
     },
     "extract_dir": "PFiles\\mdsilo",
