@@ -1,0 +1,30 @@
+{
+    "version": "0.19.0",
+    "description": "MarkFlowy is an open-source markdown editor application designed to make editing more efficient and comfortable",
+    "homepage": "https://markflowy.vercel.app",
+    "license": "AGPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/drl990114/MarkFlowy/releases/download/v0.19.0/MarkFlowy_0.19.0_windows_x86_64.msi",
+            "hash": "93b2e209688b0e4b39e7c8d074d11bc3c1fad024751c8d57e291ffd2f1186158"
+        }
+    },
+    "extract_dir": "PFiles\\MarkFlowy",
+    "shortcuts": [
+        [
+            "MarkFlowy.exe",
+            "MarkFlowy"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/drl990114/MarkFlowy/"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/drl990114/MarkFlowy/releases/download/v$version/MarkFlowy_$version_windows_x86_64.msi"
+            }
+        }
+    },
+    "notes": "MarkFlowy is NOT portable."
+}
