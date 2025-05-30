@@ -6,14 +6,15 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/sla80/SmartSvgViewer/releases/download/v0.5.0.1715/SmartSvgViewerSetup_x64.msi",
-            "hash": "7cfbebea4bf26110833e4eddfeda38e7033ab43d355a4c0767623ac315ece0d7"
+            "hash": "7cfbebea4bf26110833e4eddfeda38e7033ab43d355a4c0767623ac315ece0d7",
+            "extract_dir": "PFiles64\\Smart SVG Viewer"
         },
         "arm64": {
             "url": "https://github.com/sla80/SmartSvgViewer/releases/download/v0.5.0.1715/SmartSvgViewerSetup_ARM64.msi",
-            "hash": "8f6f4cb217e5b99ef03fdcde5f9ab2eb59b62bacbcd3fc5e069d6c9198d7c9e0"
+            "hash": "8f6f4cb217e5b99ef03fdcde5f9ab2eb59b62bacbcd3fc5e069d6c9198d7c9e0",
+            "extract_dir": "PFiles64\\Smart SVG Viewer"
         }
     },
-    "extract_dir": "PFiles\\Smart SVG Viewer",
     "shortcuts": [
         [
             "SmartSvgViewer.exe",
