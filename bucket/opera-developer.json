@@ -1,5 +1,5 @@
 {
-    "version": "121.0.5558.0",
+    "version": "121.0.5566.0",
     "description": "Fast, secure, easy-to-use browser.",
     "homepage": "https://www.opera.com/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download1.operacdn.com/pub/opera-developer/121.0.5558.0/win/Opera_Developer_121.0.5558.0_Autoupdate_x64.exe#/dl.7z",
-            "hash": "bd624dc8bd6b80bef4f7dc55d591b2d57e591b10b715dd4908fdcac974afbe4d"
+            "url": "https://download1.operacdn.com/pub/opera-developer/121.0.5566.0/win/Opera_Developer_121.0.5566.0_Autoupdate_x64.exe#/dl.7z",
+            "hash": "b5663ed5ee33814f9e556c9ba9997840629a370360bd0909227918f05df035fc"
         },
         "32bit": {
-            "url": "https://download1.operacdn.com/pub/opera-developer/121.0.5558.0/win/Opera_Developer_121.0.5558.0_Autoupdate.exe#/dl.7z",
-            "hash": "e20704d67e598ea84b7cd9dfa0480487ac81d824b7f0bf33c8e39c4724574485"
+            "url": "https://download1.operacdn.com/pub/opera-developer/121.0.5566.0/win/Opera_Developer_121.0.5566.0_Autoupdate.exe#/dl.7z",
+            "hash": "18ce6640269a5b8b6790ca5b0c28e45007ddaea767058c27939cedb848d72755"
         }
     },
     "installer": {
