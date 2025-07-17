@@ -1,11 +1,11 @@
 {
-    "version": "16.4.1",
+    "version": "16.7",
     "description": "A brand-new shell connection hub and remote file manager",
     "license": "Apache-2.0",
     "homepage": "https://github.com/xpipe-io/xpipe",
-    "url": "https://github.com/xpipe-io/xpipe/releases/download/16.4.1/xpipe-portable-windows-x86_64.zip",
-    "hash": "ba5521c695ee0842769345b28da0cd4bd9eac99e8c6bada2ecae58f31216651e",
-    "extract_dir": "xpipe-16.4.1",
+    "url": "https://github.com/xpipe-io/xpipe/releases/download/16.7/xpipe-portable-windows-x86_64.zip",
+    "hash": "9e028106625e7134582bad72016805d060396383abddf14fd50e8c9f19427181",
+    "extract_dir": "xpipe-16.7",
     "bin": [
         [
             "cli\\bin\\xpipe.exe",

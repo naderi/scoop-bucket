@@ -1,16 +1,16 @@
 {
-    "version": "139.0.1",
+    "version": "140.0.4",
     "description": "Popular open source web browser.",
     "homepage": "https://www.mozilla.org/firefox/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/139.0.1/win64/en-US/Firefox%20Setup%20139.0.1.exe#/dl.7z",
-            "hash": "sha512:6841d9958e2551311dc75ecdd71ba412590c01538b7c67ede4a6a161ac00fcc9875645d8ff45f97a4fe80e0063bfd26112df646e9cff70b11396e1ed097f8d28"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/140.0.4/win64/en-US/Firefox%20Setup%20140.0.4.exe#/dl.7z",
+            "hash": "sha512:2bb75bb58ab8a3a7321ad8bd7818167bc9ca410fa770ba7b402d25f967f477fb5e8518f807df0c8f1d74811ff8a30b2a96f4f4ea41c06a019ba2e6b777638119"
         },
         "32bit": {
-            "url": "https://archive.mozilla.org/pub/firefox/releases/139.0.1/win32/en-US/Firefox%20Setup%20139.0.1.exe#/dl.7z",
-            "hash": "sha512:8cde00126a4f777f7bf6e9585e36c9fb2a8317b3a4aeae36048084cdde4b937b87913941dcc960755626f4247366c474f46997f2ae3e4071f844e3ff1ff0b977"
+            "url": "https://archive.mozilla.org/pub/firefox/releases/140.0.4/win32/en-US/Firefox%20Setup%20140.0.4.exe#/dl.7z",
+            "hash": "sha512:83536ef32d0b597b027ac8d7dee65195036e262ac94980f4f08c5b1fcc816fef186770039c6a335c93c544c0b57a0e0c301fb9b0bcc1d14a4abd04f4d047a644"
         }
     },
     "extract_dir": "core",

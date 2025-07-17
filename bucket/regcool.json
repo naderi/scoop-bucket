@@ -1,5 +1,5 @@
 {
-    "version": "2.033",
+    "version": "2.035",
     "homepage": "https://kurtzimmermann.com/",
     "description": "An advanced Registry editor with many features. Developed by Kurt Zimmermann.",
     "license": {
@@ -13,11 +13,11 @@
     "architecture": {
         "32bit": {
             "url": "https://kurtzimmermann.com/files/RegCoolX32.zip",
-            "hash": "c3013fc7e413b9acfc0a96c1118e2751d96358be20727887147738abd8c28def"
+            "hash": "fd8e8016d7b686a847c5f9137d652f51aa15907fffca4318bb416d845279f873"
         },
         "64bit": {
             "url": "https://kurtzimmermann.com/files/RegCoolX64.zip",
-            "hash": "c42fb312717402e030f199fc7208e14f024feb4ee721510c60ae28ba77cbdfb2"
+            "hash": "a3610184ee13c65834be4e1ea68f6b24278476594c7b25c5c6678d6f47226d8f"
         }
     },
     "pre_install": "Remove-Item \"$dir\\Updater.exe\" | Out-Null",
