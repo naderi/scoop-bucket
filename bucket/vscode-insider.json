@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-    "version": "1759522539025",
-=======
     "version": "1759452421882",
->>>>>>> origin/master
     "homepage": "https://code.visualstudio.com/",
     "description": "Visual Studio Code is a lightweight but powerful source code editor (Portable Edition).",
     "license": {
