@@ -21,6 +21,7 @@
             "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
+    "persist": "User Data",
     "checkver": {
         "url": "https://api.github.com/repositories/197275551/contents/manifests/p/Perplexity/Comet",
         "jsonpath": "$..name",
