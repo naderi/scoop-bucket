@@ -6,20 +6,19 @@
     "architecture": {
         "64bit": {
             "url": "https://perplexity.ai/rest/browser/download?platform=win_x64&channel=stable#/dl.7z",
-            "hash": "3c1d8bebf49d4f9d39527ef8d8ab988253c69429073eebb61cc1bc995a8f9097"
+            "hash": "2c5329c744eb610cb9846038a59b77c13680baafc2b7980b00e3dbc301298739"
         },
         "arm64": {
             "url": "https://perplexity.ai/rest/browser/download?platform=win_arm64&channel=stable#/dl.7z",
-            "hash": "68f8a26312648c0feebbe5fb76e3789b366f257b7b246f57737372d3ab6f5810"
+            "hash": "a448e47aac21e2ab24b878c3dcef23b673f7c41464671ee82cf46106feea7f78"
         }
     },
-    "pre_install": [
-        "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -DestinationPath \"$dir\" -Removal"
-    ],
+    "pre_install": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -DestinationPath \"$dir\" -Removal",
     "shortcuts": [
         [
             "comet.exe",
-            "Comet"
+            "Comet",
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "checkver": {
