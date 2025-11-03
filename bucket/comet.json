@@ -13,7 +13,17 @@
             "hash": "a448e47aac21e2ab24b878c3dcef23b673f7c41464671ee82cf46106feea7f78"
         }
     },
-    "pre_install": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -DestinationPath \"$dir\" -Removal",
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -DestinationPath \"$dir\" -Removal",
+        "Remove-Item \"$dir\\chrome.exe\" -Force -Recurse"
+    ],
+    "bin": [
+        [
+            "comet.exe",
+            "comet",
+            "--user-data-dir=\"$dir\\User Data\""
+        ]
+    ],
     "shortcuts": [
         [
             "comet.exe",
