@@ -1,0 +1,40 @@
+{
+    "version": "141.0.7390.23969",
+    "description": "The AI browser that acts as a personal assistant",
+    "homepage": "https://perplexity.ai/comet",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://perplexity.ai/rest/browser/download?platform=win_x64&channel=stable#/dl.7z",
+            "hash": "3c1d8bebf49d4f9d39527ef8d8ab988253c69429073eebb61cc1bc995a8f9097"
+        },
+        "arm64": {
+            "url": "https://perplexity.ai/rest/browser/download?platform=win_arm64&channel=stable#/dl.7z",
+            "hash": "68f8a26312648c0feebbe5fb76e3789b366f257b7b246f57737372d3ab6f5810"
+        }
+    },
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -DestinationPath \"$dir\" -Removal"
+    ],
+    "shortcuts": [
+        [
+            "comet.exe",
+            "Comet"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repositories/197275551/contents/manifests/p/Perplexity/Comet",
+        "jsonpath": "$..name",
+        "regex": "([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://perplexity.ai/rest/browser/download?platform=win_x64&channel=stable#/dl.7z"
+            },
+            "arm64": {
+                "url": "https://perplexity.ai/rest/browser/download?platform=win_arm64&channel=stable#/dl.7z"
+            }
+        }
+    }
+}
