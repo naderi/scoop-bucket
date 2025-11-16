@@ -5,7 +5,7 @@
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.5.35/kiro-ide-0.5.35-stable-win32-x64.exe#/dl.7z",
+            "url": "https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/0.5.35/kiro-ide-0.5.35-stable-win32-x64.exe",
             "hash": "86f19a56a9b2e4c94a2ed05f1fcc347ca22c7e0a18409986d266bf10875041bb"
         }
     },
@@ -41,12 +41,13 @@
     "persist": "data",
     "checkver": {
         "url": "https://prod.download.desktop.kiro.dev/stable/metadata-win32-x64-user-stable.json",
-        "jsonpath": "$..version"
+        "regex": "\"version\":\"(?<version>[\\d.]+)\".*?\"url\":\"(?<url>[^\"].*)\"",
+        "replace": "${version}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://prod.download.desktop.kiro.dev/releases/stable/win32-x64/signed/$version/kiro-ide-$version-stable-win32-x64.exe#/dl.7z"
+                "url": "$matchUrl"
             }
         }
     }
