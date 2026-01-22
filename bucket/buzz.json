@@ -1,10 +1,10 @@
 {
-    "homepage": "https://chidiwilliams.github.io/buzz",
+    "version": "1.4.2",
     "description": "Transcribes and translates audio offline on your personal computer.",
+    "homepage": "https://chidiwilliams.github.io/buzz",
     "license": "MIT",
-    "version": "1.4.0",
-    "url": "https://github.com/chidiwilliams/buzz/releases/download/v1.4.0/Buzz-1.4.0-windows.exe",
-    "hash": "2b85679a3ffddb22fb64352b871158e5f218d2be4975fea2cbaf7c36fc07b074",
+    "url": "https://downloads.sourceforge.net/project/buzz-captions/Buzz-1.4.2-Windows-X64.zip",
+    "hash": "sha1:32df8fea41d8fcf5b8f2a8fa75f9208f1c6cd3bb",
     "installer": {
         "args": [
             "/silent",
@@ -26,6 +26,6 @@
         "github": "https://github.com/chidiwilliams/buzz"
     },
     "autoupdate": {
-        "url": "https://github.com/chidiwilliams/buzz/releases/download/v$version/Buzz-$version-windows.exe"
+        "url": "https://downloads.sourceforge.net/project/buzz-captions/Buzz-$version-Windows-X64.zip"
     }
 }
