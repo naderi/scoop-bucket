@@ -17,12 +17,6 @@
         "args": "/silent"
     },
     "bin": "Buzz.exe",
-    "shortcuts": [
-        [
-            "Buzz.exe",
-            "Buzz"
-        ]
-    ],
     "checkver": {
         "github": "https://github.com/chidiwilliams/buzz"
     },
