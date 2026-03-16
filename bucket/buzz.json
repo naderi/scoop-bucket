@@ -1,29 +1,26 @@
 {
-    "version": "1.4.4",
-    "description": "Transcribes and translates audio offline on your personal computer.",
-    "homepage": "https://chidiwilliams.github.io/buzz",
-    "license": "MIT",
-    "url": "https://downloads.sourceforge.net/project/buzz-captions/Buzz-1.4.4-Windows-X64.zip",
-    "hash": "sha1:668dd721aae24a5fb4760cceafc5476601f315f8",
+  "version": "1.4.4",
+  "description": "Transcribes and translates audio offline on your personal computer.",
+  "homepage": "https://chidiwilliams.github.io/buzz",
+  "license": "MIT",
+  "url": "https://downloads.sourceforge.net/project/buzz-captions/Buzz-1.4.4-Windows-X64.zip",
+  "hash": "aa9a00d5e2ca9cdc462ba50cac96f0953eb409b0",
+  "installer": {
+    "file": "Buzz-1.4.4-windows.exe",
+    "args": ["/silent", "/dir=$dir"]
+  },
+  "uninstaller": {
+    "file": "unins000.exe",
+    "args": "/silent"
+  },
+  "bin": "Buzz.exe",
+  "checkver": {
+    "github": "https://github.com/chidiwilliams/buzz"
+  },
+  "autoupdate": {
+    "url": "https://downloads.sourceforge.net/project/buzz-captions/Buzz-$version-Windows-X64.zip",
     "installer": {
-        "file": "Buzz-1.4.4-windows.exe",
-        "args": [
-            "/silent",
-            "/dir=$dir"
-        ]
-    },
-    "uninstaller": {
-        "file": "unins000.exe",
-        "args": "/silent"
-    },
-    "bin": "Buzz.exe",
-    "checkver": {
-        "github": "https://github.com/chidiwilliams/buzz"
-    },
-    "autoupdate": {
-        "url": "https://downloads.sourceforge.net/project/buzz-captions/Buzz-$version-Windows-X64.zip",
-        "installer": {
-            "file": "Buzz-$version-windows.exe"
-        }
+      "file": "Buzz-$version-windows.exe"
     }
+  }
 }
