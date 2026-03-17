@@ -4,7 +4,7 @@
   "homepage": "https://chidiwilliams.github.io/buzz",
   "license": "MIT",
   "url": "https://downloads.sourceforge.net/project/buzz-captions/Buzz-1.4.4-Windows-X64.zip",
-  "hash": "8294975c626fb27bfad9347220f3eea7b8d5f6d4ce998ac3e740dcf47aac9765",
+  "hash": "sha1:91a21f2ff419bd9e2cc2c059bdabcd31fdf24a35",
   "installer": {
     "file": "Buzz-1.4.4-windows.exe",
     "args": ["/silent", "/dir=$dir"]
