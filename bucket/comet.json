@@ -5,18 +5,23 @@
     "license": "Proprietary",
     "architecture": {
         "64bit": {
-            "url": "https://perplexity.ai/rest/browser/download?platform=win_x64&channel=stable#/dl.7z",
+            "url": "https://perplexity.ai/rest/browser/download?platform=win_x64&channel=stable#/updater.7z",
             "hash": "60ae3d233f2ee6ac183c62231608677e22ae461c65e9c4706dfa6a77503a5ec1"
         },
         "arm64": {
-            "url": "https://perplexity.ai/rest/browser/download?platform=win_arm64&channel=stable#/dl.7z",
+            "url": "https://perplexity.ai/rest/browser/download?platform=win_arm64&channel=stable#/updater.7z",
             "hash": "c530caa3b408e56e8a3fd255bb2ea0d6a4662a05823e8e551eb7f2c59b10a691"
         }
     },
     "pre_install": [
-        "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -DestinationPath \"$dir\" -Removal",
-        "Remove-Item \"$dir\\chrome.exe\" -Force -Recurse"
+        "Expand-7zipArchive \"$dir\\updater.7z\" -ExtractDir \"$dir\\updater\"",
+        "$mini = Get-ChildItem \"$dir\\updater\\bin\\Offline\" -Recurse -Filter mini_installer.exe | Select-Object -First 1",
+        "if (-not $mini) { throw 'mini_installer.exe not found' }",
+        "Expand-7zipArchive $mini.FullName -ExtractDir \"$dir\\mini\"",
+        "Expand-7zipArchive \"$dir\\mini\\chrome.7z\" -ExtractDir 'Chrome-bin' -DestinationPath \"$dir\" -Removal",
+        "Remove-Item \"$dir\\chrome.exe\" -Force -ErrorAction SilentlyContinue"
     ],
+    "post_install": "Remove-Item \"$dir\\updater\",\"$dir\\mini\" -Recurse -Force -ErrorAction SilentlyContinue",
     "bin": [
         [
             "comet.exe",
@@ -40,10 +45,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://perplexity.ai/rest/browser/download?platform=win_x64&channel=stable#/dl.7z"
+                "url": "https://perplexity.ai/rest/browser/download?platform=win_x64&channel=stable#/updater.7z"
             },
             "arm64": {
-                "url": "https://perplexity.ai/rest/browser/download?platform=win_arm64&channel=stable#/dl.7z"
+                "url": "https://perplexity.ai/rest/browser/download?platform=win_arm64&channel=stable#/updater.7z"
             }
         }
     }
