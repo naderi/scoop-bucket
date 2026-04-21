@@ -15,14 +15,20 @@
     },
     "extract_dir": "",
     "pre_install": [
-        "7z x \"$dir\\updater.exe\" -o\"$dir\\updater\" -y",
+        "$log = \"$dir\\install.log\"",
+        "$ProgressPreference = 'SilentlyContinue'",
+
+        "7z x \"$dir\\updater.exe\" -o\"$dir\\updater\" -y -bd *> $log",
         "$packed = Get-ChildItem \"$dir\\updater\" -Recurse -Include *.7z | Select-Object -First 1",
         "if (-not $packed) { throw 'No embedded .7z archive found' }",
-        "7z x \"$($packed.FullName)\" -o\"$dir\\inner\" -y",
+
+        "7z x \"$($packed.FullName)\" -o\"$dir\\inner\" -y -bd *> $log",
         "$mini = Get-ChildItem \"$dir\\inner\" -Recurse -Filter mini_installer.exe | Select-Object -First 1",
         "if (-not $mini) { throw 'mini_installer.exe not found' }",
-        "7z x \"$($mini.FullName)\" -o\"$dir\\mini\" -y",
+
+        "7z x \"$($mini.FullName)\" -o\"$dir\\mini\" -y -bd *> $log",
         "Expand-7zipArchive \"$dir\\mini\\chrome.7z\" -ExtractDir 'Chrome-bin' -DestinationPath \"$dir\" -Removal",
+
         "Remove-Item \"$dir\\chrome.exe\" -Force -ErrorAction SilentlyContinue"
     ],
     "post_install": [
