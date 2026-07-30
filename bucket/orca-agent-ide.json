@@ -29,5 +29,6 @@
                 "url": "https://github.com/stablyai/orca/releases/download/v$version/orca-windows-setup.exe#/dl.7z"
             }
         }
-    }
+    },
+    "notes": "Your Auryo data are storaged in '%APPDATA%\\orca'."
 }
