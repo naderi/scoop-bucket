@@ -11,6 +11,7 @@
             "MRA"
         ]
     ],
+    "persist": "data",
     "checkver": {
         "github": "https://github.com/Jadquir/mra-files"
     },
