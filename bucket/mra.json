@@ -3,7 +3,7 @@
     "description": "MRA (short for Music Recognition Application) is a music recognition application, or music identifier, like Shazam but for PC.",
     "homepage": "https://mra.jadquir.com/",
     "license": "Freeware",
-    "url": "https://mra.jadquir.com/download/latest/portable",
+    "url": "https://mra.jadquir.com/download/latest/portable#/dl.7z",
     "hash": "2a0de3e5f9e941a13972cebca346df8b674a675611f8ed1708835194b92464ea",
     "shortcuts": [
         [
@@ -15,6 +15,6 @@
         "github": "https://github.com/Jadquir/mra-files"
     },
     "autoupdate": {
-        "url": "https://mra.jadquir.com/download/latest/portable"
+        "url": "https://mra.jadquir.com/download/latest/portable#/dl.7z"
     }
 }
