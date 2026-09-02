@@ -4,7 +4,7 @@
     "homepage": "https://github.com/naderi/mowl/",
     "license": "MIT",
     "url": "https://github.com/naderi/mowl/releases/download/v0.1.0/Mowl.exe",
-    "hash": "69ddaaa1adb64f8c32f26d0c1599e489dc74074beab20092d140ec3221a0002e",
+    "hash": "81491262e70a4def5f00fcf8217069d27835ca46cef8840c20993e3d309f92e1",
     "pre_install": "if (!(Test-Path \"$persist_dir\\settings.toml\")) { New-Item \"$dir\\settings.toml\" | Out-Null }",
     "shortcuts": [
         [
