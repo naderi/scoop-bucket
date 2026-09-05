@@ -1,10 +1,10 @@
 {
-    "version": "0.1.1",
+    "version": "1.0.0",
     "description": "Desktop & Lock Screen Wallpapers from Unsplash, Bing & More",
     "homepage": "https://github.com/naderi/wowl/",
     "license": "MIT",
-    "url": "https://github.com/naderi/wowl/releases/download/v0.1.1/Mowl.exe",
-    "hash": "95a39b621891aebd5164806c9f38ff42393ee51e2c963cf16976959dc0880263",
+    "url": "https://github.com/naderi/wowl/releases/download/v1.0.0/Wowl.exe",
+    "hash": "fea7a46f6006be23557d3377251041fc464b2381cf90d105bc1fd9b103fcfa43",
     "pre_install": "if (!(Test-Path \"$persist_dir\\wowl.toml\")) { New-Item \"$dir\\wowl.toml\" | Out-Null }",
     "shortcuts": [
         [
@@ -15,6 +15,6 @@
     "persist": "wowl.toml",
     "checkver": "GitHub",
     "autoupdate": {
-        "url": "https://github.com/naderi/wowl/releases/download/v$version/Mowl.exe"
+        "url": "https://github.com/naderi/wowl/releases/download/v$version/Wowl.exe"
     }
 }
