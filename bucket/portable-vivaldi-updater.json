@@ -1,0 +1,31 @@
+{
+    "version": "1.0.0",
+    "description": "Downloads Vivaldi (Snapshot, Stable) and installs them as portable versions (x86/x64), with an own portable launcher per version.",
+    "homepage": "https://github.com/naderi/portable-vivaldi-updater/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://github.com/naderi/portable-vivaldi-updater/blob/main/LICENSE"
+    },
+    "url": "https://github.com/naderi/portable-vivaldi-updater/releases/download/v1.0.0/VivaldiUpdater.exe",
+    "hash": "d6bdf1aaa0618954f353f258e5e481aeca5633b48e150c6cc35b849b33083c2c",
+    "pre_install": "if (!(Test-Path \"$persist_dir\\VivaldiUpdater.ini\")) { New-Item \"$dir\\VivaldiUpdater.ini\" | Out-Null }",
+    "shortcuts": [
+        [
+            "VivaldiUpdater.exe",
+            "Portable Vivaldi Updater"
+        ]
+    ],
+    "persist": [
+        "VivaldiUpdater.ini",
+        "User Data",
+        "Update",
+        "Vivaldi Snapshot x86",
+        "Vivaldi Snapshot x64",
+        "Vivaldi Stable x86",
+        "Vivaldi Stable x64"
+    ],
+    "checkver": "GitHub",
+    "autoupdate": {
+        "url": "https://github.com/naderi/portable-vivaldi-updater/releases/download/v$version/VivaldiUpdater.exe"
+    }
+}
