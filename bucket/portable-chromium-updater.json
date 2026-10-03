@@ -1,0 +1,35 @@
+{
+    "version": "1.0.0",
+    "description": "Downloads Chromium snapshot builds matching the Chrome channels (Canary, Dev, Beta, Stable) and installs them as portable versions (x86/x64), with an own portable launcher per version.",
+    "homepage": "https://github.com/naderi/portable-chromium-updater/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://github.com/naderi/portable-chromium-updater/blob/main/LICENSE"
+    },
+    "url": "https://github.com/naderi/portable-chromium-updater/releases/download/v1.0.0/ChromiumUpdater.exe",
+    "hash": "baba85912dc6708245a2accd2c3f6f7de7c58b2107d51dddb64fbc912b524413",
+    "pre_install": "if (!(Test-Path \"$persist_dir\\ChromiumUpdater.ini\")) { New-Item \"$dir\\ChromiumUpdater.ini\" | Out-Null }",
+    "shortcuts": [
+        [
+            "ChromiumUpdater.exe",
+            "Portable Chromium Updater"
+        ]
+    ],
+    "persist": [
+        "ChromiumUpdater.ini",
+        "User Data",
+        "Update",
+        "Chromium Canary x86",
+        "Chromium Canary x64",
+        "Chromium Developer x86",
+        "Chromium Developer x64",
+        "Chromium Beta x86",
+        "Chromium Beta x64",
+        "Chromium Stable x86",
+        "Chromium Stable x64"
+    ],
+    "checkver": "GitHub",
+    "autoupdate": {
+        "url": "https://github.com/naderi/portable-chromium-updater/releases/download/v$version/ChromiumUpdater.exe"
+    }
+}
