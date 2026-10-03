@@ -1,0 +1,35 @@
+{
+    "version": "1.0.0",
+    "description": "Downloads Microsoft Edge (Canary, Dev, Beta, Stable) and installs them as portable versions (x86/x64), with an own portable launcher per version.",
+    "homepage": "https://github.com/naderi/portable-edge-updater/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://github.com/naderi/portable-edge-updater/blob/main/LICENSE"
+    },
+    "url": "https://github.com/naderi/portable-edge-updater/releases/download/v1.0.0/EdgeUpdater.exe",
+    "hash": "1e827d84db74ab950032dfcce60e2d190bf93c7f26dcae93e9762ca68c19438d",
+    "pre_install": "if (!(Test-Path \"$persist_dir\\EdgeUpdater.ini\")) { New-Item \"$dir\\EdgeUpdater.ini\" | Out-Null }",
+    "shortcuts": [
+        [
+            "EdgeUpdater.exe",
+            "Portable Edge Updater"
+        ]
+    ],
+    "persist": [
+        "EdgeUpdater.ini",
+        "User Data",
+        "Update",
+        "Edge Canary x86",
+        "Edge Canary x64",
+        "Edge Developer x86",
+        "Edge Developer x64",
+        "Edge Beta x86",
+        "Edge Beta x64",
+        "Edge Stable x86",
+        "Edge Stable x64"
+    ],
+    "checkver": "GitHub",
+    "autoupdate": {
+        "url": "https://github.com/naderi/portable-edge-updater/releases/download/v$version/EdgeUpdater.exe"
+    }
+}
