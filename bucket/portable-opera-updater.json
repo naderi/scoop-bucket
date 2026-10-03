@@ -1,0 +1,31 @@
+{
+    "version": "1.0.0",
+    "description": "Downloads Opera (Developer, Stable) and installs them as portable versions (x86/x64), with an own portable launcher per version.",
+    "homepage": "https://github.com/naderi/portable-opera-updater/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://github.com/naderi/portable-opera-updater/blob/main/LICENSE"
+    },
+    "url": "https://github.com/naderi/portable-opera-updater/releases/download/v1.0.0/OperaUpdater.exe",
+    "hash": "50175df5b7b71f3a68da7feb8fa863da7225e2634d1f43388f234b4f7df14c05",
+    "pre_install": "if (!(Test-Path \"$persist_dir\\OperaUpdater.ini\")) { New-Item \"$dir\\OperaUpdater.ini\" | Out-Null }",
+    "shortcuts": [
+        [
+            "OperaUpdater.exe",
+            "Portable Opera Updater"
+        ]
+    ],
+    "persist": [
+        "OperaUpdater.ini",
+        "User Data",
+        "Update",
+        "Opera Developer x86",
+        "Opera Developer x64",
+        "Opera Stable x86",
+        "Opera Stable x64"
+    ],
+    "checkver": "GitHub",
+    "autoupdate": {
+        "url": "https://github.com/naderi/portable-opera-updater/releases/download/v$version/OperaUpdater.exe"
+    }
+}
