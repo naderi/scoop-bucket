@@ -10,7 +10,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/naderi/abri/releases/download/v0.9.9/Abri.exe",
-            "hash": "fd9ab09492d2bace279f92b05484b9582e90a6d1d9915143845187cbf79dbdbe"
+            "hash": "8fb523d05d181e7e17dc931ae3fe88448aa1dd17cdba8c77314128d797962af1"
         }
     },
     "pre_install": [
