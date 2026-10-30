@@ -1,10 +1,10 @@
 {
-    "version": "1.8.0",
+    "version": "1.8.1",
     "description": "Mowl is a minimalist, portable WYSIWYG Markdown editor.",
     "homepage": "https://github.com/naderi/mowl/",
     "license": "MIT",
-    "url": "https://github.com/naderi/mowl/releases/download/v1.8.0/Mowl.exe",
-    "hash": "63a800a29632105916d85a785e0e11ec8d65470859b65a547c7f91da3418da93",
+    "url": "https://github.com/naderi/mowl/releases/download/v1.8.1/Mowl.exe",
+    "hash": "01d6ce5e664d86eddeefc67c5b8cb808111cf37c4e0fd8bf1e5879da5f19334f",
     "pre_install": "if (!(Test-Path \"$persist_dir\\settings.toml\")) { New-Item \"$dir\\settings.toml\" | Out-Null }",
     "shortcuts": [
         [
