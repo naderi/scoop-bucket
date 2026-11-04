@@ -1,47 +1,41 @@
 {
-    "version": "26.05.01107",
-    "homepage": "https://www.xmind.net/",
-    "license": "shareware",
+    "version": "27.01.05087",
+    "description": "A full-featured mind mapping and brainstorming tool",
+    "homepage": "https://xmind.app/",
+    "license": {
+        "identifier": "Shareware",
+        "url": "https://xmind.app/terms/"
+    },
     "architecture": {
         "64bit": {
-            "url": "https://www.xmind.net/zen/download/win64/#/dl.7z",
-            "hash": "ae0139418990270a7e1f8be6b062343211a1fab58c47583e071c44a63681307e",
+            "url": "https://dl3.xmind.net/Xmind-for-Windows-x64bit-27.01.05087-202611032250.exe#/dl.7z",
+            "hash": "372ffceccf7f2270dab8ba50897a6496f26eb7adc81831a8ec7b519d8eed66a7",
             "installer": {
-                "script": [
-                    "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
-                    "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
-                ]
-            }
-        },
-        "32bit": {
-            "url": "https://www.xmind.net/zen/download/win32/#/dl.7z",
-            "hash": "7099f476850e2a3a3d1a71dac1635af914412556dc3b1b3048fc68cec239d2cd",
-            "installer": {
-                "script": [
-                    "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\" -Removal",
-                    "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
-                ]
+                "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
             }
         }
     },
+    "post_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse",
     "shortcuts": [
         [
             "XMind.exe",
-            "XMind 2020"
+            "XMind"
         ]
     ],
     "checkver": {
-        "url": "https://www.chip.de/downloads/XMind-2024_177966274.html",
-        "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36",
-        "regex": "softwareVersion\":\\s*\"v([\\d.]+)"
+        "script": [
+            "$url = 'https://www.xmind.app/zen/download/win64'",
+            "$request = [System.Net.HttpWebRequest]::Create($url)",
+            "$request.UserAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36'",
+            "$response = $request.GetResponse()",
+            "Write-Output $response.ResponseUri.AbsoluteUri"
+        ],
+        "regex": "Xmind-for-Windows-x64bit-([\\d.]+)-(?<dt>\\d{12})\\.exe"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.xmind.net/zen/download/win64/#/dl.7z"
-            },
-            "32bit": {
-                "url": "https://www.xmind.net/zen/download/win32/#/dl.7z"
+                "url": "https://dl3.xmind.net/Xmind-for-Windows-x64bit-$version-$matchDt.exe#/dl.7z"
             }
         }
     }
