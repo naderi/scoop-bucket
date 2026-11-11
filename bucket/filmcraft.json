@@ -1,5 +1,5 @@
 {
-    "version": "0.19.0",
+    "version": "0.20.0",
     "description": "Video editing, color and sound; an open-source, clean-room reimplementation of Adobe Premiere Pro, rebuilt in pure Rust",
     "homepage": "https://getartcraft.com/apps/filmcraft",
     "license": "MIT|Apache-2.0",
@@ -10,19 +10,19 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/storytold/filmcraft/releases/download/v0.19.0/filmcraft-0.19.0-windows-x64-portable.zip",
-            "hash": "b31f362b4767da4336f14b025ae92618b48e0a37b84e55905a6afc9fe51a5aae",
-            "extract_dir": "filmcraft-0.19.0-windows-x64-portable"
+            "url": "https://github.com/storytold/filmcraft/releases/download/v0.20.0/filmcraft-0.20.0-windows-x64-portable.zip",
+            "hash": "41c758e08646e488f2693747ed39b6e20ff4ae54c78497a87882c4f3aec74fad",
+            "extract_dir": "filmcraft-0.20.0-windows-x64-portable"
         },
         "32bit": {
             "url": "https://github.com/storytold/filmcraft/releases/download/v0.18.0/filmcraft-0.18.0-windows-x86-portable.zip",
             "hash": "d2d648665ba503e33a1fbc9290bc0006f47fa58e14025652a21b66eab2041ba6",
-            "extract_dir": "filmcraft-0.19.0-windows-x86-portable"
+            "extract_dir": "filmcraft-0.20.0-windows-x86-portable"
         },
         "arm64": {
-            "url": "https://github.com/storytold/filmcraft/releases/download/v0.19.0/filmcraft-0.19.0-windows-arm64-portable.zip",
-            "hash": "bdfef7bbcb5f5e7a092ca20e5cb1da15909e3b382b0a66abf0cfeb83e771c70f",
-            "extract_dir": "filmcraft-0.19.0-windows-arm64-portable"
+            "url": "https://github.com/storytold/filmcraft/releases/download/v0.20.0/filmcraft-0.20.0-windows-arm64-portable.zip",
+            "hash": "6ffdd4aefd77971782087c30574801d1c770cb2b1bf1d32f64cc357d7edb4863",
+            "extract_dir": "filmcraft-0.20.0-windows-arm64-portable"
         }
     },
     "bin": "filmcraft-cli.exe",
