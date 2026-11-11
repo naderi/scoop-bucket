@@ -1,5 +1,5 @@
 {
-    "version": "0.20.0",
+    "version": "0.21.0",
     "description": "Photo library and raw development; an open-source, clean-room reimplementation of Adobe Lightroom, rebuilt in pure Rust",
     "homepage": "https://getartcraft.com/apps/lightcraft",
     "license": "MIT|Apache-2.0",
@@ -10,19 +10,19 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/storytold/lightcraft/releases/download/v0.20.0/lightcraft-0.20.0-windows-x64-portable.zip",
-            "hash": "3270be6ba63455714f1337c11a297fde92e8e822fcc61c49e3b4d31db85ea5ea",
-            "extract_dir": "lightcraft-0.20.0-windows-x64-portable"
+            "url": "https://github.com/storytold/lightcraft/releases/download/v0.21.0/lightcraft-0.21.0-windows-x64-portable.zip",
+            "hash": "4ed5ef94c357c5af60d4f52ba338331c4bbdeaee94ddd30beb09e7761ee74c57",
+            "extract_dir": "lightcraft-0.21.0-windows-x64-portable"
         },
         "32bit": {
             "url": "https://github.com/storytold/lightcraft/releases/download/v0.19.0/lightcraft-0.19.0-windows-x86-portable.zip",
             "hash": "ee754a2a2fec1da1c8238d0c81e53b79b9fc09bcae862af47696275b422e3629",
-            "extract_dir": "lightcraft-0.20.0-windows-x86-portable"
+            "extract_dir": "lightcraft-0.21.0-windows-x86-portable"
         },
         "arm64": {
-            "url": "https://github.com/storytold/lightcraft/releases/download/v0.20.0/lightcraft-0.20.0-windows-arm64-portable.zip",
-            "hash": "84d4b5ff52172e00e3ea25fb8c59fad5a061faec8593459214b240ca287ccc12",
-            "extract_dir": "lightcraft-0.20.0-windows-arm64-portable"
+            "url": "https://github.com/storytold/lightcraft/releases/download/v0.21.0/lightcraft-0.21.0-windows-arm64-portable.zip",
+            "hash": "a0bb4cee17ec5e0bffff29c1f70ea79722bd2660d758417a8aa485e2828153ce",
+            "extract_dir": "lightcraft-0.21.0-windows-arm64-portable"
         }
     },
     "pre_install": "if (!(Test-Path \"$dir\\portable.txt\")) { Set-Content \"$dir\\portable.txt\" '' -Encoding Ascii }",
