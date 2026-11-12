@@ -1,20 +1,20 @@
 {
-    "version": "0.23.0",
+    "version": "0.23.1",
     "description": "Image editing; an open-source, clean-room reimplementation of Adobe Photoshop, rebuilt in pure Rust",
     "homepage": "https://getartcraft.com/apps/photocraft",
     "license": "MIT|Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/storytold/photocraft/releases/download/v0.23.0/photocraft-0.23.0-windows-x64-portable.zip",
-            "hash": "36ba00f818f5ce307478242bae577d747e7a09d47a9a7316cce834e37a9049fd"
+            "url": "https://github.com/storytold/photocraft/releases/download/v0.23.1/photocraft-0.23.1-windows-x64-portable.zip",
+            "hash": "6317e764ecfa804227c38079311bea489283ab383ef040c81ef2fd6d86bd60b1"
         },
         "32bit": {
             "url": "https://github.com/storytold/photocraft/releases/download/v0.21.0/photocraft-0.21.0-windows-x86-portable.zip",
             "hash": "6832b457debb471222697ccfac9ae351807b8259aa9cf2f1fe0c7c5bf8b1cf58"
         },
         "arm64": {
-            "url": "https://github.com/storytold/photocraft/releases/download/v0.23.0/photocraft-0.23.0-windows-arm64-portable.zip",
-            "hash": "6337b01f504f259d839184e9be805f1a243f21aa592274af0da1a6802fdd1d84"
+            "url": "https://github.com/storytold/photocraft/releases/download/v0.23.1/photocraft-0.23.1-windows-arm64-portable.zip",
+            "hash": "f02f0e754072836355b4aa8c46496fb0acff18a5fc780084bb4a40a2d9e1ab76"
         }
     },
     "bin": "photocraft-cli.exe",
