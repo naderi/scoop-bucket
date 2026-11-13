@@ -1,5 +1,5 @@
 {
-    "version": "5.9.0",
+    "version": "5.9.1",
     "description": "A multi-platform proxy client based on Sing-box universal proxy tool-chain.",
     "homepage": "https://github.com/hiddify/hiddify-next",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hiddify/hiddify-next/releases/download/v5.9.0/Hiddify-Windows-Portable-x64.zip",
-            "hash": "5b9bfd968ecfa30c4da851f85583b7fab4a51479fd4cbb6d3145bacdab60a525"
+            "url": "https://github.com/hiddify/hiddify-next/releases/download/v5.9.1/Hiddify-Windows-Portable-x64.zip",
+            "hash": "985ead0e74b5b13dc62b2d67bf143708d6fbfdaccf1de7d431f7a9c061b403de"
         }
     },
     "extract_dir": "hiddify-next",
