@@ -1,12 +1,12 @@
 {
-    "version": "1.4.278",
+    "version": "1.4.279",
     "homepage": "https://www.onorca.dev",
     "description": "The AI Orchestrator, that runs Claude Code, Codex, OpenCode, and more side by side in isolated worktrees.",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stablyai/orca/releases/download/v1.4.278/orca-windows-setup.exe#/dl.7z",
-            "hash": "a901ec9ab4bad1b6766beeaf70d17e06eb1f6377589e6a59e90fd91b4d1543e3",
+            "url": "https://github.com/stablyai/orca/releases/download/v1.4.279/orca-windows-setup.exe#/dl.7z",
+            "hash": "1df925ef03fb53d0e8aad098c86ad4044ee3d081b59abed8882dcc7dfe8aab3d",
             "pre_install": [
                 "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
                 "Remove-Item \"$dir\\`$*\" -Force -Recurse"
